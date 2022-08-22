@@ -1,0 +1,13 @@
+*
+!.gitignore
+!.zshrc
+!.bashrc
+!.xinitrc
+!.config
+!.config/alacritty
+!.config/alacritty/alacritty.yml
+!.config/qtile
+!.config/qtile/autostart.sh
+!.config/qtile/config.py
+!.config/picom
+!.config/picom/picom.conf
