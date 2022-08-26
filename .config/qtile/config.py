@@ -66,6 +66,7 @@ keys = [
     Key([mod], "x", lazy.spawn("archlinux-logout"), desc="logout"),
     Key([mod], "s", lazy.spawn("gnome-screenshot -w"), desc="Screenshot"),
     Key([mod], "g", lazy.spawn("google-chrome-stable"), desc="Abrir Google Chrome"),
+    Key([mod], "c", lazy.spawn("code"), desc="Abrir Visual Studio Code"),
 ]
 
 #groups = [Group(i) for i in "123456789"]

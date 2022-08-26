@@ -86,7 +86,10 @@ export ZSH=/usr/share/oh-my-zsh/
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+git
+zsh-autosuggestions
+)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -502,7 +505,7 @@ PATH=$PATH:/opt/lampp/
 #PATH=$PATH:/lib/jvm/jdk-17.0.4/bin/
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+#source <(ng completion script)
 
 alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 #alias psql-start='sudo systemctl start postgresql-10 && echo "Postgresql started"'
