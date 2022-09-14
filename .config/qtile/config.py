@@ -60,18 +60,20 @@ keys = [
     Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
     #Key([mod, "shift"], "Return", lazy.spawn('thunar'), desc='Archivos'),
     Key([mod, "shift"], "Return", lazy.spawn('nautilus'), desc='Archivos'),
+    Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
     #Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
     Key([mod], "m", lazy.spawn("rofi -show drun combi -icon-theme 'We10X' -show-icons"), desc="Abrir menu"),
     Key([mod, 'shift'], "m", lazy.spawn("rofi -show"), desc="Abrir abiertos"),
     Key([mod], "x", lazy.spawn("archlinux-logout"), desc="logout"),
     Key([mod], "s", lazy.spawn("gnome-screenshot -w"), desc="Screenshot"),
-    Key([mod], "g", lazy.spawn("google-chrome-stable"), desc="Abrir Google Chrome"),
     Key([mod], "c", lazy.spawn("code"), desc="Abrir Visual Studio Code"),
+    Key([mod], "l", lazy.spawn("setxkbmap latam"), desc="Set keyboard latam"),
+    Key([mod], "u", lazy.spawn("setxkbmap us"), desc="Set keyboard us"),
 ]
 
 #groups = [Group(i) for i in "123456789"]
-# groups = [Group(i) for i in ["  ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", "  ",]]
-groups = [Group(i) for i in ["ARCH", "CODE", "WEB", "IDE", "GIT", "NODEJS", "VIDEO", "MUSIC", "CAT",]]
+# groups = [Group(i) for i in ["  ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", " 甆 "]]
+groups = [Group(i) for i in ["ARCH", "CODE", "WEB", "IDE", "GIT", "SERV", "WHATSAPP", "VIDEO", "MUSIC",]]
 
 for i, group in enumerate(groups):
     numDesktop=str(i+1)
@@ -109,7 +111,7 @@ def init_colors():
             ["#c678dd", "#c678dd"], # color 7
             ["#46d9ff", "#46d9ff"], # color 8
             ["#cacaca", "#cacaca"], # color 9
-            ["#0066ff", "#0066ff"], # color 10
+            ["#0686ff", "#0686ff"], # color 10
             ["#555555", "#555555"], # color 11
             ["#dddddd", "#dddddd"], # color 12
             ["#000000", "#000000"], # color 13
@@ -125,8 +127,9 @@ layouts = [
         border_focus_stack = colors[1],
         border_normal = colors[1],
         border_normal_stack = colors[10],
-        border_width = 2,
-        margin = 3
+        border_width = 0,
+        margin = 3,
+        num_columns = 2,
     ),
     layout.Max(
         border_focus = colors[10],
@@ -205,7 +208,9 @@ screens = [
                     background = colors[0],
                     foreground = colors[0]
                 ),
-                widget.WindowName(),
+                widget.WindowName(
+                    font = 'Noto Sans Bold',
+                ),
                 
                 widget.Chord(
                     chords_colors={

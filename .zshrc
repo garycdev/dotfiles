@@ -153,8 +153,10 @@ fi
 #list
 alias ls='lsd --color=auto'
 alias la='lsd -a'
-alias ll='lsd -lFh'
-alias lll='lsd -alFh'
+#alias ll='lsd -lFh'
+#alias lll='lsd -alFh'
+alias ll='colorls -l'
+alias lll='colorls -la'
 alias l='lsd'
 alias l.="lsd -A | egrep '^\.'"
 
@@ -493,8 +495,8 @@ compinit
 # MY CONFIGS
 
 #Keyboard and Wallpaper
-alias latam='setxkbmap latam && echo "Keyboard set latam"'
-alias us='setxkbmap us && echo "Keyboard set us"'
+alias latam='setxkbmap latam && echo "Keyboard set latam" && notify-send "Keyboard set latam"'
+alias us='setxkbmap us && echo "Keyboard set us" && notify-send "Keyboard set us"'
 
 alias off='shutdown -h now'
 
@@ -502,7 +504,7 @@ alias off='shutdown -h now'
 PATH=$PATH:/opt/lampp/bin/
 PATH=$PATH:/home/gary/.config/composer/vendor/bin/
 PATH=$PATH:/opt/lampp/
-#PATH=$PATH:/lib/jvm/jdk-17.0.4/bin/
+PATH=$PATH:/usr/lib/jvm/jdk-17.0.4.1/bin/
 
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
@@ -515,7 +517,7 @@ alias php-v='php -v'
 alias php-7='export PATH=/opt/lampp/bin:$PATH && echo "php version changed to php7"'
 alias php-8='export PATH=/usr/bin:$PATH && echo "php version changed to php8"'
 alias ky='cat ~/.ky'
-alias win-on='sudo mount /dev/nvme0n1p2 /mnt/win11/ && nautilus /mnt/win11/'
+alias win-on='sudo mount /dev/nvme0n1p2 /mnt/win11/'
 alias win-off='sudo umount /mnt/win11/'
 #alias xampp='sudo /opt/lampp/manager-linux-x64.run'
 alias sysinfo='echo "*******************" && echo "*** osysinfo -f ***" && echo "*******************" && osysinfo -f'
