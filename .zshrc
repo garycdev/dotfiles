@@ -114,7 +114,8 @@ fi
 
 
 ####   ARCOLINUX SETTINGS   ####
-export PAGER='most'
+# export PAGER='most'
+export PAGER='less'
 
 if [ -f /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
   source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -505,9 +506,6 @@ PATH=$PATH:/opt/lampp/bin/
 PATH=$PATH:/home/gary/.config/composer/vendor/bin/
 PATH=$PATH:/opt/lampp/
 PATH=$PATH:/usr/lib/jvm/jdk-17.0.4.1/bin/
-
-# Load Angular CLI autocompletion.
-#source <(ng completion script)
 
 alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 #alias psql-start='sudo systemctl start postgresql-10 && echo "Postgresql started"'
