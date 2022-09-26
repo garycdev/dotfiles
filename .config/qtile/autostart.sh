@@ -9,5 +9,5 @@ nm-applet &
 volumeicon &
 cbatticon -u 5 &
 picom --config ~/.config/picom/picom.conf  &
-alacritty &
 alacritty --command=bashtop &
+alacritty &

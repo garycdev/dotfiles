@@ -124,6 +124,7 @@ fi
 setopt GLOB_DOTS
 #share commands between terminal instances or not
 unsetopt SHARE_HISTORY
+unsetopt CASE_GLOB
 #setopt SHARE_HISTORY
 
 # If not running interactively, don't do anything
@@ -152,10 +153,10 @@ fi
 ### ALIASES ###
 
 #list
-alias ls='lsd --color=auto'
-alias la='lsd -a'
-#alias ll='lsd -lFh'
-#alias lll='lsd -alFh'
+alias ls='ls --color=auto'
+alias la='ls -a'
+#alias ll='ls -lFh'
+#alias lll='ls -alFh'
 alias ll='colorls -l'
 alias lll='colorls -la'
 alias l='lsd'
@@ -478,7 +479,6 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -502,10 +502,9 @@ alias us='setxkbmap us && echo "Keyboard set us" && notify-send "Keyboard set us
 alias off='shutdown -h now'
 
 #My paths
-PATH=$PATH:/opt/lampp/bin/
-PATH=$PATH:/home/gary/.config/composer/vendor/bin/
-PATH=$PATH:/opt/lampp/
-PATH=$PATH:/usr/lib/jvm/jdk-17.0.4.1/bin/
+#PATH=$PATH:/home/gary/.config/composer/vendor/bin/
+PATH=$PATH:/usr/lib/jvm/jdk1.8.0_341/bin/
+PATH=$PATH:/opt/lampp/bin
 
 alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 #alias psql-start='sudo systemctl start postgresql-10 && echo "Postgresql started"'
@@ -524,3 +523,5 @@ alias swap-reset='sudo swapoff -a && sudo swapon -a'
 alias psql-start='sudo systemctl start postgresql-10 && echo "psql start"'
 alias psql-stop='sudo systemctl stop postgresql-10 && echo "psql stop"'
 alias psql-status='systemctl is-active postgresql-10'
+alias htdocs='cd /opt/lampp/htdocs/'
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
