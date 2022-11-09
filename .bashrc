@@ -5,8 +5,8 @@ export HISTCONTROL=ignoreboth:erasedups
 export PAGER='most'
 
 #PS1='[\u@\h \W]\$ '
-PS1='\[\e[0;1;38;5;27m\]\h \[\e[0;1;38;5;31m\][ \[\e[0;1;38;5;31m\]\w \[\e[0;1;38;5;31m\]] \[\e[0;1m\]> \[\e[0;1;38;5;29m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)\n\[\e[0;1m\]\$ \[\e[0m\]'
-
+#PS1='\[\e[0;1;38;5;27m\]\h \[\e[0;1;38;5;31m\][ \[\e[0;1;38;5;31m\]\w \[\e[0;1;38;5;31m\]] \[\e[0;1m\]> \[\e[0;1;38;5;29m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)\n\[\e[0;1m\]\$ \[\e[0m\]'
+PS1="\[$(tput bold)\]\[\033[38;5;31m\]\h\[$(tput sgr0)\]\[\033[38;5;25m\]@\[$(tput sgr0)\]\[\033[38;5;31m\]\u\[$(tput sgr0)\] \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;28m\][\w]\[$(tput sgr0)\] \\$ \[$(tput sgr0)\]"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

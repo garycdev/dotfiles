@@ -60,7 +60,8 @@ keys = [
     Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
     #Key([mod, "shift"], "Return", lazy.spawn('thunar'), desc='Archivos'),
     Key([mod, "shift"], "Return", lazy.spawn('nautilus'), desc='Archivos'),
-    Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
+    # Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
+    Key([mod], "e", lazy.spawn('thunar'), desc='Archivos e'),
     #Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
     Key([mod], "m", lazy.spawn("rofi -show drun combi -icon-theme 'We10X' -show-icons"), desc="Abrir menu"),
     Key([mod, 'shift'], "m", lazy.spawn("rofi -show"), desc="Abrir abiertos"),
@@ -72,8 +73,8 @@ keys = [
 ]
 
 #groups = [Group(i) for i in "123456789"]
-# groups = [Group(i) for i in ["  ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", " 甆 "]]
-groups = [Group(i) for i in ["ARCH", "CODE", "WEB", "IDE", "GIT", "SERV", "WHATSAPP", "VIDEO", "MUSIC",]]
+groups = [Group(i) for i in ["  ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", " 甆 "]]
+# groups = [Group(i) for i in ["ARCH", "CODE", "WEB", "IDE", "GIT", "SERV", "WHATSAPP", "VIDEO", "MUSIC",]]
 
 for i, group in enumerate(groups):
     numDesktop=str(i+1)
@@ -101,21 +102,21 @@ for i, group in enumerate(groups):
     )
 
 def init_colors():
-    return [["#282c34", "#282c34"], # color 0
-            ["#1c1f24", "#1c1f24"], # color 1
-            ["#ffffff", "#ffffff"], # color 2
-            ["#FF5555", "#FF5555"], # color 3
-            ["#00ff40", "#00ff40"], # color 4
-            ["#ff7038", "#ff7038"], # color 5
-            ["#51afef", "#51afef"], # color 6
-            ["#c678dd", "#c678dd"], # color 7
-            ["#46d9ff", "#46d9ff"], # color 8
-            ["#cacaca", "#cacaca"], # color 9
-            ["#0686ff", "#0686ff"], # color 10
-            ["#555555", "#555555"], # color 11
-            ["#dddddd", "#dddddd"], # color 12
-            ["#000000", "#000000"], # color 13
-            ["#FFB86C", "#FFB86C"], # color 14
+    return [["#282c34"], # color 0
+            ["#1c1f24"], # color 1
+            ["#ffffff"], # color 2
+            ["#FF5555"], # color 3
+            ["#00ff40"], # color 4
+            ["#ff7038"], # color 5
+            ["#51afef"], # color 6
+            ["#c678dd"], # color 7
+            ["#46d9ff"], # color 8
+            ["#cacaca"], # color 9
+            ["#0686ff"], # color 10
+            ["#555555"], # color 11
+            ["#dddddd"], # color 12
+            ["#000000"], # color 13
+            ["#FFB86C"], # color 14
 	   ]
 
 colors = init_colors()
@@ -123,25 +124,33 @@ colors = init_colors()
 layouts = [
     layout.Columns(
         #border_focus_stack=["#d75f5f", "#8f3d3d"],
-        border_focus = colors[10],
-        border_focus_stack = colors[1],
-        border_normal = colors[1],
-        border_normal_stack = colors[10],
-        border_width = 0,
+        border_focus = ["#cccccc"],
+        border_focus_stack = ["#cccccc"],
+        border_normal = ["#000000"],
+        border_normal_stack = ["#000000"],
+        border_width = 1,
         margin = 3,
         num_columns = 2,
     ),
     layout.Max(
-        border_focus = colors[10],
-        border_normal = colors[10],
-        border_width = 2,
+        border_focus = ["#00000000"],
+        border_normal = ["#00000000"],
+        border_width = 0,
         margin = 4
     ),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
     # layout.Bsp(),
     # layout.Matrix(),
-    # layout.MonadTall(),
+    # layout.MonadTall(
+    #     border_focus = ["#cccccc"],
+    #     border_focus_stack = ["#cccccc"],
+    #     border_normal = ["#000000"],
+    #     border_normal_stack = ["#000000"],
+    #     border_width = 1,
+    #     margin = 3,
+    #     num_columns = 2,
+    # ),
     # layout.MonadWide(),
     # layout.RatioTile(),
     # layout.Tile(),
@@ -164,18 +173,18 @@ screens = [
                 widget.GroupBox(
                     border_width = 1,
                     disable_drag = True,
-                    fontsize = 10,
-                    foreground = colors[3],
+                    fontsize = 18,
+                    # foreground = colors[3],
                     highlight_method = 'block',
-                    background = colors[0],
-                    padding = 7,
+                    background = ["#00000000"],
+                    padding = 1,
                     active = colors[2],
                     inactive = colors[11],
-                    margin_x = 0,
+                    margin_x = 1,
                     margin_y = 3,
                     other_current_screen_border = colors[1],
                     other_screen_border = colors[1],
-                    this_current_screen_border = colors[13],
+                    this_current_screen_border = colors[1],
                     this_screen_border = colors[13],
                     urgent_alert_border = 'block',
                     urgent_border = colors[3],
@@ -192,6 +201,18 @@ screens = [
                     background = colors[8],
                     foreground = colors[8]
                 ),
+                # widget.KeyboardKbdd(
+                #     background = colors[8],
+                #     font = "Noto Sans Bold",
+                #     foreground = colors[1],
+                #     configured_keyboards=['us', 'es'],
+                #     update_interval=1
+                # ),
+                # widget.TextBox(
+                #     text=" - ",
+                #     background=colors[8],
+                #     foreground=colors[1],
+                # ),
                 widget.CurrentLayout(
                     background = colors[8],
                     font = "Noto Sans Bold",
@@ -205,8 +226,8 @@ screens = [
                 ),
 
                 widget.Sep(
-                    background = colors[0],
-                    foreground = colors[0]
+                    # background = colors[0],
+                    # foreground = colors[0]
                 ),
                 widget.WindowName(
                     font = 'Noto Sans Bold',
@@ -387,11 +408,11 @@ screens = [
                     foreground = colors[1],
                     background = colors[4],
                     padding = 5,
-                    format = '{percent:2.0%} - {hour:d}:{min:02d}'
+                    format = '{percent:2.0%}'
                 ),
                 widget.TextBox(
                     text="",
-                    foreground=colors[13],
+                    foreground=["#000000cc"],
                     background=colors[4],
                     padding = 0,
                     fontsize = 22
@@ -419,15 +440,16 @@ screens = [
                 #     fontsize = 22
                 # ),
                 widget.Systray(
-                    background=colors[13],
+                    background=["#00000000"],
+                    # foreground=colors[13],
                     icon_size=20,
-                    padding=5
+                    padding=5,
                 ),
                 
                 #widget.QuickExit(),
             ],
-            25,
-            background=colors[0]
+            22,
+            background=["#00000000"],
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),

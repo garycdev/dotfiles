@@ -157,10 +157,9 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 #alias ll='ls -lFh'
 #alias lll='ls -alFh'
-alias ll='colorls -l'
-alias lll='colorls -la'
-alias l='lsd'
-alias l.="lsd -A | egrep '^\.'"
+alias ll='colorls --sd'
+alias l='ls'
+alias l.="ls -A | egrep '^\.'"
 
 #fix obvious typo's
 alias cd..='cd ..'
@@ -192,7 +191,7 @@ alias rmlogoutlock="sudo rm /tmp/arcologout.lock"
 alias whichvga="/usr/local/bin/arcolinux-which-vga"
 
 #free
-alias free="free -mt"
+# alias free="free -mt"
 
 #continue download
 alias wget="wget -c"
@@ -437,7 +436,7 @@ alias ltupd="leftwm-theme update"
 alias ltupg="leftwm-theme upgrade"
 
 #arcolinux applications
-alias att="archlinux-tweak-tool"
+alias att="sudo archlinux-tweak-tool"
 alias adt="arcolinux-desktop-trasher"
 alias abl="arcolinux-betterlockscreen"
 alias agm="arcolinux-get-mirrors"
@@ -489,6 +488,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 autoload -Uz compinit
 compinit
 
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 
 
@@ -514,14 +514,14 @@ alias php-v='php -v'
 alias php-7='export PATH=/opt/lampp/bin:$PATH && echo "php version changed to php7"'
 alias php-8='export PATH=/usr/bin:$PATH && echo "php version changed to php8"'
 alias ky='cat ~/.ky'
-alias win-on='sudo mount /dev/nvme0n1p2 /mnt/win11/'
+alias win-on='sudo mount /dev/nvme0n1p3 /mnt/win11/'
 alias win-off='sudo umount /mnt/win11/'
-#alias xampp='sudo /opt/lampp/manager-linux-x64.run'
-alias sysinfo='echo "*******************" && echo "*** osysinfo -f ***" && echo "*******************" && osysinfo -f'
+alias xampp='sudo /opt/lampp/manager-linux-x64.run'
+# alias sysinfo='echo "*******************" && echo "*** osysinfo -f ***" && echo "*******************" && osysinfo -f'
 alias files='nautilus ./'
 alias swap-reset='sudo swapoff -a && sudo swapon -a'
 alias psql-start='sudo systemctl start postgresql-10 && echo "psql start"'
 alias psql-stop='sudo systemctl stop postgresql-10 && echo "psql stop"'
 alias psql-status='systemctl is-active postgresql-10'
 alias htdocs='cd /opt/lampp/htdocs/'
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+alias sqlplus='sudo bash /u01/app/oracle/product/11.2.0/xe/config/scripts/sqlplus.sh'
