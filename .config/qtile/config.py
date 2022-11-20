@@ -217,7 +217,7 @@ screens = [
                 widget.CurrentLayout(
                     background = colors[8],
                     font = "Noto Sans Bold",
-                    foreground = colors[1]
+                    foreground = colors[13]
                 ),
                 widget.TextBox(
                     text="",
@@ -232,6 +232,7 @@ screens = [
                 ),
                 widget.WindowName(
                     font = 'Noto Sans Bold',
+                    foreground = colors[13]
                 ),
                 
                 widget.Chord(
