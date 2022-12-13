@@ -158,6 +158,8 @@ alias la='ls -a'
 #alias ll='ls -lFh'
 #alias lll='ls -alFh'
 alias ll='colorls --sd'
+alias lsd='lsd --sort extension'
+alias ls='ls --sort extension'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
 
@@ -526,3 +528,5 @@ alias psql-status='systemctl is-active postgresql-10'
 alias htdocs='cd /opt/lampp/htdocs/'
 alias sqlplus='sudo bash /u01/app/oracle/product/11.2.0/xe/config/scripts/sqlplus.sh'
 alias arduino-on='sudo chmod 777 /dev/ttyACM0'
+PATH=$PATH:~/.fly/bin/
+PATH=$PATH:~/.config/composer/vendor/bin/

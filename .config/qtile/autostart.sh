@@ -4,7 +4,7 @@ notify-send "Bienvenido de nuevo Gary" &
 # Fondo de pantalla
 #feh --bg-fill /usr/share/backgrounds/archWallpapers/Arch3.jpg &
 #feh --bg-fill ~/Pictures/node_vue.png
-feh --bg-fill ~/Pictures/code1.jpg
+feh --bg-fill ~/Pictures/fondos/code1.jpg
 
 # Iconos del sistema
 udiskie -t &

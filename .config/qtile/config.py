@@ -43,7 +43,7 @@ keys = [
     #Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
@@ -60,15 +60,16 @@ keys = [
     Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
     # Key([mod, "shift"], "Return", lazy.spawn('thunar'), desc='Archivos'),
     # Key([mod, "shift"], "Return", lazy.spawn('nautilus'), desc='Archivos'),
-    Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
-    # Key([mod], "e", lazy.spawn('thunar'), desc='Archivos e'),
+    # Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
+    Key([mod], "e", lazy.spawn('thunar'), desc='Archivos e'),
     #Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
     Key([mod], "m", lazy.spawn("rofi -show drun combi -icon-theme 'We10X' -show-icons"), desc="Abrir menu"),
     Key([mod, 'shift'], "m", lazy.spawn("rofi -show"), desc="Abrir abiertos"),
     #Key([mod], "x", lazy.spawn("setxkbmap us"), desc="us"),
     Key([mod], "x", lazy.spawn("archlinux-logout"), desc="logout"),
     Key([mod], "s", lazy.spawn("gnome-screenshot -w"), desc="Screenshot"),
-    Key([mod], "c", lazy.spawn("code"), desc="Abrir Visual Studio Code"),
+    Key([mod], "g", lazy.spawn("google-chrome-stable --process-per-site"), desc="Abrir Google Chrome"),
+    Key([mod], "w", lazy.spawn("google-chrome-stable https://web.whatsapp.com/ --per-process-site"), desc="Abrir WhatsApp"),
     Key([mod], "l", lazy.spawn("setxkbmap latam"), desc="Set keyboard latam"),
     Key([mod], "u", lazy.spawn("setxkbmap us"), desc="Set keyboard us"),
 ]
@@ -410,15 +411,15 @@ screens = [
                     foreground = colors[1],
                     background = colors[4],
                     padding = 5,
-                    format = '{percent:2.0%}'
+                    format = '{percent:2.0%} '
                 ),
-                widget.TextBox(
-                    text="",
-                    foreground=["#000000cc"],
-                    background=colors[4],
-                    padding = 0,
-                    fontsize = 22
-                ),
+                # widget.TextBox(
+                #     text="",
+                #     foreground=["#000000cc"],
+                #     background=colors[4],
+                #     padding = 0,
+                #     fontsize = 22
+                # ),
                 # widget.TextBox(
                 #     font="FontAwesome",
                 #     text=" ",
@@ -434,13 +435,18 @@ screens = [
                 #     padding = 5,
                 #     font = 'Noto Sans Bold'
                 # ),
-                # # widget.TextBox(
-                #     text="",
-                #     foreground=colors[13],
-                #     background=colors[13],
-                #     padding = 0,
-                #     fontsize = 22
-                # ),
+                widget.TextBox(
+                    text=" ",
+                    background=["#000000"],
+                    padding = 0,
+                    fontsize = 15
+                ),
+                widget.TextBox(
+                    text=" ",
+                    background=["#00000000"],
+                    padding = 0,
+                    fontsize = 22
+                ),
                 widget.Systray(
                     background=["#00000000"],
                     # foreground=colors[13],
