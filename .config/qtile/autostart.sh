@@ -2,9 +2,10 @@
 notify-send "Bienvenido de nuevo Gary" &
 
 # Fondo de pantalla
-#feh --bg-fill /usr/share/backgrounds/archWallpapers/Arch3.jpg &
-#feh --bg-fill ~/Pictures/node_vue.png
-feh --bg-fill ~/Pictures/fondos/code1.jpg
+feh --bg-fill ~/.pictures/kny2.jpg
+
+# Servicios externos
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
 
 # Iconos del sistema
 udiskie -t &
@@ -12,10 +13,13 @@ nm-applet &
 volumeicon &
 cbatticon -u 5 &
 blueman-applet &
+# Configs
+picom --config ~/.config/picom/picom.conf &
 
-picom --config ~/.config/picom/picom.conf  &
-alacritty --command=bashtop &
-#alacritty --option font.size=60 --title 7clock --command=7clock &
-#alacritty --command=htop &
-alacritty &
 setxkbmap us &
+numlockx on &
+
+# Terminal
+# kitty bashtop &
+# alacritty --command=calcurse &
+kitty bashtop &

@@ -1,5 +1,4 @@
 # From Gary Apaza - GCodDev
-
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
@@ -17,12 +16,14 @@ keys = [
     Key([mod], "Down", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "Up", lazy.layout.up(), desc="Move focus up"),
     Key([mod], "space", lazy.layout.next(), desc="Move window focus to other window"),
+
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
     Key([mod, "shift"], "Left", lazy.layout.shuffle_left(), desc="Move window to the left"),
     Key([mod, "shift"], "Right", lazy.layout.shuffle_right(), desc="Move window to the right"),
     Key([mod, "shift"], "Down", lazy.layout.shuffle_down(), desc="Move window down"),
     Key([mod, "shift"], "Up", lazy.layout.shuffle_up(), desc="Move window up"),
+
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
     Key([mod, "control"], "Left", lazy.layout.grow_left(), desc="Grow window to the left"),
@@ -30,38 +31,43 @@ keys = [
     Key([mod, "control"], "Down", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "Up", lazy.layout.grow_up(), desc="Grow window up"),
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
+
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
     # multiple stack panes
+
     Key(
         [mod, "shift"],
         "Return",
         lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack",
     ),
+
     #Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     # Toggle between different layouts as defined below
-    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+    Key(["mod1"], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
     # BRIGHTNESS
-    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%")),
-    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10%-")),
+    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +25.6")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 25.6-")),
     #VOLUME
     #Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
     #Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")),
     #Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")),
 
     # My Configs
-    Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
+    # Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
+    Key([mod], "Return", lazy.spawn('kitty'), desc="Launch terminal"),
+
     # Key([mod, "shift"], "Return", lazy.spawn('thunar'), desc='Archivos'),
     # Key([mod, "shift"], "Return", lazy.spawn('nautilus'), desc='Archivos'),
     # Key([mod], "e", lazy.spawn('nautilus'), desc='Archivos e'),
-    Key([mod], "e", lazy.spawn('thunar'), desc='Archivos e'),
+    Key([mod], "e", lazy.spawn('nemo'), desc='Archivos e'),
     #Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
     Key([mod], "m", lazy.spawn("rofi -show drun combi -icon-theme 'We10X' -show-icons"), desc="Abrir menu"),
     Key([mod, 'shift'], "m", lazy.spawn("rofi -show"), desc="Abrir abiertos"),
@@ -72,10 +78,13 @@ keys = [
     Key([mod], "w", lazy.spawn("google-chrome-stable https://web.whatsapp.com/ --per-process-site"), desc="Abrir WhatsApp"),
     Key([mod], "l", lazy.spawn("setxkbmap latam"), desc="Set keyboard latam"),
     Key([mod], "u", lazy.spawn("setxkbmap us"), desc="Set keyboard us"),
+    Key([mod], "p", lazy.spawn("pavucontrol"), desc="Settings pulseaudio"),
+    Key([mod], "n", lazy.spawn("notion-app"), desc="Open Notion App"),
+    Key(["control", "mod1"], "t", lazy.spawn("gnome-terminal"), desc="Open Gnome Terminal"),
 ]
 
 #groups = [Group(i) for i in "123456789"]
-groups = [Group(i) for i in ["  ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", " 甆 "]]
+groups = [Group(i) for i in [" 󰣇 ", " ﬏ ", "  ", "  ", "  ", "  ", " 辶 ", "  ", " 甆 "]]
 # groups = [Group(i) for i in ["ARCH", "CODE", "WEB", "IDE", "GIT", "SERV", "WHATSAPP", "VIDEO", "MUSIC",]]
 
 for i, group in enumerate(groups):
@@ -104,7 +113,7 @@ for i, group in enumerate(groups):
     )
 
 def init_colors():
-    return [["#282c34"], # color 0
+    return [["#00000000"], # color 0
             ["#1c1f24"], # color 1
             ["#ffffff"], # color 2
             ["#FF5555"], # color 3
@@ -119,18 +128,18 @@ def init_colors():
             ["#dddddd"], # color 12
             ["#000000"], # color 13
             ["#FFB86C"], # color 14
+            ["#EE977B"], # color 15
 	   ]
 
 colors = init_colors()
 
 layouts = [
     layout.Columns(
-        #border_focus_stack=["#d75f5f", "#8f3d3d"],
         border_focus = ["#cccccc"],
         border_focus_stack = ["#cccccc"],
         border_normal = ["#000000"],
         border_normal_stack = ["#000000"],
-        border_width = 1,
+        border_width = 0,
         margin = 3,
         num_columns = 2,
     ),
@@ -138,7 +147,7 @@ layouts = [
         border_focus = ["#00000000"],
         border_normal = ["#00000000"],
         border_width = 0,
-        margin = 4
+        margin = 0
     ),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
@@ -173,67 +182,49 @@ screens = [
         top=bar.Bar(
             [
                 widget.GroupBox(
-                    border_width = 1,
+                    border_width = 10,
                     disable_drag = True,
-                    fontsize = 18,
+                    fontsize = 14,
                     # foreground = colors[3],
                     highlight_method = 'block',
                     background = ["#00000000"],
-                    padding = 1,
-                    active = ["#000000"],
-                    inactive = ["#77777777"],
+                    padding = 2,
+                    active = colors[2],
+                    inactive = colors[11],
                     margin_x = 1,
                     margin_y = 3,
-                    other_current_screen_border = ["#ffffffcc"],
-                    other_screen_border = ["#ffffffcc"],
-                    this_current_screen_border = ["#ffffffcc"],
+                    # other_current_screen_border = ["#ffffffcc"],
+                    # other_screen_border = ["#ffffffcc"],
+                    this_current_screen_border = colors[1],
                     this_screen_border = colors[13],
                     urgent_alert_border = 'block',
                     urgent_border = colors[3],
-                    font = "Noto Sans Bold"
+                    font = "Cascadia Code Bold"
                 ),
                 widget.Prompt(),
-
-                widget.Sep(
-                    background = colors[0],
-                    foreground = colors[0],
-                    padding = 1
+                widget.TextBox(
+                    padding=1,
+                    background=colors[1]
                 ),
-                widget.Sep(
-                    background = colors[8],
-                    foreground = colors[8]
-                ),
-                # widget.KeyboardKbdd(
-                #     background = colors[8],
-                #     font = "Noto Sans Bold",
-                #     foreground = colors[1],
-                #     configured_keyboards=['us', 'es'],
-                #     update_interval=1
-                # ),
-                # widget.TextBox(
-                #     text=" - ",
-                #     background=colors[8],
-                #     foreground=colors[1],
-                # ),
                 widget.CurrentLayout(
-                    background = colors[8],
-                    font = "Noto Sans Bold",
-                    foreground = colors[13]
+                    background = colors[1],
+                    font = "Cascadia Code Bold",
+                    foreground = colors[2]
                 ),
                 widget.TextBox(
-                    text="",
-                    foreground=colors[8],
-                    padding = 0,
-                    fontsize = 22
+                    padding=1,
+                    background=colors[1]
                 ),
-
-                widget.Sep(
-                    # background = colors[0],
-                    # foreground = colors[0]
-                ),
+                # widget.TextBox(
+                #     text="",
+                #     foreground=colors[1],
+                #     padding = 0,
+                #     fontsize = 50
+                # ),
                 widget.WindowName(
-                    font = 'Noto Sans Bold',
-                    foreground = colors[13]
+                    font = 'Cascadia Code Bold',
+                    foreground = colors[2],
+                    fontsize = 15,
                 ),
                 
                 widget.Chord(
@@ -250,14 +241,14 @@ screens = [
 
                 
                 widget.TextBox(
-                    text="",
+                    text="",
                     foreground=colors[14],
                     padding = 0,
                     fontsize = 22
                 ),
                 widget.TextBox(
                     font="FontAwesome",
-                    text=" ",
+                    text="",
                     foreground=colors[1],
                     background=colors[14],
                     padding = 1,
@@ -267,18 +258,25 @@ screens = [
                     format="%H:%M:%S",
                     background=colors[14],
                     foreground=colors[1],
-                    font='Noto Sans Bold'
+                    font='Cascadia Code Bold'
                 ),
                 widget.TextBox(
-                    text="",
-                    foreground=colors[3],
+                    text="",
+                    foreground=colors[13],
                     background=colors[14],
                     padding = 0,
                     fontsize = 22
                 ),
                 widget.TextBox(
+                    text="",
+                    foreground=colors[3],
+                    background=colors[13],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
                     font="FontAwesome",
-                    text=" ",
+                    text="",
                     foreground=colors[1],
                     background=colors[3],
                     padding = 1,
@@ -288,41 +286,65 @@ screens = [
                     format="%a %p %d-%m-%Y",
                     background=colors[3],
                     foreground=colors[1],
-                    font='Noto Sans Bold'
+                    font='Cascadia Code Bold',
+                    mouse_callbacks = {'Button2': lazy.spawn('kitty calcurse')}
                 ),
                 widget.TextBox(
-                    text="",
-                    foreground=colors[6],
+                    text="",
+                    foreground=colors[13],
                     background=colors[3],
                     padding = 0,
                     fontsize = 22
                 ),
                 widget.TextBox(
-                    font="FontAwesome",
-                    text=" ",
-                    foreground=colors[1],
-                    background=colors[6],
-                    padding = 1,
-                    fontsize = 16
-                ),
-                widget.Net(
-                    foreground = colors[1],
-                    background = colors[6],
-                    fmr = '{}',
-                    padding = 5,
-                    font = 'Noto Sans Bold',
-                    prefix = 'M'
-                ),
-                widget.TextBox(
-                    text="",
-                    foreground=colors[10],
-                    background=colors[6],
+                    text="",
+                    foreground=colors[15],
+                    background=colors[13],
                     padding = 0,
                     fontsize = 22
                 ),
                 widget.TextBox(
                     font="FontAwesome",
-                    text=" ",
+                    # text="",
+                    text="󰃠",
+                    foreground=colors[1],
+                    background=colors[15],
+                    padding = 1,
+                    fontsize = 16
+                ),
+                # widget.Net(
+                #     foreground = colors[1],
+                #     background = colors[6],
+                #     fmr = '{}',
+                #     padding = 5,
+                #     font = 'Cascadia Code Bold',
+                #     prefix = 'M'
+                # ),
+                widget.Backlight(
+                    foreground = colors[1],
+                    background = colors[15],
+                    backlight_name='amdgpu_bl0',
+                    brightness_file='actual_brightness',
+                    fmt='{} ',
+                    font = 'Cascadia Code Bold',
+                ),
+                widget.TextBox(
+                    text="",
+                    foreground=colors[13],
+                    background=colors[15],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
+                    text="",
+                    foreground=colors[10],
+                    background=colors[13],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
+                    font="FontAwesome",
+                    text="",
                     foreground=colors[1],
                     background=colors[10],
                     padding = 1,
@@ -331,29 +353,28 @@ screens = [
                 widget.Memory(
                     foreground = colors[1],
                     background = colors[10],
-                    mouse_callbacks = {'Button2': lazy.spawn('alacritty -e htop')},
+                    mouse_callbacks = {'Button2': lazy.spawn('kitty -e htop')},
                     fmt = '{}',
                     padding = 5,
-                    font = 'Noto Sans Bold'
-                ),
-                widget.Memory(
-                    foreground = colors[1],
-                    background = colors[10],
-                    mouse_callbacks = {'Button2': lazy.spawn('alacritty -e htop')},
-                    format='{SwapUsed: .0f}{ms}/{SwapTotal: .0f}{ms}',
-                    padding = 5,
-                    font = 'Noto Sans Bold'
+                    font = 'Cascadia Code Bold'
                 ),
                 widget.TextBox(
-                    text="",
-                    foreground=colors[5],
+                    text="",
+                    foreground=colors[13],
                     background=colors[10],
                     padding = 0,
                     fontsize = 22
                 ),
                 widget.TextBox(
+                    text="",
+                    foreground=colors[5],
+                    background=colors[13],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
                     font="FontAwesome",
-                    text=" ",
+                    text="",
                     foreground=colors[1],
                     background=colors[5],
                     padding = 1,
@@ -364,35 +385,49 @@ screens = [
                     background = colors[5],
                     fmt = '{}',
                     padding = 5,
-                    font = 'Noto Sans Bold'
+                    font = 'Cascadia Code Bold'
                 ),
-                # widget.TextBox(
-                #     text="",
-                #     foreground=colors[7],
-                #     background=colors[5],
-                #     padding = 0,
-                #     fontsize = 22
-                # ),
-                # widget.TextBox(
-                #     font="FontAwesome",
-                #     text=" ",
-                #     foreground=colors[1],
-                #     background=colors[7],
-                #     padding = 1,
-                #     fontsize=16
-                # ),
-                # widget.Volume(
-                #     foreground = colors[1],
-                #     background = colors[7],
-                #     fmt = 'Vol: {}',
-                #     padding = 5,
-                #     font = 'Noto Sans Bold',
-                # ),
+                widget.TextBox(
+                    text="",
+                    foreground=colors[13],
+                    background=colors[5],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
+                    text="",
+                    foreground=colors[7],
+                    background=colors[13],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
+                    font="FontAwesome",
+                    text="",
+                    foreground=colors[1],
+                    background=colors[7],
+                    padding = 1,
+                    fontsize=16
+                ),
+                widget.Volume(
+                    foreground = colors[1],
+                    background = colors[7],
+                    fmt = 'Vol: {}',
+                    padding = 5,
+                    font = 'Cascadia Code Bold',
+                ),
                          
                 widget.TextBox(
-                    text="",
+                    text="",
+                    foreground=colors[13],
+                    background=colors[7],
+                    padding = 0,
+                    fontsize = 22
+                ),
+                widget.TextBox(
+                    text="",
                     foreground=colors[4],
-                    background=colors[5],
+                    background=colors[13],
                     padding = 0,
                     fontsize = 22
                 ),
@@ -405,14 +440,22 @@ screens = [
                     fontsize=16
                 ),
                 widget.Battery(
-                    font="Noto Sans Bold",
+                    font="Cascadia Code Bold",
                     update_interval = 10,
                     fontsize = 12,
                     foreground = colors[1],
                     background = colors[4],
                     padding = 5,
-                    format = '{percent:2.0%} '
+                    format = '{percent:2.0%}'
                 ),
+                widget.TextBox(
+                    text="",
+                    foreground=colors[4],
+                    background=colors[13],
+                    padding = 0,
+                    fontsize = 25
+                ),
+
                 # widget.TextBox(
                 #     text="",
                 #     foreground=["#000000cc"],
@@ -433,17 +476,17 @@ screens = [
                 #     background = colors[13],
                 #     fmt = '{}',
                 #     padding = 5,
-                #     font = 'Noto Sans Bold'
+                #     font = 'Cascadia Code Bold'
+                # ),
+                # widget.TextBox(
+                #     text=" ",
+                #     background=["#000000"],
+                #     padding = 0,
+                #     fontsize = 15
                 # ),
                 widget.TextBox(
                     text=" ",
-                    background=["#000000"],
-                    padding = 0,
-                    fontsize = 15
-                ),
-                widget.TextBox(
-                    text=" ",
-                    background=["#00000000"],
+                    background=colors[0],
                     padding = 0,
                     fontsize = 22
                 ),
@@ -453,15 +496,21 @@ screens = [
                     icon_size=20,
                     padding=5,
                 ),
-                
-                #widget.QuickExit(),
+                # widget.QuickExit(),
             ],
             22,
-            background=["#00000000"],
-            # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
+            background=colors[13],
+            opacity=0.75,
+            border_width=7,
+            margin=5,
+            # padding=5
+            # border_width=1,  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
         ),
-    ),
+        left=bar.Gap(5),
+        right=bar.Gap(5),
+        bottom=bar.Gap(5),
+    )
 ]
 
 # Drag floating layouts.
