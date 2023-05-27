@@ -137,6 +137,7 @@ neofetch
 development='/home/GCodDev/Development'
 gcoddev='/home/GCodDev'
 htdocs='/opt/lampp/htdocs'
+pgfiles='/var/lib/pgadmin/storage/geco.yak77_gmail.com'
 
 # PATHS
 PATH=$PATH:/opt/lampp/
@@ -166,3 +167,4 @@ alias php-v='/opt/lampp/bin/php --version'
 alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
+
