@@ -61,8 +61,8 @@ keys = [
     #Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")),
 
     # My Configs
-    # Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
-    Key([mod], "Return", lazy.spawn('kitty'), desc="Launch terminal"),
+    Key([mod], "Return", lazy.spawn('alacritty'), desc="Launch terminal"),
+    # Key([mod], "Return", lazy.spawn('kitty'), desc="Launch terminal"),
 
     # Key([mod, "shift"], "Return", lazy.spawn('thunar'), desc='Archivos'),
     # Key([mod, "shift"], "Return", lazy.spawn('nautilus'), desc='Archivos'),

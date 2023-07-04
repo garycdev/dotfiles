@@ -31,3 +31,7 @@
 !.pictures/kny2.jpg
 
 !arch_packages.txt
+!arch_packages2.txt
+!history2.txt
+!.config/gtk-3.0
+!.config/gtk-3.0/gtk.css

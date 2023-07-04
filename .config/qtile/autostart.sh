@@ -22,4 +22,4 @@ numlockx on &
 # Terminal
 # kitty bashtop &
 # alacritty --command=calcurse &
-kitty bashtop &
+alacritty --command=bashtop &

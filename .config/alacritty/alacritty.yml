@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.50
+  opacity: 0.7
 
   # Startup Mode (changes require restart)
   #
@@ -119,8 +119,8 @@ font:
     #   - (Windows) Consolas
     #family: hack
     #family: 'Operator Mono'
-    family: 'SF Mono'
-    #family: 'Cascadia Code'
+    #family: 'SF Mono'
+    family: 'Cascadia Code'
     #family: 'Fira Code'
     #family: 'JetBrains Mono'
 
@@ -133,7 +133,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: 'SF Mono'
+    family: 'Cascadia Code'
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -144,7 +144,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: hack
+    family: 'Cascadia Code'
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -155,7 +155,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: monospace
+    family: 'Cascadia Code'
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -222,7 +222,7 @@ colors:
   # affected cell, or hexadecimal colors like #ff00ff.
   #cursor:
   #  text: CellBackground
-  #  cursor: CellForeground
+  # cursor: CellForeground
 
   # Vi mode cursor colors
   #
@@ -335,10 +335,15 @@ colors:
     cyan:    '#5b7d78'
     white:   '#828482'
     
-    
-  #cursor:
-  #  text: '0xffffff'
-  #  cursor: '0x4d4d4c'
+  cursor:
+    style: Beam
+    #shape: Beam
+    blinking: Always
+    blink_interval: 500
+    unfocused_hollow: true
+    thickness: 0.15
+    text: '0xffffff'
+    cursor: '0x7c7c7c'
 
   # Indexed Colors
   #
