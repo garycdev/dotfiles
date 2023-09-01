@@ -68,7 +68,7 @@ ex ()
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 # reporting tools - install when not installed
-neofetch
+neofetch | lolcat
 #screenfetch
 #alsi
 #paleofetch
@@ -100,8 +100,6 @@ alias off='shutdown -h now'
 PATH=$PATH:/opt/lampp/bin/
 PATH=$PATH:/home/gary/.config/composer/vendor/bin/
 PATH=$PATH:/opt/lampp/
-# Load Angular CLI autocompletion.
-source <(ng completion script)
 
 alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 #alias psql-start='sudo systemctl start postgresql-10 && echo "Postgresql started"'

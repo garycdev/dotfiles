@@ -140,14 +140,14 @@ layouts = [
         border_normal = ["#000000"],
         border_normal_stack = ["#000000"],
         border_width = 0,
-        margin = 3,
+        margin = 7,
         num_columns = 2,
     ),
     layout.Max(
         border_focus = ["#00000000"],
         border_normal = ["#00000000"],
         border_width = 0,
-        margin = 0
+        margin = 5
     ),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),

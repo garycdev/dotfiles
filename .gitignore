@@ -27,8 +27,13 @@
 !.config/rofi/themes/spotlight.rasi
 
 !.pictures
-!.pictures/Linux.jpg
-!.pictures/kny2.jpg
+!.pictures/0.jpg
+!.pictures/1.jpg
+!.pictures/2.jpg
+!.pictures/3.jpg
+!.pictures/4.jpg
+!.pictures/5.jpg
+!.pictures/6.jpg
 
 !arch_packages.txt
 !arch_packages2.txt

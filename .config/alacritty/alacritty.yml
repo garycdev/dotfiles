@@ -46,8 +46,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 5
-    y: 5
+    x: 10
+    y: 10
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.7
+  opacity: 0.6
 
   # Startup Mode (changes require restart)
   #
@@ -125,7 +125,7 @@ font:
     #family: 'JetBrains Mono'
 
     # The `style` can be specified to pick a specific face.
-    style: Bold
+    style: Regular
 
   # Bold font face
   bold:
@@ -201,7 +201,7 @@ colors:
   primary:
     # background: '#222222'
     # background: '#282c34'
-    background: '#000000'
+    background: '#0a0b0c'
     #foreground: '#F9F9F9'
     foreground: '#FFFFFF'
 
@@ -307,12 +307,12 @@ colors:
     yellow:  '#ffe900'
     blue:    '#0686ff'
     magenta: '#8A00FC'
-    cyan:    '#0699ff'
+    cyan:    '#00cccc'
     white:   '#ffffff'
 
   # Bright colors
   bright:
-    black:   '#545454'
+    black:   '#777777'
     red:     '#fc5454'
     green:   '#8ae234'
     yellow:  '#fce94f'
