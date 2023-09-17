@@ -12,6 +12,7 @@
 !.config/qtile/config.py
 !.config/picom
 !.config/picom/picom.conf
+!.config/picom/picom0.conf
 !.config/picom/picom.desktop
 !.config/neofetch
 !.config/neofetch/config.conf
@@ -34,9 +35,18 @@
 !.pictures/4.jpg
 !.pictures/5.jpg
 !.pictures/6.jpg
+!.pictures/7.jpg
+!.pictures/8.jpg
+
+!.themes
+!.themes/Sweet-Ambar-Blue-Dark-v40.tar.xz
+!.themes/Sweet-Dark-v40.tar.xz
+!.themes/WhiteSur-Dark.tar.xz
+!.themes/WhiteSur-Light.tar.xz
 
 !arch_packages.txt
 !arch_packages2.txt
+!arch_packages3.txt
 !history2.txt
 !.config/gtk-3.0
 !.config/gtk-3.0/gtk.css

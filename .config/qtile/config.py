@@ -296,22 +296,22 @@ screens = [
                     padding = 0,
                     fontsize = 22
                 ),
-                widget.TextBox(
-                    text="",
-                    foreground=colors[15],
-                    background=colors[13],
-                    padding = 0,
-                    fontsize = 22
-                ),
-                widget.TextBox(
-                    font="FontAwesome",
-                    # text="",
-                    text="󰃠",
-                    foreground=colors[1],
-                    background=colors[15],
-                    padding = 1,
-                    fontsize = 16
-                ),
+                # widget.TextBox(
+                #     text="",
+                #     foreground=colors[15],
+                #     background=colors[13],
+                #     padding = 0,
+                #     fontsize = 22
+                # ),
+                # widget.TextBox(
+                #     font="FontAwesome",
+                #     # text="",
+                #     text="󰃠",
+                #     foreground=colors[1],
+                #     background=colors[15],
+                #     padding = 1,
+                #     fontsize = 16
+                # ),
                 # widget.Net(
                 #     foreground = colors[1],
                 #     background = colors[6],
@@ -320,21 +320,21 @@ screens = [
                 #     font = 'Cascadia Code Bold',
                 #     prefix = 'M'
                 # ),
-                widget.Backlight(
-                    foreground = colors[1],
-                    background = colors[15],
-                    backlight_name='amdgpu_bl0',
-                    brightness_file='actual_brightness',
-                    fmt='{} ',
-                    font = 'Cascadia Code Bold',
-                ),
-                widget.TextBox(
-                    text="",
-                    foreground=colors[13],
-                    background=colors[15],
-                    padding = 0,
-                    fontsize = 22
-                ),
+                # widget.Backlight(
+                #     foreground = colors[1],
+                #     background = colors[15],
+                #     backlight_name='amdgpu_bl0',
+                #     brightness_file='actual_brightness',
+                #     fmt='{} ',
+                #     font = 'Cascadia Code Bold',
+                # ),
+                # widget.TextBox(
+                #     text="",
+                #     foreground=colors[13],
+                #     background=colors[15],
+                #     padding = 0,
+                #     fontsize = 22
+                # ),
                 widget.TextBox(
                     text="",
                     foreground=colors[10],
