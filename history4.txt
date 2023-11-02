@@ -1,0 +1,4190 @@
+: 1695129176:0;exit
+: 1695129362:0;p10k configure
+: 1695129390:0;p10k
+: 1695129392:0;clear
+: 1695129402:0;git init
+: 1695129418:0;git remote add origin https://github.com/gcoddev/dotfiles.git
+: 1695129419:0;clear
+: 1695129424:0;rm .bashrc
+: 1695129449:0;rm .zshrc
+: 1695129454:0;git pull origin master
+: 1695129458:0;clear
+: 1695129459:0;exit
+: 1695129476:0;yay -S usbutils numlockx lolcat
+: 1695129504:0;sudo nano /etc/gdm/custom.conf
+: 1695129511:0;reboot
+: 1695129575:0;p10k configure
+: 1695129633:0;clear
+: 1695129640:0;clear && source ~/.zshrc
+: 1695129644:0;clear
+: 1695129700:0;exit
+: 1695129706:0;git status
+: 1695129715:0;yay lgogdowloader
+: 1695129719:0;yay lgogdownloader
+: 1695129769:0;cat .config/qtile/config.py | grep rofi
+: 1695129879:0;mkdir .icons
+: 1695129887:0;mv Downloads/Win11.tar.xz .icons
+: 1695129891:0;cd .icons
+: 1695129892:0;ll
+: 1695129893:0;ls
+: 1695129897:0;tar -xf Win11.tar.xz
+: 1695129911:0;cd ../.themes
+: 1695129916:0;tar -xf Sweet-Ambar-Blue-Dark-v40.tar.xz
+: 1695129970:0;cd
+: 1695129970:0;clear
+: 1695129981:0;yay -S gog-hollow-knight
+: 1695130233:0;clear
+: 1695130258:0;yay -S nemo ranger qtile
+: 1695130294:0;clear
+: 1695130299:0;ranger
+: 1695130319:0;yay -S vim exiftool
+: 1695130330:0;yay exiftool
+: 1695130341:0;exiftool arch_packages2.txt
+: 1695130343:0;clear
+: 1695130411:0;exit
+: 1695130690:0;yay brighnesctl
+: 1695130707:0;yay brightnessctl
+: 1695130750:0;yay -S brightnessctl --noconfirm
+: 1695130765:0;clear
+: 1695130766:0;exit
+: 1695130786:0;sudo usermod -aG games gary
+: 1695130791:0;clear
+: 1695130792:0;exit
+: 1695130812:0;gog-hollow-knight
+: 1695131285:0;cat .config/unity3d/Team\ Cherry/Hollow\ Knight/Player.log
+: 1695131307:0;yay vulkan
+: 1695131320:0;gog-hollow-knight
+: 1695131326:0;cat .config/unity3d/Team\ Cherry/Hollow\ Knight/Player.log
+: 1695131378:0;yay vulkan
+: 1695131389:0;yay -Rs vulkan
+: 1695131391:0;yay -Rs vulkan-
+: 1695131399:0;yay -Rs vulkan-headers vulkan-icd-loader
+: 1695131404:0;yay -Rs vulkan-headers
+: 1695131409:0;yay -S vulkan
+: 1695131414:0;clear
+: 1695131416:0;yay vulkan
+: 1695131455:0;clear
+: 1695131456:0;gog-hollow-knight
+: 1695131561:0;exit
+: 1695131584:0;sudo cp -r .config/rofi/themes/* /usr/share/rofi/themes
+: 1695131622:0;clear
+: 1695131626:0;clear && source ~/.zshrc
+: 1695131638:0;nano .config/qtile/autostart.sh
+: 1695131656:0;clear
+: 1695131668:0;cat .config/qtile/autostart.sh
+: 1695131716:0;yay -S xfce4-notifyd udiskie networkmanager-applet volumeicon cbatticon blueman  numlockx
+: 1695131739:0;yay nm-applet
+: 1695131749:0;yay networkmanager
+: 1695131757:0;yay networkmanager-
+: 1695131760:0;yay networkmanager-app
+: 1695131768:0;yay nm-
+: 1695131774:0;clear
+: 1695131813:0;yay network-manager-applet
+: 1695131824:0;clear
+: 1695131825:0;reboot
+: 1695131888:0;yay -S bashtop feh
+: 1695131897:0;clear
+: 1695131927:0;nano .config/qtile/autostart.sh
+: 1695131936:0;git status
+: 1695131941:0;git restore .
+: 1695131942:0;clear
+: 1695131982:0;yay --noconfirm
+: 1695132048:0;clear && source ~/.zshrc
+: 1695132187:0;sudo pacman -S libxcrypt-compat net-tools inetutils
+: 1695132195:0;echo set completion-ignore-case on | sudo tee -a /etc/inputrc
+: 1695132205:0;sudo nano /etc/sudoers
+: 1695132233:0;clear
+: 1695132254:0;sudo nano /etc/X11/xorg.conf.d/30-touchpad.conf
+: 1695132269:0;sudo nano /etc/modprobe.d/nobeep.conf
+: 1695132277:0;sudo rmmod pcspkr
+: 1695132284:0;sudo pacman -S volumeicon cbatticon xorg-xinit base-devel git glib2 gvfs lxappearance picom
+: 1695132297:0;yay -S mtpfs\
+gvfs-mtp\
+gvfs-gphoto2\
+usbutils
+: 1695132313:0;clear
+: 1695132514:0;yay -S unrar
+: 1695132518:0;clear
+: 1695132520:0;cd Downloads
+: 1695132523:0;unrar e hollow_knight_cursor_by_murderheaven_dfdxd6m.rar
+: 1695132524:0;ll
+: 1695132531:0;yay -S colorls-ruby
+: 1695132538:0;yay -S ruby-colorls
+: 1695132606:0;ll
+: 1695132661:0;cd /usr/share/icons/default
+: 1695132661:0;ll
+: 1695132666:0;cd ..
+: 1695132667:0;ll
+: 1695132671:0;ll Adwaita
+: 1695132678:0;ll Adwaita/cursors
+: 1695132798:0;cd
+: 1695132799:0;cd Downloads
+: 1695132800:0;ll
+: 1695132804:0;rm -rf ./*
+: 1695132807:0;ll
+: 1695132807:0;clear
+: 1695132819:0;mv capitaine-cursors-r4.tar.gz ../.icons
+: 1695132822:0;cd ../.icons
+: 1695132827:0;tar -xf capitaine-cursors-r4.tar.gz
+: 1695132828:0;ll -l
+: 1695132834:0;ll default
+: 1695132839:0;ll capitaine-cursors
+: 1695132842:0;ll capitaine-cursors/cursors
+: 1695132846:0;clear
+: 1695132926:0;mv ~/Downloads/Sweet-cursors.tar.xz ./
+: 1695132927:0;ll
+: 1695132932:0;tar -xf Sweet-cursors.tar.xz
+: 1695132934:0;ll
+: 1695132961:0;clear
+: 1695132962:0;ll
+: 1695132964:0;clear
+: 1695132965:0;cd ..
+: 1695132968:0;code .
+: 1695133050:0;git status
+: 1695133099:0;git add .
+: 1695133100:0;clear
+: 1695133104:0;git commit -m 'icons'
+: 1695133122:0;git config --global user.name gcoddev
+: 1695133132:0;git config --global user.email geco.yak77@gmail.com
+: 1695133144:0;git config --global core.pager 'less -FX'
+: 1695133147:0;yay -S less
+: 1695133176:0;git log
+: 1695133178:0;clear
+: 1695133565:0;sudo-sync
+: 1695133570:0;clear
+: 1695133683:0;sudo os-prober
+: 1695133692:0;sudo nano /etc/default/grub
+: 1695133707:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1695133712:0;reboor
+: 1695133714:0;reboot
+: 1695133758:0;sudo-sync
+: 1695133763:0;clear
+: 1695134273:0;sudo-sync
+: 1695134353:0;sudo xampp start
+: 1695134358:0;sudo xampp stopftp
+: 1695134360:0;clear
+: 1695134364:0;sudo xampp status
+: 1695134978:0;sudo-sync
+: 1695134987:0;clear
+: 1695134993:0;cd Downloads
+: 1695134994:0;ls
+: 1695134999:0;sudo chmod +x xampp-linux-x64-7.4.33-0-installer.run
+: 1695135010:0;sudo mv /opt/lampp /opt/lampp8
+: 1695135014:0;sudo ./xampp-linux-x64-7.4.33-0-installer.run
+: 1695137506:0;sudo-sync
+: 1695137736:0;set-php7
+: 1695137744:0;clear
+: 1695137747:0;cd /opt
+: 1695137747:0;ls
+: 1695137752:0;php-v
+: 1695137760:0;sudo xampp start
+: 1695137763:0;sudo xampp stopftp
+: 1695137770:0;sudo xampp status
+: 1695137779:0;sudo xampp start
+: 1695137831:0;feh-random
+: 1695137837:0;clear
+: 1695137838:0;cd
+: 1695137839:0;clear
+: 1695137878:0;sudo mkdir /home/Tux
+: 1695137880:0;tux-mount
+: 1695137881:0;clear
+: 1695137951:0;cd /opt/lampp/htdocs
+: 1695137958:0;sudo mkdir xampp
+: 1695137975:0;sudo mv applications.html xampp
+: 1695137980:0;sudo mv bitnami.css xampp
+: 1695137986:0;sudo mv dashboard xampp
+: 1695137992:0;sudo mv index.php xampp
+: 1695137999:0;sudo mv favicon.ico xampp
+: 1695138005:0;sudo mv img xampp
+: 1695138008:0;sudo mv webalizer xampp
+: 1695138045:0;cd $development
+: 1695138045:0;ll
+: 1695138048:0;cat index.php
+: 1695138059:0;cat > index.php
+: 1695138061:0;sudo cat > index.php
+: 1695138073:0;sudo touch > index.php
+: 1695138074:0;ll
+: 1695138081:0;sudo nano index.php
+: 1695138115:0;sudo mkdir xampp/assets
+: 1695138116:0;sudo mkdir xampp/assets/css
+: 1695138119:0;sudo mkdir xampp/assets/js
+: 1695138158:0;cat index.php
+: 1695138169:0;sudo nano xampp/assets/css/bootstrap.min.css
+: 1695138190:0;set-php8
+: 1695138191:0;clear
+: 1695138194:0;sudo xampp status
+: 1695138199:0;sudo mkdir xampp/
+: 1695138202:0;ls
+: 1695138206:0;cd ..
+: 1695138208:0;ll
+: 1695138213:0;cd /opt
+: 1695138213:0;ll
+: 1695138220:0;cd lampp/htdocs
+: 1695138220:0;ll
+: 1695138225:0;sudo mkdir xampp
+: 1695138230:0;sudo mv dashboard xampp
+: 1695138236:0;sudo mv webalizer xampp
+: 1695138243:0;sudo mv img xampp
+: 1695138247:0;sudo mv bitnami.css xampp
+: 1695138253:0;sudo mv index.php xampp
+: 1695138257:0;sudo mv applications.html xampp
+: 1695138261:0;sudo mv favicon.ico xampp
+: 1695138261:0;ll
+: 1695138272:0;sudo mkdir xampp/assets
+: 1695138274:0;sudo mkdir xampp/assets/css
+: 1695138275:0;sudo mkdir xampp/assets/js
+: 1695138280:0;sudo nano xampp/assets/css/bootstrap.min.css
+: 1695138286:0;cd ..
+: 1695138290:0;sudo nano index.php
+: 1695138308:0;ll
+: 1695138312:0;cd htdocs
+: 1695138312:0;ll
+: 1695138319:0;sudo mv ../index.php ./
+: 1695138320:0;ll
+: 1695138334:0;set-php7
+: 1695138344:0;set-php8
+: 1695138348:0;clear
+: 1695138397:0;sudo nano xampp/assets/js/bootstrap.min.js
+: 1695138415:0;sudo nano /opt/lampp7/htdocs/xampp/assets/js/bootstrap.min.js
+: 1695138422:0;clear
+: 1695138433:0;exit
+: 1695138435:0;clear
+: 1695138436:0;cd
+: 1695138442:0;cd $development
+: 1695138442:0;ll
+: 1695138443:0;cd ..
+: 1695138444:0;ls
+: 1695138445:0;ll
+: 1695138447:0;cd back
+: 1695138448:0;ll
+: 1695138450:0;cd Documents
+: 1695138451:0;ll
+: 1695138465:0;mv siadi_sftp ~/Documents
+: 1695138467:0;cd
+: 1695138469:0;cd Documents/siadi_sftp
+: 1695138471:0;code .
+: 1695138526:0;mv /home/Tux/back/Documents/siadi ./
+: 1695138545:0;mv siadi ../
+: 1695138547:0;cd ..
+: 1695138548:0;clear
+: 1695138548:0;ll
+: 1695138551:0;code siadi
+: 1695138622:0;clear
+: 1695138628:0;php artisan serve
+: 1695138662:0;code siadi_sftp
+: 1695138721:0;php-v
+: 1695139085:0;clear
+: 1695139106:0;sudo nano /opt/lampp/etc/php.ini
+: 1695139127:0;sudo xampp restart
+: 1695139143:0;sudo nano /opt/lampp/etc/php.ini
+: 1695139164:0;sudo xampp restart
+: 1695139175:0;sudo xampp stop
+: 1695139185:0;sudo xampp start
+: 1695139196:0;php artisan serve
+: 1695139249:0;sudo nano /etc/php/php.ini
+: 1695139308:0;sudo xampp restart
+: 1695139310:0;php artisan serve
+: 1695140728:0;ll /opt/lampp/bin
+: 1695140737:0;cd /opt/lampp/bin
+: 1695140742:0;./php -v
+: 1695140761:0;sudo nano ../etc/php.ini
+: 1695140774:0;./php -v
+: 1695140789:0;sudo nano ../etc/php.ini
+: 1695140799:0;./php -v
+: 1695142515:0;php artisan serve
+: 1695142744:0;clear
+: 1695142745:0;cd
+: 1695142746:0;clear
+: 1695142749:0;sudo-sync
+: 1695142755:0;clear
+: 1695142760:0;exit
+: 1695142766:0;clear
+: 1695143385:0;exit
+: 1695143390:0;clear
+: 1695143392:0;off
+: 1695167245:0;sudo-sync
+: 1695167253:0;clear
+: 1695168428:0;yay scarab
+: 1695168946:0;clea
+: 1695168947:0;clear
+: 1695168980:0;scarab
+: 1695169126:0;sudo scarab
+: 1695169483:0;cd /opt
+: 1695169484:0;clear
+: 1695169485:0;ll
+: 1695169487:0;ll -l
+: 1695169602:0;sudo chmod 777 -R gog-hollow-knight
+: 1695169633:0;cd
+: 1695169634:0;clear
+: 1695172124:0;sudo scarab
+: 1695173743:0;off
+: 1695216924:0;set-bright 192
+: 1695216925:0;clear
+: 1695216926:0;sudo-sync
+: 1695216930:0;clear
+: 1695216933:0;yay --noconfirm
+: 1695216971:0;php-v
+: 1695216978:0;sudo xampp start
+: 1695216984:0;php -v
+: 1695216985:0;clear
+: 1695216991:0;code Documents/siadi
+: 1695216997:0;clear
+: 1695216998:0;clear && source ~/.zshrc
+: 1695217012:0;clear
+: 1695217017:0;php artisan serve
+: 1695217099:0;ll -la
+: 1695217108:0;cd .config
+: 1695217108:0;ll
+: 1695217117:0;rm -rf google-chrome
+: 1695217123:0;clear
+: 1695217124:0;cd
+: 1695217125:0;clear
+: 1695218341:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695218393:0;clear
+: 1695218394:0;sudo-sync
+: 1695218400:0;clear
+: 1695218402:0;yay --noconfirm
+: 1695222828:0;git status
+: 1695223014:0;code Documents/siadi_sftp
+: 1695223232:0;clear
+: 1695223232:0;exi
+: 1695223235:0;exit
+: 1695223255:0;clear
+: 1695223256:0;sudo-sync
+: 1695223261:0;yay ctf
+: 1695223267:0;yay ctfd
+: 1695223281:0;yay virtualbox
+: 1695223423:0;cat /etc/group
+: 1695223432:0;sudo usermod -aG vboxusers gary
+: 1695223435:0;reboot
+: 1695223541:0;sudo-sync
+: 1695223545:0;clear
+: 1695223547:0;groups
+: 1695223563:0;tux-mount
+: 1695224077:0;clear
+: 1695224081:0;sudo-sync
+: 1695227115:0;clear
+: 1695227132:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695227141:0;clear
+: 1695227637:0;sudo-sync
+: 1695227642:0;clear
+: 1695228607:0;sudo mv ~/VirtualBox\ VMs/Debian/ /home/Tux/VirtualBox\ VMs/
+: 1695228653:0;clear
+: 1695228663:0;yay -S glab github-cli
+: 1695228677:0;clear
+: 1695228682:0;gh auth login
+: 1695228720:0;git config --global -l
+: 1695228721:0;clear
+: 1695228723:0;gh auth login
+: 1695228755:0;clear
+: 1695228762:0;glab auth login
+: 1695228801:0;clear
+: 1695228813:0;glab auth login
+: 1695228833:0;clear
+: 1695228838:0;nano .config/glab-cli/config.yml
+: 1695228852:0;clear
+: 1695228857:0;glab repo list
+: 1695228859:0;clear
+: 1695228861:0;gh repo list
+: 1695228883:0;gh set pager 'less -FX'
+: 1695228893:0;gh config set pager 'less -FX'
+: 1695228895:0;gh repo list
+: 1695228898:0;clear
+: 1695228905:0;glab config set pager 'less -FX'
+: 1695228908:0;glab repo list
+: 1695228911:0;clear
+: 1695229160:0;reboot
+: 1695229254:0;ll -l
+: 1695229262:0;mkdir gcoddev
+: 1695229281:0;cat ~/.zshrc | grep mount
+: 1695229306:0;sudo mount -t ntfs-3g /dev/sdb ~/gcoddev
+: 1695229325:0;clear
+: 1695229326:0;off
+: 1695232814:0;clear
+: 1695232815:0;sudo-sync
+: 1695232912:0;clear
+: 1695232914:0;sudo-sync
+: 1695232916:0;clear
+: 1695232934:0;sudo-sync
+: 1695232941:0;clear
+: 1695233000:0;cd $development
+: 1695233003:0;tux-mount
+: 1695233004:0;clear
+: 1695233006:0;cd $development
+: 1695233008:0;cd Laravel
+: 1695233010:0;ll
+: 1695233272:0;ifconfig
+: 1695233472:0;clera
+: 1695233473:0;clear
+: 1695233475:0;ping https://gcod.dev/
+: 1695233479:0;ping gcod.dev
+: 1695233684:0;clear
+: 1695233697:0;set-bright 257
+: 1695233700:0;set-bright 259
+: 1695233703:0;set-bright 2555
+: 1695233704:0;set-bright 255
+: 1695233705:0;clear
+: 1695233707:0;sudo-sync
+: 1695233743:0;yay wps
+: 1695233900:0;cd Downloads
+: 1695233918:0;git clone https://aur.archlinux.org/packettracer.git
+: 1695233921:0;cd packettracer
+: 1695233926:0;makepkg -si
+: 1695233981:0;mv ../Packet_Tracer821_amd64_signed.deb ./
+: 1695233981:0;ll
+: 1695233984:0;makepkg -si
+: 1695233997:0;mv Packet_Tracer821_amd64_signed.deb CiscoPacketTracer_821_Ubuntu_64bit.deb
+: 1695233999:0;makepkg -si
+: 1695234049:0;clear
+: 1695234140:0;cd ..
+: 1695234143:0;rm -rf packettracer
+: 1695234144:0;ll
+: 1695234147:0;clear
+: 1695234150:0;rm xampp-linux-x64-7.4.33-0-installer.run
+: 1695234151:0;ll
+: 1695234156:0;rm debian-12.1.0-amd64-netinst.iso
+: 1695234157:0;clear
+: 1695234158:0;exit
+: 1695234170:0;composer create-project laravel/laravel:^9.2 idiomas
+: 1695234204:0;cd idiomas
+: 1695234209:0;php artisan serve
+: 1695234229:0;composer install auth
+: 1695234238:0;php artisan make auth
+: 1695234291:0;clear
+: 1695234320:0;sudo xampp start
+: 1695234701:0;code .
+: 1695234735:0;clear
+: 1695234737:0;php artisan serve
+: 1695235155:0;ifconfig
+: 1695236236:0;php artisan make
+: 1695236247:0;php artisan 
+: 1695236280:0;php artisan make:controller MainController
+: 1695237151:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr
+: 1695237705:0;clear
+: 1695237709:0;php artisan serve
+: 1695239193:0;clear
+: 1695239207:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695239235:0;clear
+: 1695239251:0;cd ~/Documents/
+: 1695239252:0;clear
+: 1695239254:0;mkdir sftp
+: 1695239262:0;code sftp
+: 1695239814:0;yay postman
+: 1695240556:0;yay -S postman-bin
+: 1695240609:0;clear
+: 1695240611:0;sudo-sync
+: 1695240675:0;clear
+: 1695240677:0;yay --noconfirm
+: 1695240718:0;ssh svserver@186.121.206.238 -p 8842
+: 1695240996:0;bashtop
+: 1695240999:0;clear
+: 1695241555:0;sudo-sync
+: 1695241727:0;clear
+: 1695241728:0;exit
+: 1695241729:0;clear
+: 1695241731:0;sudo-sync
+: 1695241735:0;clear
+: 1695241736:0;yay --noconfirm
+: 1695241825:0;clear
+: 1695241860:0;cd
+: 1695241861:0;clear
+: 1695241875:0;clear && source ~/.zshrc
+: 1695242192:0;clear
+: 1695244340:0;php artisan serve
+: 1695245043:0;php artisan make:
+: 1695245101:0;php artisan make:model Rol -m
+: 1695245651:0;php artisan migrate
+: 1695245966:0;php artisan make:model Role -m
+: 1695246039:0;php artisan migrate
+: 1695246057:0;php artisan make:model Persona -m
+: 1695246293:0;php artisan migrate
+: 1695247452:0;off
+: 1695253790:0;sudo-sync
+: 1695253816:0;clear
+: 1695253818:0;yay --noconfirm
+: 1695254495:0;tux-mount
+: 1695254521:0;clear
+: 1695254565:0;cd /home/Tux/VirtualBox VMs
+: 1695254571:0;cd /home/Tux/VirtualBox\ VMs
+: 1695254573:0;ll
+: 1695254584:0;exit
+: 1695254616:0;mv Debian /run/media/gary/GCodDev/VirtualBox
+: 1695255572:0;yay docker
+: 1695255739:0;sudo usermod -aG docker gary
+: 1695255742:0;clear
+: 1695255743:0;groups
+: 1695255756:0;sudo groups gary
+: 1695255773:0;clear && source ~/.zshrc
+: 1695255793:0;npm install -g @vue/cli
+: 1695255919:0;cat /etc/group
+: 1695255930:0;cat /etc/group | grep npm
+: 1695255933:0;cat /etc/group | grep node
+: 1695255934:0;clear
+: 1695255986:0;cd
+: 1695255987:0;ll -la
+: 1695256015:0;ll -la /usr/local/lib/
+: 1695256043:0;ll -la /root
+: 1695256047:0;sudo ll -la /root
+: 1695256050:0;sudo ls -la /root
+: 1695256133:0;npm install -g @vue/cli
+: 1695256210:0;ll -la /usr/lib
+: 1695256219:0;ll -la /usr/lib | grep node+
+: 1695256221:0;ll -la /usr/lib | grep node
+: 1695256241:0;ll -la /usr/lib/node_modules
+: 1695256311:0;echo $(whoami)
+: 1695256338:0;sudo chown -R gary /usr/lib/node_modules
+: 1695256345:0;ll -la /usr/lib | grep node
+: 1695256357:0;npm install -g @vue/cli
+: 1695256419:0;sudo chown -R root /usr/lib/node_modules
+: 1695256421:0;ll -la /usr/lib | grep node
+: 1695256423:0;clear
+: 1695256425:0;npm install -g @vue/cli
+: 1695256453:0;sudo npm install -g @vue/cli
+: 1695256634:0;clear
+: 1695256639:0;vue --version
+: 1695256648:0;vue --help
+: 1695256688:0;vue info
+: 1695256697:0;yay yarn
+: 1695256708:0;clear
+: 1695256712:0;yarn -v
+: 1695256717:0;yay bun
+: 1695256741:0;clear
+: 1695256863:0;yay pnpm
+: 1695256887:0;pnpm -v
+: 1695256891:0;npm -v
+: 1695256897:0;clear
+: 1695256898:0;pnpm
+: 1695256913:0;docker --version
+: 1695256915:0;clear
+: 1695256919:0;docker status
+: 1695256922:0;docker --help
+: 1695256992:0;docker search debian
+: 1695256997:0;docker find debian
+: 1695257041:0;docker list
+: 1695257047:0;clear
+: 1695257128:0;docker images
+: 1695257131:0;docker image ls
+: 1695257133:0;docker image ls -a
+: 1695257135:0;docker image ls a
+: 1695257138:0;clear
+: 1695257671:0;sudo-sync
+: 1695257693:0;clear
+: 1695257871:0;off
+: 1695301263:0;sudo-sync
+: 1695301267:0;clear
+: 1695301268:0;sudo-sync
+: 1695301270:0;clear
+: 1695301271:0;clear && source ~/.zshrc
+: 1695301408:0;ssh svserver@186.121.206.238 -p 8842
+: 1695301424:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695302495:0;clear
+: 1695302499:0;groups
+: 1695302506:0;docker 
+: 1695302524:0;service docker status
+: 1695302542:0;sudo systemctl status docker
+: 1695302553:0;sudo systemctl start docker
+: 1695302556:0;service docker status
+: 1695302564:0;where service
+: 1695302575:0;service status docker
+: 1695302578:0;docker 
+: 1695302705:0;clear
+: 1695302748:0;docker images
+: 1695302821:0;yay docker-compose
+: 1695302850:0;docker-status
+: 1695302858:0;docker-stop
+: 1695302860:0;docker-status
+: 1695302863:0;docker-stop
+: 1695302870:0;docker-start
+: 1695302873:0;docker-status
+: 1695302877:0;docker-stop
+: 1695302878:0;docker-status
+: 1695302884:0;service status docker
+: 1695302891:0;service stop docker.socket
+: 1695302894:0;service stop docker
+: 1695302897:0;service status docker
+: 1695302903:0;docker status
+: 1695304111:0;clear
+: 1695304128:0;service status docker
+: 1695304148:0;clear
+: 1695304162:0;ll -l
+: 1695304168:0;rm -rf gcoddev
+: 1695304169:0;clear
+: 1695304171:0;cd Documents
+: 1695304172:0;ll
+: 1695304181:0;code sftp
+: 1695304235:0;clear
+: 1695304238:0;cd 
+: 1695304244:0;cat history2.txt | grep sync
+: 1695304254:0;sync 
+: 1695304260:0;yay rsync 
+: 1695304274:0;clear
+: 1695307029:0;sudo-sync
+: 1695307037:0;clear
+: 1695307340:0;yay --noconfirm
+: 1695307413:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695308804:0;clear
+: 1695308826:0;tux-mount
+: 1695308836:0;clear
+: 1695308849:0;cd $development/servicio_pagina/
+: 1695308851:0;code .
+: 1695308870:0;set-php7
+: 1695308889:0;set-php8
+: 1695308933:0;git status
+: 1695308951:0;git config --global safe.directory '*'
+: 1695308953:0;git status
+: 1695308956:0;git add .
+: 1695308963:0;git commit -m 'sftp servicio'
+: 1695308970:0;git checkout -b development
+: 1695309342:0;clear
+: 1695309344:0;sudo-sync
+: 1695309380:0;clear
+: 1695310600:0;npm run dev
+: 1695312294:0;clear
+: 1695312296:0;npm install
+: 1695312336:0;npm run dev
+: 1695313162:0;off
+: 1695396769:0;sudo-sync
+: 1695396776:0;clear
+: 1695406336:0;sudo-sync
+: 1695406954:0;cd Downloads
+: 1695406958:0;git clone https://aur.archlinux.org/packettracer.git
+: 1695406962:0;cd packettracer
+: 1695406963:0;ll
+: 1695406968:0;makepkg -si
+: 1695406989:0;clear
+: 1695407018:0;tux-mount
+: 1695408838:0;mv ../Packet_Tracer821_amd64_signed.deb ./
+: 1695408841:0;make
+: 1695408844:0;makepkg -si
+: 1695408855:0;mv Packet_Tracer821_amd64_signed.deb CiscoPacketTracer_821_Ubuntu_64bit.deb
+: 1695408856:0;makepkg -si
+: 1695410089:0;cd ..
+: 1695410096:0;ll
+: 1695410107:0;mv packettracer ../.cache/yay
+: 1695410110:0;yay -Sc
+: 1695410127:0;clear
+: 1695410128:0;cd
+: 1695410129:0;clear
+: 1695410131:0;yay -Sc
+: 1695410136:0;clear
+: 1695410139:0;free -h
+: 1695410781:0;sudo-sync
+: 1695410790:0;clear
+: 1695410791:0;off
+: 1695412133:0;cd .cache/yay/packettracer
+: 1695412134:0;ll
+: 1695412141:0;yay packettracer
+: 1695412371:0;yay -Rs packettracer
+: 1695412382:0;clear
+: 1695412386:0;yay packettracer
+: 1695412625:0;cp ~/Downloads/Packet_Tracer821_amd64_signed.deb ~/.cache/yay/packettracer
+: 1695412628:0;ll
+: 1695412637:0;mv Packet_Tracer821_amd64_signed.deb CiscoPacketTracer_821_Ubuntu_64bit.deb
+: 1695412638:0;clear
+: 1695412641:0;yay packettracer
+: 1695412698:0;clear
+: 1695412730:0;cd
+: 1695412731:0;clear
+: 1695412732:0;yay -S
+: 1695412735:0;yay -Sc
+: 1695412748:0;yay packettracer
+: 1695414863:0;clear && source ~/.zshrc
+: 1695414870:0;cd Documents
+: 1695414886:0;git clone http://gitlabsie.upea.bo/gcoddev/sis_admin.git
+: 1695414931:0;cd sis_admin
+: 1695414932:0;clear
+: 1695414934:0;yay --noconfirm
+: 1695415095:0;cd Documents/sis_admin
+: 1695415098:0;ll
+: 1695415102:0;clear
+: 1695415103:0;ll
+: 1695415104:0;clear
+: 1695415120:0;npm install
+: 1695415327:0;git checkout -b development
+: 1695415328:0;clear
+: 1695415336:0;nano package.json
+: 1695415358:0;npm install
+: 1695415363:0;clear
+: 1695415365:0;exit
+: 1695415382:0;npm search sweetalert2
+: 1695415418:0;npm search vue-sweetalert2
+: 1695415425:0;npm search vue-sweetalert2/theme-dark
+: 1695415472:0;npm install @sweetalert2/theme-dark
+: 1695415481:0;npm list
+: 1695415570:0;code .
+: 1695415583:0;npm run dev
+: 1695417154:0;clear
+: 1695417156:0;npm list
+: 1695417159:0;npm list -la
+: 1695417166:0;npm list -g
+: 1695417177:0;clear
+: 1695417938:0;sudo-sync
+: 1695417947:0;clear
+: 1695418172:0;sudo-sync
+: 1695418178:0;clear
+: 1695418885:0;git status
+: 1695418903:0;clear
+: 1695418910:0;git log --oneline
+: 1695418952:0;npm list
+: 1695418957:0;npm list -a
+: 1695418964:0;npm list -g
+: 1695418971:0;vue ui
+: 1695419047:0;cd Documents/sis_admin
+: 1695419049:0;npm run dev
+: 1695419166:0;exit
+: 1695419168:0;clear
+: 1695419170:0;sudo-sync
+: 1695419183:0;claer
+: 1695419184:0;clear
+: 1695419195:0;set-bright 64
+: 1695419199:0;set-bright 32
+: 1695419202:0;set-bright 24
+: 1695419203:0;set-bright 25
+: 1695419417:0;cd ..
+: 1695419433:0;glab repo clone pasantia_ii-2023/contaduraia
+: 1695419436:0;glab repo clone pasantia_ii-2023/contaduria
+: 1695419471:0;cd contaduria
+: 1695419488:0;git checkout -b dev-maribel origin/dev-maribel
+: 1695419494:0;git pull origin dev-maribel
+: 1695419506:0;git merge master
+: 1695419509:0;code .
+: 1695419591:0;git status
+: 1695419592:0;git add .
+: 1695419600:0;git commit -m 'merge resolve'
+: 1695419612:0;git push origin dev-maribel
+: 1695419739:0;npm run serve
+: 1695419751:0;npm install
+: 1695419781:0;npm run serve
+: 1695419821:0;clear
+: 1695419822:0;git status
+: 1695419833:0;git merge master
+: 1695419840:0;git checkout master
+: 1695419842:0;npm run dev
+: 1695419847:0;npm run serve
+: 1695419960:0;mv .env.copy .env
+: 1695419962:0;ls
+: 1695419964:0;ll -la
+: 1695419985:0;mv .env\ copy.copy .env.copy
+: 1695419987:0;ll -la
+: 1695419992:0;nano .env
+: 1695420039:0;code .
+: 1695420057:0;npm run serve
+: 1695420141:0;cd Downloads
+: 1695420247:0;scp --help
+: 1695420273:0;mv ADMINISTRADOR_WEB_UPEA_CARRERAS.zip admemp.zip
+: 1695420354:0;ssh webvue@186.121.206.232 -p 7714
+: 1695420387:0;scp admemp.zip webvue@186.121.206.232:~/Descargas/ -p 7714
+: 1695420410:0;scp admemp.zip webvue@186.121.206.232:/home/webvue/Descargas -p 7714
+: 1695420432:0;scp -P 7714 admemp.zip webvue@186.121.206.232:~/Descargas
+: 1695420574:0;ssh webvue@186.121.206.232 -p 7714
+: 1695423542:0;exit
+: 1695423545:0;yay betterlock
+: 1695423702:0;clear
+: 1695423706:0;yay -Sc
+: 1695423711:0;clear
+: 1695429577:0;sudo-sync
+: 1695429596:0;clear
+: 1695429654:0;ifconfig
+: 1695429723:0;clear
+: 1695434223:0;sudo-sync
+: 1695438621:0;clear
+: 1695438623:0;sudo-sync
+: 1695438633:0;clear
+: 1695438634:0;cd
+: 1695438635:0;cdlear
+: 1695438635:0;clear
+: 1695441541:0;off
+: 1695489272:0;sudo-sync
+: 1695489278:0;clear
+: 1695489672:0;ifconfig
+: 1695492397:0;clear
+: 1695492400:0;sudo-sync
+: 1695492407:0;clear
+: 1695492408:0;off
+: 1695511497:0;sudo-sync
+: 1695511529:0;clear
+: 1695511532:0;sudo-sync
+: 1695511545:0;clear && source ~/.zshrc
+: 1695514058:0;ssh webvue@186.121.206.232 -p 7714
+: 1695514091:0;clear
+: 1695580974:0;sudo-sync
+: 1695580985:0;clear
+: 1695580987:0;yay --noconfirm
+: 1695594342:0;sudo-sync
+: 1695594358:0;clear
+: 1695594373:0;yay ctf
+: 1695594400:0;yay capture
+: 1695594409:0;yay capture-the
+: 1695594416:0;yay capturethe
+: 1695594420:0;clear
+: 1695594437:0;yay --noconfirm
+: 1695594469:0;clear
+: 1695594472:0;sudo-sync
+: 1695594482:0;clear && source ~/.zshrc
+: 1695594512:0;php-v
+: 1695594518:0;sudo xampp stsrt
+: 1695594521:0;sudo xampp start
+: 1695594547:0;code Documents/sftp
+: 1695594576:0;tux-mount
+: 1695594587:0;cat $development/sftp.json
+: 1695594600:0;cat $development/notas.txt
+: 1695594640:0;cat $development/../back/Documents/ftp.txt
+: 1695595547:0;clear
+: 1695595551:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695597669:0;off
+: 1695647817:0;set-bright 192
+: 1695647818:0;clear
+: 1695647819:0;sudo-sync
+: 1695647823:0;clear
+: 1695647825:0;yay --noconfirm
+: 1695647905:0;clear
+: 1695647908:0;sudo-sync
+: 1695647910:0;clear
+: 1695647964:0;code Documents/siadi
+: 1695647984:0;clear
+: 1695647987:0;git status
+: 1695647991:0;git add .
+: 1695648008:0;git commit -m 'filtrado'
+: 1695648018:0;sudo xampp start
+: 1695648025:0;clear
+: 1695648038:0;php artisan serve
+: 1695649580:0;sudo-sync
+: 1695649588:0;ckear
+: 1695649590:0;clear && source ~/.zshrc
+: 1695649692:0;code Documents/siadi_sftp
+: 1695651094:0;tux-mount
+: 1695651104:0;cat $development/../back/Documents/ftp.txt
+: 1695651120:0;code Documents/sftp
+: 1695654857:0;clear
+: 1695654859:0;yay --noconfirm
+: 1695655377:0;cd dow
+: 1695655379:0;cd Downloads
+: 1695655380:0;ll
+: 1695655386:0;rm certificado*
+: 1695655387:0;ll
+: 1695655639:0;clear
+: 1695655640:0;ll
+: 1695658024:0;cp ITCEDSCR.TTF ~/Documents/siadi/vendor/codedge/laravel-fpdf/src/Fpdf/font
+: 1695658339:0;rm certificado*
+: 1695658340:0;clear
+: 1695658340:0;ll
+: 1695658341:0;ll -l
+: 1695658655:0;sudo-sync
+: 1695658664:0;clear
+: 1695658951:0;sudo-sync
+: 1695658974:0;clear
+: 1695658975:0;sudo-sync
+: 1695658989:0;clear
+: 1695658994:0;clear && source ~/.zshrc
+: 1695659002:0;sudo-sync
+: 1695659007:0;clear
+: 1695659008:0;sudo-sync
+: 1695660015:0;clear
+: 1695660019:0;bashtop
+: 1695660022:0;clear 
+: 1695660023:0;sudo-sync
+: 1695660030:0;clear
+: 1695660170:0;rm certificado*
+: 1695660173:0;ll
+: 1695666014:0;rm certificado*
+: 1695669597:0;ll -l
+: 1695669602:0;rm admemp.zip
+: 1695669612:0;clear
+: 1695669613:0;ll -l
+: 1695669616:0;clear
+: 1695669617:0;bashtop
+: 1695669637:0;clear
+: 1695669639:0;clear && source ~/.zshrc
+: 1695669661:0;clear
+: 1695669666:0;set-bright 192
+: 1695669668:0;set-bright 255
+: 1695669670:0;clear 
+: 1695669672:0;clear && source ~/.zshrc
+: 1695678192:0;rm admemp.zip
+: 1695678195:0;rm certificado*
+: 1695678196:0;ll
+: 1695678201:0;rm Reporte*
+: 1695678202:0;cler
+: 1695678203:0;clear
+: 1695678203:0;ll -l
+: 1695678232:0;code $development/sie/orientacion_vocacional
+: 1695678595:0;cd $development/sie/orientacion_vocacional
+: 1695678596:0;git status
+: 1695678606:0;git log
+: 1695678978:0;cat $development/../back/Documents/ftp.txt
+: 1695678996:0;cd
+: 1695679003:0;code Documents/siadi
+: 1695679011:0;code Documents/siadi_sftp
+: 1695679020:0;clear
+: 1695679027:0;cd Documents/siadi
+: 1695679030:0;git statua
+: 1695679031:0;git status
+: 1695679346:0;git add app/Http/Livewire/AdministracionModulos/PlanificarAsignaturaIndex.php
+: 1695679356:0;git add resources/views/layouts/admin_principal.blade.php
+: 1695679364:0;git add resources/views/livewire/administracion-modulos/planificar-asignatura-index.blade.php
+: 1695679366:0;git status
+: 1695679384:0;git add public/cert/logo_upea
+: 1695679386:0;git add public/cert/logo_upea.png
+: 1695679387:0;clear
+: 1695679389:0;git status
+: 1695679393:0;git restore .
+: 1695679395:0;git status
+: 1695679400:0;git commit -m 'pdf'
+: 1695679403:0;clear
+: 1695679406:0;git restore .
+: 1695679408:0;git stau
+: 1695679409:0;git status
+: 1695679418:0;rm app/Models/Reportes/ReportePDF.php
+: 1695679424:0;rm public/cert/logo_upea_pdf.git
+: 1695679426:0;git status
+: 1695679428:0;clear
+: 1695679433:0;off
+: 1695699172:0;nano .config/lgogdownloader/config.cfg
+: 1695699198:0;nano .config/HKModInstaller/InstalledMods.json
+: 1695699222:0;clear
+: 1695699237:0;nano /opt/gog-hollow-knight/game/Hollow\ Knight_Data/Config.ini
+: 1695699244:0;clear
+: 1695699264:0;ll -lA
+: 1695699267:0;ll -la
+: 1695699559:0;clear
+: 1695699930:0;nano /opt/gog-hollow-knight/game/Hollow\ Knight_Data/Config.ini
+: 1695700500:0;ll
+: 1695700502:0;ll -la
+: 1695700519:0;clear
+: 1695702014:0;off
+: 1695735953:0;sudo-sync
+: 1695735960:0;clear
+: 1695736000:0;code Documents/siadi
+: 1695736011:0;code Documents/siadi_sftp
+: 1695736636:0;sudo xampp star
+: 1695736643:0;sudo xampp start
+: 1695736646:0;clear && source ~/.zshrc
+: 1695736652:0;yay --noconfirm
+: 1695736679:0;code Documents/siadi_sftp
+: 1695736682:0;feh-random
+: 1695738652:0;code Documents/siadi
+: 1695738668:0;clear
+: 1695738671:0;php artisan serve
+: 1695740767:0;clera
+: 1695740768:0;clear
+: 1695740770:0;clear && source ~/.zshrc
+: 1695741706:0;clear
+: 1695741707:0;sudo-sync
+: 1695741713:0;clear
+: 1695741723:0;curl serviciopagina.upea.bo/api/Visitas
+: 1695741757:0;curl -M GET serviciopagina.upea.bo/api/Visitas
+: 1695741758:0;clear
+: 1695742426:0;code Documents/siadi_sftp
+: 1695743261:0;yay --noconfirm
+: 1695749345:0;cd Documents/siadi
+: 1695749346:0;git status
+: 1695749438:0;rm public/lib/dash.php
+: 1695749439:0;ll
+: 1695749441:0;git status
+: 1695749447:0;rm -r public/lib
+: 1695749448:0;clear
+: 1695749451:0;git status
+: 1695749452:0;git add .
+: 1695749460:0;git commit -m 'pdf refresh'
+: 1695749461:0;clear
+: 1695749462:0;off
+: 1695761125:0;clear
+: 1695761128:0;sudo-sync
+: 1695761135:0;clear
+: 1695776501:0;sudo-sync
+: 1695776510:0;clear
+: 1695776516:0;set-bright 128
+: 1695776519:0;set-bright 64
+: 1695776521:0;clear
+: 1695778575:0;sudo-sync
+: 1695779815:0;clear
+: 1695779831:0;off
+: 1695823045:0;set-bright 128
+: 1695823047:0;clear
+: 1695823048:0;feh-random
+: 1695823054:0;clear
+: 1695823058:0;yay --noconfirm
+: 1695823092:0;sudo-sync
+: 1695823099:0;clear
+: 1695823100:0;exit
+: 1695823193:0;code Documents/siadi
+: 1695823199:0;sudo xampp start
+: 1695823212:0;php artisan serve
+: 1695823734:0;cd Downloads
+: 1695823747:0;/opt/lampp/bin/mysql -u root
+: 1695824950:0;clear
+: 1695824956:0;set-bright 192\ 
+: 1695824956:0;set-bright 192
+: 1695825152:0;/opt/lampp/bin/mysql -u root
+: 1695825190:0;sudo-sync
+: 1695825213:0;clear
+: 1695825227:0;/opt/lampp/bin/mysql -u root
+: 1695825597:0;code Documents/siadi_sftp
+: 1695826463:0;exit
+: 1695826487:0;sudo bashtop
+: 1695826503:0;clear
+: 1695826510:0;code Documents/siadi
+: 1695826628:0;php artisan serve
+: 1695826672:0;code Documents/siadi
+: 1695826685:0;sudo xampp start
+: 1695826692:0;php artisan serve
+: 1695826728:0;code Documents/siadi_sftp
+: 1695832072:0;sudo-sync
+: 1695832176:0;code Documents/siadi
+: 1695832422:0;code Documents/siadi_sftp
+: 1695832451:0;ssh sie2023gary.upea@200.105.169.11 -p 7714
+: 1695832549:0;composer require luecano/numeros-a-letras
+: 1695832562:0;composer require luecano/numero-a-letras
+: 1695832587:0;clear
+: 1695832589:0;php artisan serve
+: 1695832602:0;composer install
+: 1695832609:0;php artisan serve
+: 1695832639:0;composer install
+: 1695832651:0;code Documents/siadi_sftp
+: 1695832672:0;composer install
+: 1695832711:0;composer install --ignore-platform-req=ext-iconv
+: 1695832791:0;cd Documents
+: 1695832792:0;ll
+: 1695832951:0;clear
+: 1695832995:0;sudo-sync
+: 1695833019:0;clear
+: 1695833028:0;yay --noconfirm
+: 1695833204:0;php artisan serve
+: 1695834093:0;exit
+: 1695834097:0;code Documents/sftp
+: 1695835917:0;clear
+: 1695835918:0;sudo-sync
+: 1695835926:0;clear
+: 1695835930:0;yay --noconfirm
+: 1695836017:0;clear
+: 1695836019:0;sudo-sync
+: 1695836021:0;clear
+: 1695836033:0;off
+: 1695837591:0;clear
+: 1695837598:0;set-bright 64
+: 1695837600:0;set-bright 25
+: 1695837601:0;clear
+: 1695837604:0;yay clips
+: 1695837609:0;clear
+: 1695837615:0;nmcli dev wifi list
+: 1695837636:0;nmcli -a dev wifi connect 'Michis' password 'Yakys_<3'
+: 1695837638:0;clear
+: 1695837641:0;yay clips
+: 1695837795:0;clear
+: 1695837797:0;clips
+: 1695837886:0;clear
+: 1695837907:0;clips
+: 1695838018:0;clear
+: 1695838027:0;yay -S vim
+: 1695838030:0;yay -S vi
+: 1695838037:0;clear
+: 1695838039:0;yay nvim
+: 1695838049:0;yay neovim
+: 1695838058:0;clear
+: 1695838061:0;yay -Qs vi
+: 1695838063:0;yay -Qqs vi
+: 1695838069:0;yay -Ss vi
+: 1695838075:0;yay -Q vi
+: 1695838079:0;yay -Qs vi
+: 1695838091:0;clear
+: 1695838093:0;clips
+: 1695838153:0;set-bright 36
+: 1695838156:0;set-bright 40
+: 1695838161:0;set-bright 37
+: 1695838163:0;set-bright 38
+: 1695838165:0;set-bright 39
+: 1695838168:0;set-bright 37
+: 1695838169:0;clear
+: 1695838175:0;brightnessctl 
+: 1695838177:0;brightnessctl g
+: 1695838178:0;brightnessctl s
+: 1695838181:0;brightnessctl a
+: 1695838183:0;brightnessctl g
+: 1695838186:0;clear
+: 1695838202:0;ranger
+: 1695838211:0;clear
+: 1695838219:0;alacritty --command=ranger
+: 1695838233:0;nano .config/qtile/config.py -l
+: 1695838304:0;clear
+: 1695838305:0;exit
+: 1695838664:0;yay vifm
+: 1695838680:0;clear 
+: 1695838681:0;vifm
+: 1695838717:0;clear
+: 1695838719:0;ranger
+: 1695838745:0;yay exiftool
+: 1695838750:0;clear
+: 1695838755:0;exiftool arch_packages.txt
+: 1695838771:0;exiftool .zshrc
+: 1695838789:0;clear
+: 1695838791:0;yay nnn
+: 1695838813:0;nnn
+: 1695838902:0;clear
+: 1695838904:0;ranger
+: 1695838943:0;clear
+: 1695838946:0;clips
+: 1695838958:0;clear 
+: 1695838961:0;clear && source ~/.zshrc
+: 1695838972:0;clear
+: 1695839046:0;p10k configure
+: 1695839116:0;clear
+: 1695839120:0;exit
+: 1695839123:0;clear && source ~/.zshrc
+: 1695839131:0;clips
+: 1695839136:0;ll -l
+: 1695839138:0;ll -la
+: 1695839146:0;ll /opt
+: 1695839152:0;where clips
+: 1695839204:0;cat .vuerc
+: 1695839222:0;clear && source ~/.zshrc
+: 1695839252:0;clips --help
+: 1695839258:0;clear
+: 1695839260:0;clips
+: 1695839361:0;yay mc
+: 1695839378:0;clear
+: 1695839379:0;mc
+: 1695839421:0;2l
+: 1695839445:0;OD
+: 1695839521:0;clear
+: 1695839526:0;yay lynx
+: 1695839539:0;lynx
+: 1695839550:0;clear
+: 1695839565:0;yay ncdu
+: 1695839573:0;clear
+: 1695839575:0;ncdu
+: 1695839597:0;ncdu /
+: 1695839604:0;ncdu --help
+: 1695839629:0;ncdu
+: 1695839680:0;clear
+: 1695839682:0;cd /
+: 1695839684:0;ncdu
+: 1695839726:0;clear
+: 1695839727:0;cd
+: 1695839729:0;clear && source ~/.zshrc
+: 1695839908:0;mv arch_packages.txt_0 arch_packages.txt
+: 1695839909:0;ll -l
+: 1695841040:0;clear
+: 1695841087:0;clear && source ~/.zshrc && clips
+: 1695841499:0;clear
+: 1695841499:0;off
+: 1695906841:0;set-bright 128
+: 1695906843:0;clear
+: 1695906846:0;sudo-sync
+: 1695906851:0;clear
+: 1695906852:0;yay --noconfirm
+: 1695908257:0;clear
+: 1695908259:0;sudo-sync
+: 1695908689:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1695910706:0;clear
+: 1695910712:0;sudo-sync
+: 1695910717:0;clear
+: 1695910720:0;yay --noconfirm
+: 1695910838:0;clips
+: 1695910847:0;cler
+: 1695911174:0;gnome-tweaks
+: 1695911344:0;sudo-sync
+: 1695911350:0;clear
+: 1695911444:0;sudo-sync
+: 1695911447:0;clear
+: 1695911538:0;code Documents/siadi
+: 1695911556:0;clear
+: 1695911561:0;php artisan serve
+: 1695911577:0;sudo xampp start
+: 1695911682:0;cd Documents/siadi
+: 1695911684:0;git status
+: 1695911689:0;git add .
+: 1695911700:0;git commit -m 'Pdf finish'
+: 1695911701:0;clear
+: 1695911806:0;set-bright 192
+: 1695911807:0;clear
+: 1695911808:0;sudo-sync
+: 1695911815:0;clear
+: 1695911816:0;yay --noconfirm
+: 1695911949:0;clear
+: 1695912046:0;code ../siadi_sftp
+: 1695912183:0;cd ..
+: 1695912184:0;ll
+: 1695912203:0;mkdir sservicio_pagina_sftp
+: 1695912214:0;mv sservicio_pagina_sftp servicio_pagina_sftp
+: 1695912217:0;code servicio_pagina_sftp
+: 1695913006:0;mc
+: 1695913017:0;:q
+: 1695913028:0;vifm
+: 1695913593:0;yay -Sc
+: 1695913604:0;clear
+: 1695913606:0;yay -Sc
+: 1695913632:0;exit
+: 1695913636:0;yay -Sc
+: 1695913656:0;clear
+: 1695913661:0;reboot
+: 1695913900:0;sudo-sync
+: 1695913908:0;clear
+: 1695913912:0;yay -Sc
+: 1695913920:0;clear
+: 1695914062:0;code Documents/siadi
+: 1695915101:0;clear
+: 1695915103:0;sudo-sync
+: 1695915119:0;clear
+: 1695915261:0;sudo-sync
+: 1695915263:0;cler
+: 1695915269:0;curl parrot.livw
+: 1695915271:0;curl parrot.live
+: 1695915277:0;ckear
+: 1695915278:0;clear
+: 1695915280:0;cmatrix
+: 1695915284:0;yay -S cmatrix
+: 1695915287:0;clear
+: 1695915290:0;cmatrix
+: 1695915294:0;cmatrix --help
+: 1695915297:0;cmatrix -a
+: 1695915314:0;cmatrix -bC blue
+: 1695915320:0;clear
+: 1695916723:0;yay --noconfirm
+: 1695917037:0;php artisan serve
+: 1695917049:0;sudo xampp start
+: 1695917365:0;clear
+: 1695917367:0;yay doom
+: 1695917380:0;clear
+: 1695917384:0;yay hollow
+: 1695917397:0;yay cursor
+: 1695917410:0;yay archlinux
+: 1695917414:0;yay arch-linux
+: 1695917869:0;yay stray
+: 1695917884:0;yay rain-world
+: 1695917887:0;yay rainworld
+: 1695917890:0;clear
+: 1695917915:0;clear && source ~/.zshrc && clips
+: 1695917924:0;clear && source ~/.zshrc
+: 1695917932:0;history
+: 1695917936:0;clear
+: 1695918094:0;sudo-sync
+: 1695918099:0;clear
+: 1695918100:0;clear && source ~/.zshrc
+: 1695918155:0;yay --noconfirm
+: 1695918166:0;reboot
+: 1695928708:0;sudo-sync
+: 1695928716:0;claer
+: 1695928718:0;clear && source ~/.zshrc
+: 1695931836:0;clear
+: 1695933663:0;sudo/
+: 1695933665:0;clear && source ~/.zshrc
+: 1695933670:0;clear
+: 1695933671:0;clear && source ~/.zshrc
+: 1695933679:0;sudo-sync
+: 1695937247:0;off
+: 1695970523:0;sudo-sync
+: 1695970584:0;yay --noconfirm
+: 1695970645:0;tux-mount
+: 1695970647:0;clear
+: 1695970667:0;cd $development/Laravel/idiomas/
+: 1695970670:0;code .
+: 1695970697:0;php artisan serve
+: 1695970703:0;php-v
+: 1695970709:0;sudo xampp start
+: 1695970719:0;clear
+: 1695970723:0;sudo xampp status
+: 1695994203:0;sudo-sync
+: 1695994210:0;set-bright 192
+: 1695994212:0;clear
+: 1695994234:0;xrandr
+: 1695994248:0;xrandr --help
+: 1695994273:0;reboor
+: 1695994274:0;reboot
+: 1695994338:0;sudo xampp start
+: 1695994345:0;tux-mount
+: 1695994352:0;code $development/Laravel/idiomas
+: 1695994383:0;php artisan serve
+: 1695994870:0;cd Downloads
+: 1695994871:0;ll
+: 1695994874:0;cd fobiaadmin-10
+: 1695994876:0;code .
+: 1695994897:0;code fobiaadmin-10/main-files/fobia/ltr/
+: 1695995734:0;php artisan make:middleware UsuarioAutenticado
+: 1695995738:0;php artisan make:middleware UsuarioNoAutenticado
+: 1695995913:0;php artisan make:auth
+: 1695995932:0;php artisan --auth
+: 1695995985:0;php artisan auth
+: 1695995992:0;clear
+: 1695995996:0;php artisan
+: 1695996041:0;php artisan ui bootstrap --auth
+: 1695996053:0;composer require laravel/ui
+: 1695996071:0;php artisan ui bootstrap --auth
+: 1695996101:0;npm install
+: 1695996120:0;npm run dev
+: 1695996229:0;clear
+: 1695996230:0;exit
+: 1695996258:0;npm run dev
+: 1695996266:0;clear
+: 1695996914:0;npm run dev
+: 1695997471:0;php artisan make:controller Autentication
+: 1695997725:0;php artisan make:controller Authentication
+: 1695997844:0;php artisan migrate
+: 1695998013:0;php artisan make:model Persona -m
+: 1695998046:0;php artisan make:model Role -m
+: 1695998066:0;php artisan make:model Idioma -m
+: 1695998337:0;php artisan migrate
+: 1695998851:0;php artisan make:model Traductor -m
+: 1695998941:0;php artisan migrate
+: 1695999038:0;php artisan make:seeder SeederIdioma
+: 1695999045:0;php artisan make:seeder SeederRole
+: 1695999371:0;php artisan migrate --fresh
+: 1695999375:0;php artisan migrate
+: 1695999379:0;php artisan seeder
+: 1695999384:0;clear
+: 1695999390:0;php artisan db:seed
+: 1695999565:0;php artisan make:seeder SeederPersona
+: 1695999746:0;php artisan db:seed
+: 1696000221:0;php artisan migrate && php artisan db:seed
+: 1696000261:0;php artisan make:seeder SeederUsuario
+: 1696000512:0;php artisan migrate && php artisan db:seed
+: 1696001969:0;php artisan make:controller Usuario
+: 1696002339:0;clear
+: 1696002340:0;exit
+: 1696002445:0;php artisan make:middleware test
+: 1696002961:0;composer list
+: 1696006503:0;off
+: 1696075016:0;sudo-sync
+: 1696121784:0;clear
+: 1696121786:0;yay --noconfirm
+: 1696122234:0;sudo-sync
+: 1696122500:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1696122522:0;yay qemu
+: 1696126661:0;off
+: 1696196752:0;clear
+: 1696196755:0;sudo
+: 1696196758:0;sudo-sync
+: 1696196767:0;clear
+: 1696197567:0;yay --noconfirm
+: 1696197585:0;set-bright 128
+: 1696197589:0;set-bright 96
+: 1696197594:0;set-bright 164
+: 1696197596:0;set-bright 64
+: 1696197599:0;exit
+: 1696204538:0;clear
+: 1696204553:0;clear && bashtop
+: 1696204555:0;clear
+: 1696204560:0;exit
+: 1696204565:0;clear && source ~/.zshrc
+: 1696204571:0;alacritty --command=bashtop
+: 1696204581:0;alacritty --command=bashtop &
+: 1696204584:0;exit
+: 1696204592:0;bashtop
+: 1696204597:0;sudo xampp start
+: 1696204608:0;clear
+: 1696204613:0;tux-mount
+: 1696204619:0;code $development/Laravel/idiomas
+: 1696204631:0;clear
+: 1696204639:0;php artisan serve
+: 1696207798:0;php artisan migrate && php artisan db:seed
+: 1696212371:0;cd $development/Laravel/idiomas
+: 1696212373:0;git status
+: 1696212376:0;git init
+: 1696212376:0;clear
+: 1696212802:0;composer list
+: 1696212805:0;npm list
+: 1696212820:0;npm run dev
+: 1696212881:0;clear
+: 1696212882:0;cd ..
+: 1696212927:0;
+: 1696212927:0;
+: 1696212927:0;
+: 1696212927:0;exit
+: 1696212933:0;cd $development/Laravel
+: 1696212933:0;ll
+: 1696212943:0;composer create-project laravel/laravel:^9.2 consultoria
+: 1696213910:0;clear
+: 1696213912:0;cd consultoria
+: 1696213918:0;composer install
+: 1696213936:0;code .
+: 1696213955:0;php artisan serve
+: 1696213968:0;code ../idiomas
+: 1696213999:0;git init
+: 1696214000:0;clear
+: 1696214004:0;git add .
+: 1696214009:0;git commit -m 'init'
+: 1696214010:0;clear
+: 1696214070:0;php artisan make:model Persona -m
+: 1696214080:0;php artisan make:model Role -m
+: 1696214105:0;php artisan make:model Idioma -m
+: 1696214134:0;php artisan make:seeder SeederUsuario
+: 1696214138:0;php artisan make:seeder SeederRole
+: 1696214141:0;php artisan make:seeder SeederIdioma
+: 1696214144:0;php artisan make:seeder SeederPersona
+: 1696214346:0;php artisan migrate
+: 1696214439:0;php artisan db:seed
+: 1696214520:0;sudo-sync
+: 1696214842:0;git add .
+: 1696215256:0;php artisan make:controller MainController
+: 1696215388:0;php artisan make:controller Autentication
+: 1696215651:0;git status
+: 1696215654:0;git restore .
+: 1696215656:0;git status
+: 1696215663:0;git restore . --staged
+: 1696215665:0;git status
+: 1696215678:0;php artisan make:controller Usuario
+: 1696216477:0;php artisan make:middleware UsuarioAutenticado
+: 1696216693:0;php artisan make:middleware UsuarioNoAutenticado
+: 1696217326:0;git add .
+: 1696217339:0;git commit -m 'template and auth'
+: 1696217351:0;git checkout -b dev
+: 1696217352:0;clear
+: 1696217475:0;cat ../idiomas/app/Http/Controllers/Authentication.php
+: 1696218122:0;php artisan vendor:publish --tag=lang
+: 1696218128:0;php artisan laraveles:install-lang
+: 1696218259:0;php artisan vendor:publish --tag=lang
+: 1696218270:0;php artisan laraveles:install-lang
+: 1696218272:0;clear
+: 1696225181:0;php artisan migrate
+: 1696225186:0;php artisan db:seed
+: 1696225553:0;php artisan migrate
+: 1696225554:0;php artisan db:seed
+: 1696225882:0;php artisan migrate
+: 1696226222:0;php artisan migrate:rollback
+: 1696226226:0;php artisan migrate
+: 1696226278:0;php artisan db:seed
+: 1696227227:0;cat Documents/siadi/config/database.php
+: 1696227529:0;clear
+: 1696227534:0;git status
+: 1696227536:0;git add .
+: 1696227559:0;git commit -m 'Usuarios y Roles show'
+: 1696227560:0;clear
+: 1696227561:0;off
+: 1696251949:0;sudo-sync
+: 1696251954:0;yay --noconfirm
+: 1696251986:0;yay gnome-terminal
+: 1696252050:0;yay deskdock
+: 1696252058:0;yay desk-dock
+: 1696252070:0;exit
+: 1696252144:0;clear
+: 1696252146:0;sudo-sync
+: 1696252175:0;tux-mount
+: 1696252178:0;cd $development
+: 1696252179:0;cd ..
+: 1696252180:0;ll
+: 1696252258:0;cd ~/Downloads
+: 1696252259:0;ll
+: 1696252273:0;yay -S adb
+: 1696252294:0;clear
+: 1696252304:0;service enable adb
+: 1696252309:0;service start adb
+: 1696252317:0;ll
+: 1696252325:0;unzip DeskDockServer_1.3.0.zip
+: 1696252326:0;ll
+: 1696252332:0;mv DeskDockServer_1.3.0 ../Documents
+: 1696252337:0;cd ../Documents
+: 1696252337:0;ll
+: 1696252342:0;cd DeskDockServer_1.3.0
+: 1696252342:0;ll
+: 1696252349:0;java --jar ./DeskDockServer_1.3.0.jar
+: 1696252356:0;java
+: 1696252358:0;clear
+: 1696252359:0;java --jar ./DeskDockServer_1.3.0.jar
+: 1696252366:0;sudo archlinux-java status
+: 1696252377:0;java -version
+: 1696252389:0;yay jdk
+: 1696252506:0;sudo archlinux-java status
+: 1696252511:0;javac -version
+: 1696252512:0;clear
+: 1696252514:0;javac -version
+: 1696252517:0;java --jar ./DeskDockServer_1.3.0.jar
+: 1696252525:0;java --help
+: 1696252537:0;java -jar ./DeskDockServer_1.3.0.jar
+: 1696252576:0;cd /usr/share/applications
+: 1696252576:0;ll
+: 1696252592:0;sudo cp Alacritty.desktop DeskDock.desktop
+: 1696252600:0;sudo nano DeskDock.desktop
+: 1696252619:0;owd
+: 1696252621:0;pwd
+: 1696252630:0;ll
+: 1696252758:0;sudo nano DeskDock.desktop
+: 1696252775:0;clear
+: 1696252780:0;sudo nano Alacritty.desktop
+: 1696252782:0;clear
+: 1696252881:0;service status adb
+: 1696252895:0;adb list
+: 1696252903:0;reboot
+: 1696252949:0;adb list
+: 1696252952:0;adb devices
+: 1696253056:0;clear
+: 1696253058:0;sudo-sync
+: 1696253063:0;clear
+: 1696253198:0;reboot
+: 1696253828:0;clear && source ~/.zshrc
+: 1696254443:0;clear
+: 1696254444:0;sudo-sync
+: 1696254452:0;clear
+: 1696254454:0;yay --noconfirm
+: 1696254462:0;clear
+: 1696254465:0;ll -l
+: 1696254559:0;yay --noconfirm
+: 1696254848:0;yay onedriver
+: 1696255216:0;code Documents/siadi_sftp
+: 1696255764:0;sudo-sync
+: 1696255977:0;clear
+: 1696256840:0;sudo-sync
+: 1696256845:0;clear
+: 1696256846:0;bashtop
+: 1696264025:0;cd Documents/sis_admin
+: 1696264027:0;code .
+: 1696264071:0;npm run dev
+: 1696264847:0;setxkbmap latam
+: 1696264863:0;setxkbmap us
+: 1696281782:0;cd /run/media/gary/LIZBT
+: 1696281784:0;ll
+: 1696281786:0;ll -l
+: 1696281789:0;ll -la
+: 1696281817:0;clear
+: 1696281845:0;sudo cp -r ~/Documents/Monja
+: 1696281859:0;sudo cp -r ./* ~/Documents/Monja
+: 1696281985:0;clear
+: 1696281991:0;yay rythm
+: 1696282041:0;cd Documents
+: 1696282042:0;ll
+: 1696282043:0;cd 
+: 1696282046:0;cd Documents/Monja
+: 1696282046:0;ll
+: 1696282048:0;ll -l
+: 1696282059:0;sudo chown -R gary:users ./*
+: 1696282064:0;ll -l
+: 1696282226:0;su
+: 1696282274:0;ll
+: 1696282277:0;cd ..
+: 1696282279:0;ll
+: 1696282280:0;cd LIZBT
+: 1696282281:0;ll
+: 1696282286:0;ranger
+: 1696282369:0;clear
+: 1696282370:0;ll
+: 1696282371:0;clear
+: 1696282372:0;cd ..
+: 1696282374:0;ll
+: 1696282378:0;clear
+: 1696282380:0;ll
+: 1696282382:0;rm -rf Nuevo\ repertorio\ Grup2\ Castellano
+: 1696282384:0;ll
+: 1696282390:0;rm -rf System\ Volume\ Information
+: 1696282424:0;eclear
+: 1696282425:0;clear
+: 1696282426:0;ll
+: 1696282438:0;clear
+: 1696282447:0;yay -S nmap
+: 1696282640:0;clear
+: 1696282690:0;exiftool UNIVERSIDAD/HOJA\ DE\ VIDA.docx 
+: 1696282733:0;ll
+: 1696282735:0;exiftool UNIVERSIDAD/HOJA\ DE\ VIDA.docx 
+: 1696282747:0;clear
+: 1696282755:0;exiftool UNIVERSIDAD/HOJA\ DE\ VIDA.docx 
+: 1696282768:0;.docx
+: 1696282770:0;clear
+: 1696282897:0;df
+: 1696282947:0;sudo umount /dev/sdb1
+: 1696282979:0;sudo mkfs.vfat -n 'LIZBT' -I /dev/sdb1
+: 1696282982:0;su
+: 1696283028:0;tty
+: 1696283072:0;clear
+: 1696283073:0;ll
+: 1696283087:0;cleR
+: 1696283088:0;clear
+: 1696283103:0;df
+: 1696283109:0;exit
+: 1696283133:0;tux-mount
+: 1696283198:0;yay mkfs.vfat
+: 1696283203:0;yay mkfs
+: 1696283236:0;mkfs.vfat
+: 1696283402:0;yay dosfstools
+: 1696283433:0;df
+: 1696283441:0;sudo mkfs.vfat -n 'LIZBT' -I /dev/sdb1
+: 1696283446:0;sudo umount /dev/sdb1
+: 1696283448:0;sudo mkfs.vfat -n 'LIZBT' -I /dev/sdb1
+: 1696283523:0;sudo umount /dev/sdb1
+: 1696283530:0;sudo mkfs.vfat -n 'Monja' -I /dev/sdb1
+: 1696283573:0;clear
+: 1696283583:0;reboot
+: 1696283587:0;exit
+: 1696287303:0;sudo-sync
+: 1696287317:0;clear
+: 1696287319:0;yay --noconfirm
+: 1696287782:0;clear
+: 1696287807:0;sudo umount /dev/sdb1
+: 1696287855:0;sudo mkfs.fat -F 32 -n 'Monja' -I /dev/sdb1
+: 1696288004:0;df
+: 1696288014:0;sudo mkfs.fat -F 32 -n 'Monja' -I /dev/sdb1
+: 1696288207:0;sudo mkfs.vfat -n 'Monja' -I /dev/sdb1
+: 1696288476:0;clear
+: 1696288479:0;su
+: 1696294334:0;sudo lsblk
+: 1696308450:0;sudo-sync
+: 1696308458:0;clear
+: 1696308459:0;yay --noconfirm
+: 1696308797:0;clear
+: 1696308800:0;sudo-sync
+: 1696308811:0;yay --noconfirm
+: 1696308922:0;clear
+: 1696308931:0;sudo-sync
+: 1696309010:0;clear
+: 1696309013:0;clear && source ~/.zshrc
+: 1696309098:0;clear
+: 1696309120:0;mkdir Development
+: 1696309133:0;cd Development
+: 1696309133:0;ll
+: 1696309136:0;mkdir JS
+: 1696309139:0;code JS
+: 1696340646:0;sudo-sync
+: 1696340652:0;clear
+: 1696340707:0;yay --noconfirm
+: 1696340772:0;clear
+: 1696340775:0;sudo-sync
+: 1696340777:0;clear
+: 1696342319:0;code Development/JS
+: 1696351034:0;off
+: 1696353350:0;cd Development/
+: 1696353351:0;ll
+: 1696353352:0;clear
+: 1696353353:0;ll
+: 1696353354:0;clear
+: 1696355182:0;code .\ 
+: 1696355183:0;code .
+: 1696358049:0;clear
+: 1696358050:0;ll
+: 1696358053:0;cd HTML
+: 1696358053:0;ll
+: 1696358056:0;ll -la
+: 1696364136:0;clear
+: 1696364138:0;exit
+: 1696364140:0;sudo-sync
+: 1696364146:0;off
+: 1696425623:0;code Development/HTML/
+: 1696426624:0;clear
+: 1696426638:0;off
+: 1696427014:0;sudo-sync
+: 1696427020:0;clear
+: 1696427022:0;yay --noconfirm
+: 1696427689:0;clear
+: 1696427691:0;sudo-sync
+: 1696427822:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1696428184:0;cleqr
+: 1696428186:0;clear
+: 1696428487:0;nmap --help
+: 1696428490:0;nmap --version
+: 1696428492:0;nmap 
+: 1696428655:0;clips
+: 1696428681:0;clear
+: 1696428693:0;ffprobe
+: 1696428805:0;clear
+: 1696428846:0;cd Downloads
+: 1696428847:0;ll
+: 1696428853:0;unzip INTERSHAPE_REACT_APP-main.zip
+: 1696428855:0;ll
+: 1696428857:0;cd INTERSHAPE_REACT_APP-main
+: 1696428858:0;ll
+: 1696428861:0;code .
+: 1696428894:0;npm install
+: 1696428923:0;npm run dev
+: 1696433268:0;clear
+: 1696433278:0;code ~/Documents/siadi_sftp
+: 1696433287:0;code ~/Documents/sftp
+: 1696434319:0;clear
+: 1696434723:0;cd
+: 1696434725:0;clear
+: 1696435996:0;code Development/HTML
+: 1696437408:0;off
+: 1696446795:0;bashtop
+: 1696512506:0;sudo timedatectl set-local-rtc 1
+: 1696512511:0;clear
+: 1696515495:0;sudo-sync
+: 1696515502:0;clear
+: 1696515503:0;yay --noconfirm
+: 1696516041:0;clear
+: 1696516042:0;yay --noconfirm
+: 1696516300:0;clear
+: 1696517818:0;code Documents/siadi_sftp
+: 1696522328:0;ll .pictures
+: 1696522335:0;cd Downloads
+: 1696522343:0;mv 8.jpg 9.jpg
+: 1696522349:0;mv 9.jpg ../.pictures/
+: 1696522350:0;clear
+: 1696522469:0;cd
+: 1696522472:0;code Development/HTML
+: 1696525436:0;clear
+: 1696525437:0;sudo-sync
+: 1696525782:0;cd Development
+: 1696525783:0;ll
+: 1696525790:0;mv HTML Clase 1
+: 1696525797:0;mv HTML 'Clase 1'
+: 1696525798:0;clear
+: 1696525798:0;ll
+: 1696525800:0;clear
+: 1696526149:0;code Clase Clase\ 2
+: 1696526157:0;code Clase\ 2
+: 1696536481:0;off
+: 1696550446:0;sudo-sync
+: 1696550452:0;clear
+: 1696565400:0;sudo-sync
+: 1696565409:0;clear
+: 1696565856:0;sudo-sync
+: 1696565863:0;clear
+: 1696565920:0;sudo scarab
+: 1696553527:0;sudo-sync
+: 1696553675:0;yay --noconfirm
+: 1696598742:0;code Documents/siadi_sftp/
+: 1696601564:0;off
+: 1696625406:0;sudo-sync
+: 1696625411:0;clear
+: 1696625413:0;cd Development
+: 1696625414:0;ll
+: 1696625435:0;cp Clase\ 2 'Clase 3'
+: 1696625438:0;cp -r Clase\ 2 'Clase 3'
+: 1696625439:0;clear
+: 1696625439:0;ll
+: 1696625446:0;code Clase\ 3
+: 1696626439:0;nmcli dev wifi list
+: 1696612074:0;clear
+: 1696612075:0;nmcli dev wifi list
+: 1696612077:0;clear
+: 1696612380:0;off
+: 1696729831:0;sudo-sync
+: 1696715441:0;clear
+: 1696715446:0;yay --noconfirm
+: 1696718796:0;sudo scarab
+: 1696719384:0;clear
+: 1696719386:0;sudo-sync
+: 1696724530:0;off
+: 1696875431:0;sudo-sync
+: 1696861047:0;clear
+: 1696865481:0;off
+: 1696878579:0;sudo-sync
+: 1696878585:0;clear
+: 1696878586:0;yay --noconfirm
+: 1696878755:0;clear
+: 1696878761:0;clear && source ~/.zshrc
+: 1696878766:0;yay --noconfirm
+: 1696878797:0;yay wleoots
+: 1696878801:0;yay wlroots
+: 1696878806:0;yay wleoots
+: 1696878810:0;yay --noconfirm
+: 1696878830:0;yay gnome-terminal
+: 1696879516:0;yay --
+: 1696879519:0;yay --noconfirm
+: 1696879557:0;3
+: 1696879560:0;clear
+: 1696879565:0;reboot
+: 1696886067:0;cd dow
+: 1696886068:0;cd Downloads
+: 1696886078:0;scp -P 7714 template.zip webvue@186.121.206.232:~/Descargas
+: 1696886202:0;ssh webvue@186.121.206.232 -p 7714
+: 1696886759:0;ping empresarial.upea.edu.bo
+: 1696886761:0;clear
+: 1696902382:0;off
+: 1696943863:0;sudo-sync
+: 1696943891:0;clear
+: 1696943893:0;sudo-sync
+: 1696943898:0;clear
+: 1696943900:0;yay --noconfirm
+: 1696944221:0;yay -Rs wlroots
+: 1696944238:0;yay -Rs python-pywlroots
+: 1696944247:0;clear
+: 1696944469:0;clea
+: 1696944470:0;clear
+: 1696944475:0;code Documents/siadi_sftp
+: 1696945977:0;cat Documents/siadi/resources/views/layouts/admin_principal.blade.php
+: 1696946755:0;clear && source ~/.zshrc
+: 1696947009:0;yay konsole
+: 1696947021:0;clear
+: 1696947084:0;ll .local/share/icons/hicolor/128x128/apps/
+: 1696947088:0;ll .local/share/icons/hicolor/128x128/
+: 1696947092:0;ll .local/share/icons/hicolor/256x256
+: 1696947099:0;ll .local/share/icons/hicolor/256x256/apps/
+: 1696947106:0;ll .local/share/icons/hicolor/48x48
+: 1696947108:0;ll .local/share/icons/hicolor/48x48/apps
+: 1696947114:0;ll .local/share/icons/hicolor/32x32/apps/
+: 1696947115:0;clear
+: 1696947160:0;yay w3m
+: 1696947167:0;clear
+: 1696947172:0;yay w3m-img
+: 1696947183:0;yay imagemagick
+: 1696947299:0;mv Downloads/Arch-linux-logo.png .pictures/logo.png
+: 1696947301:0;clear
+: 1696947313:0;nano .config/neofetch/config.conf
+: 1696947333:0;clear && source ~/.zshrc
+: 1696947346:0;nano .config/neofetch/config.conf
+: 1696947380:0;clear && source ~/.zshrc
+: 1696947385:0;neofetch --help
+: 1696947396:0;neofetch --help | grep backend
+: 1696947448:0;neofetch --backend kitty --source ~/.config/neofetch/ArchLinux.png
+: 1696947562:0;_imagemagick
+: 1696947564:0;clear
+: 1696947569:0;w3m
+: 1696947573:0;w3m --version
+: 1696947576:0;yay w3m
+: 1696947784:0;clear && source ~/.zshrc
+: 1696947786:0;exit
+: 1696947792:0;neofetch --backend kitty --source ~/.config/neofetch/ArchLinux.png
+: 1696947805:0;neofetch --backend kitty --source .config/neofetch/ArchLinux.png
+: 1696947817:0;neofetch --backend kitty --source .pictures/logo.png
+: 1696947826:0;clear
+: 1696947828:0;clear && source ~/.zshrc
+: 1696948004:0;nano .config/neofetch/config.conf
+: 1696948027:0;clear && source ~/.zshrc
+: 1696948041:0;neofetch
+: 1696948045:0;neofetch --backend kitty --source .pictures/logo.png
+: 1696948049:0;neofetch --backend kitty
+: 1696948052:0;neofetch --backend kitty --source .pictures/logo.png
+: 1696948054:0;clear && source ~/.zshrc
+: 1696948063:0;clear
+: 1696948072:0;_imagemagick --help
+: 1696948078:0;_imagemagick --version
+: 1696948080:0;clear
+: 1696948423:0;clear && source ~/.zshrc
+: 1696948434:0;sudo-sync
+: 1696948450:0;clear
+: 1696948454:0;clear && source ~/.zshrc
+: 1696948674:0;clear
+: 1696948675:0;clear && source ~/.zshrc
+: 1696948680:0;ssh webvue@186.121.206.232 -p 7714
+: 1696953426:0;clear
+: 1696953430:0;sudo-sync
+: 1696953438:0;clear
+: 1696953440:0;yay --noconfirm
+: 1696953732:0;clear
+: 1696953733:0;sudo-sync
+: 1696953742:0;clear
+: 1696953749:0;sudo-sync
+: 1696953752:0;clear
+: 1696953753:0;sudo-sync
+: 1696953858:0;1
+: 1696953861:0;2
+: 1696953863:0;clear
+: 1696953868:0;echo $(whoami)
+: 1696953874:0;echo $USER
+: 1696953877:0;echo $GROUP
+: 1696953878:0;echo $GROUPS
+: 1696953880:0;groups
+: 1696953884:0;docker status
+: 1696953891:0;service docker status
+: 1696953896:0;service status docker
+: 1696953901:0;service status adb
+: 1696953903:0;clear
+: 1696955162:0;ssh webvue@186.121.206.232 -p 7714
+: 1696956335:0;ping laboratoriodental.upea.edu.bo
+: 1696956377:0;ping empresarial.upea.edu.bo
+: 1696956462:0;ssh webvue@186.121.206.232 -p 7714
+: 1696956682:0;clear
+: 1696956721:0;ssh webvue@186.121.206.232 -p 7714
+: 1696957028:0;exit
+: 1696957655:0;clear
+: 1696957657:0;sudo-sync
+: 1696957664:0;clear
+: 1696958063:0;exit
+: 1696974524:0;sudo-sync
+: 1696974536:0;clear
+: 1696980288:0;off
+: 1696995926:0;sudo-sync
+: 1696981562:0;clear
+: 1696981565:0;yay --noconfirm
+: 1696981763:0;lear
+: 1696981765:0;clear
+: 1696981769:0;yay -Rs qtile
+: 1696981776:0;yay -Rs wlroots
+: 1696981784:0;clear
+: 1696981786:0;yay --noconfirm
+: 1696981822:0;yay -Rs wlroots0.15
+: 1696981827:0;yay --noconfirm
+: 1696981835:0;clear
+: 1696981839:0;yay -S qtile
+: 1696981845:0;yay --noconfirm
+: 1696981967:0;off
+: 1696983799:0;set-bright 64
+: 1696983802:0;clear
+: 1696983805:0;clear && source ~/.zshrc
+: 1696983811:0;set-bright 128
+: 1696983875:0;clear
+: 1696983900:0;sudo-sync
+: 1696983907:0;clear
+: 1696983910:0;yay --noconfirm
+: 1696983924:0;clear
+: 1696983942:0;tux-mount
+: 1696983951:0;cd $development/Laravel/idiomas
+: 1696983954:0;code .
+: 1696983993:0;cd $development/Laravel/consultoria
+: 1696983995:0;code .
+: 1696984021:0;clear
+: 1696984024:0;php artisan serve
+: 1696984051:0;sudo xampp start
+: 1696984054:0;clear
+: 1696984120:0;code ~/Downloads/fobiaadmin-10
+: 1696984135:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr/
+: 1696984146:0;clear
+: 1696986860:0;CLEAR
+: 1696986861:0;clear
+: 1696986866:0;php artisan migrate
+: 1696986871:0;php artisan db:seed
+: 1696986889:0;clear
+: 1696988033:0;php artisan migrate && php artisan db:seed
+: 1696988631:0;php artisan make:model Solicitud -m
+: 1696988950:0;php artisan make:model Pago -m
+: 1696988974:0;php artisan make:model SolicitudPago -m
+: 1696989371:0;cd
+: 1696989373:0;cd Downloads
+: 1696989377:0;unrar e anatonhtml-12.rar
+: 1696989430:0;code .
+: 1696992705:0;git status
+: 1696992707:0;git add -
+: 1696992709:0;git add .
+: 1696992725:0;git commit -m 'Landing and restart'
+: 1696993927:0;php artisan make:model SolicitudPago -m
+: 1696993932:0;php artisan migrate && php artisan db:seed
+: 1696994921:0;php artisan db:seed
+: 1696994988:0;php artisan migrate && php artisan db:seed
+: 1697029231:0;clear
+: 1697029233:0;sudo-sync
+: 1697029239:0;clear
+: 1697029242:0;sudo xampp start
+: 1697029516:0;yay scrcpy
+: 1697030331:0;clips
+: 1697030513:0;clear
+: 1697030515:0;yay clips
+: 1697030545:0;yay clips-ide
+: 1697030549:0;yay clips-
+: 1697030688:0;clips
+: 1697030748:0;clear
+: 1697030752:0;yay -S clips
+: 1697030767:0;yay clips
+: 1697031316:0;clea
+: 1697031317:0;clear
+: 1697031318:0;ll
+: 1697031319:0;cd ..
+: 1697031320:0;ll
+: 1697031327:0;mv CLIP clips
+: 1697031329:0;clear
+: 1697031429:0;cd clips
+: 1697031430:0;clear
+: 1697031430:0;ll
+: 1697031803:0;ssh webvue@186.121.206.232 -p 7714
+: 1697032034:0;clear
+: 1697032035:0;cd
+: 1697032036:0;clear
+: 1697032039:0;cd Documents/
+: 1697032052:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/agronomia
+: 1697032057:0;cd agronomia
+: 1697032059:0;npm install
+: 1697032143:0;npm run serve
+: 1697032201:0;nano .env
+: 1697032213:0;npm run serve
+: 1697034725:0;cd ..
+: 1697034732:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/electronica
+: 1697034736:0;cd electronica
+: 1697034738:0;npm install
+: 1697034754:0;npm run serve
+: 1697035838:0;clear
+: 1697035842:0;exit
+: 1697035850:0;clear
+: 1697035852:0;sudo-sync
+: 1697035858:0;clear
+: 1697035860:0;yay --noconfirm
+: 1697036639:0;clear
+: 1697036643:0;set-bright 128
+: 1697036645:0;set-bright 192
+: 1697036647:0;clear
+: 1697036655:0;sudo-sync
+: 1697036671:0;clear
+: 1697036902:0;sudo-sync
+: 1697036906:0;clear
+: 1697036911:0;systemd-analyze
+: 1697037162:0;clear
+: 1697037163:0;sudo-sync
+: 1697037203:0;yay --noconfirm
+: 1697037243:0;clear
+: 1697037245:0;sudo-sync
+: 1697037306:0;clear
+: 1697037308:0;bashtop
+: 1697037344:0;clear
+: 1697037345:0;exit
+: 1697038923:0;code Documents/sftp
+: 1697042367:0;clear
+: 1697042370:0;sudo-sync
+: 1697042381:0;clear
+: 1697042456:0;yay --noconfirm
+: 1697042933:0;off
+: 1697065048:0;nmcli dev wifi list
+: 1697050700:0;nmcli -a dev wifi connect 'Auditorio_Sistemas' password 'AuditOrIO_SIst_2023_Defensa'
+: 1697050727:0;nmcli -a dev wifi connect 'Auditorio_Sistemas' password 'AudItOrIO_SIst_2023_Defensa'
+: 1697050878:0;clear
+: 1697050949:0;nmcli -a dev wifi connect 'Auditorio_Sistemas' password 'Aud1t0r10_S1st_2023_Defensa'
+: 1697050991:0;clear
+: 1697051147:0;tux-mount
+: 1697051151:0;clear
+: 1697051165:0;cd $development/../
+: 1697051169:0;mkdir 8vo
+: 1697051170:0;cd 8vo
+: 1697051171:0;ll
+: 1697051175:0;mkdir IA1
+: 1697051177:0;cd IA1
+: 1697051183:0;mkdir clips
+: 1697051187:0;code clips
+: 1697051389:0;off
+: 1697076219:0;sudo-sync
+: 1697076227:0;clear
+: 1697076228:0;yay --noconfirm
+: 1697076446:0;sudo xampp start
+: 1697076465:0;clear
+: 1697076583:0;tux-mount
+: 1697076585:0;clear
+: 1697076602:0;cd $development/Laravel/consultoria
+: 1697076605:0;code .
+: 1697082812:0;clear
+: 1697082822:0;php artisan serve
+: 1697082888:0;git status
+: 1697082940:0;php artisan migrate && php artisan db:seed
+: 1697083482:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr/
+: 1697088260:0;php artisan storage link
+: 1697088267:0;php artisan storage:link
+: 1697089051:0;code Documents/siadi_sftp
+: 1697092747:0;sudo-sync
+: 1697092753:0;clear
+: 1697092800:0;bashtop
+: 1697092832:0;clear
+: 1697092835:0;reboot
+: 1697107265:0;sudo-sync
+: 1697107272:0;sudo xampp start
+: 1697092888:0;tux-mount
+: 1697092894:0;code $development/Laravel/consultoria
+: 1697092916:0;clear
+: 1697092921:0;php artisan serve
+: 1697094074:0;composer require realrashid/sweet-alert
+: 1697094460:0;php artisan sweetalert:publish
+: 1697094607:0;php artisan serve
+: 1697094786:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr/
+: 1697096122:0;php artisan make:controller Idioma
+: 1697096167:0;git status
+: 1697096168:0;git add .
+: 1697096178:0;git commit -m 'Usuarios'
+: 1697096179:0;clear
+: 1697096799:0;php artisan make:controller ControllerIdioma
+: 1697101562:0;php artisan make:controller ControllerSolicitud
+: 1697103952:0;php artisan migrate && php artisan db:seed
+: 1697106871:0;php artisan make:controller ControllerAsignados
+: 1697111017:0;git add .
+: 1697111031:0;git commit -m 'Finalizado back 1'
+: 1697111032:0;clear
+: 1697111748:0;php artisan migrate && php artisan db:seed
+: 1697112418:0;git add .
+: 1697112431:0;git commit -m 'Finalizado back 2'
+: 1697112432:0;clear
+: 1697112445:0;git status
+: 1697112448:0;git add .
+: 1697112461:0;git commit -amend 'Finalizado 2'
+: 1697112466:0;git commit --amend 'Finalizado 2'
+: 1697112475:0;git status
+: 1697112481:0;git commit -m 'Finalizado back 2'
+: 1697112482:0;clear
+: 1697112484:0;exit
+: 1697116014:0;set-bright 192
+: 1697116016:0;set-bright 128
+: 1697116017:0;clear
+: 1697116050:0;sudo-sync
+: 1697116056:0;clear
+: 1697116057:0;yay --noconfirm
+: 1697116301:0;code Documents/sis_admin
+: 1697116338:0;clear
+: 1697116341:0;git status
+: 1697116348:0;npm run dev
+: 1697116434:0;sudo-sync
+: 1697116448:0;clear
+: 1697116552:0;code Documents/sftp
+: 1697117243:0;ssh webvue@186.121.206.232 -p 7714
+: 1697117269:0;clear
+: 1697117270:0;cd Documents
+: 1697117272:0;ls
+: 1697117276:0;rm -rf contaduria
+: 1697117287:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/contaduria
+: 1697117297:0;cd contaduria
+: 1697117300:0;git pull origin master
+: 1697117311:0;git checkout -b dev-maribel origin/dev-maribel
+: 1697117314:0;code .
+: 1697117318:0;npm run serve
+: 1697117331:0;npm install
+: 1697117357:0;npm run serve
+: 1697117441:0;clear
+: 1697117443:0;npm run serve
+: 1697117446:0;clear
+: 1697117448:0;git status
+: 1697117492:0;git merge master
+: 1697117619:0;git status
+: 1697117621:0;cd ..
+: 1697117623:0;rm -rf contaduria
+: 1697117645:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/contaduria
+: 1697117653:0;cd contaduria
+: 1697117655:0;npm install
+: 1697117933:0;git checkout -b dev-maribel origin/dev-maribel
+: 1697117939:0;npm run serve
+: 1697120092:0;clear
+: 1697120095:0;set-bright 192
+: 1697120096:0;clear
+: 1697120097:0;exit
+: 1697122982:0;clear
+: 1697122984:0;git status
+: 1697122986:0;git add .
+: 1697122999:0;git commit -m 'Fix numeros'
+: 1697123000:0;clear
+: 1697126198:0;git add .
+: 1697126206:0;git commit -m 'Decanatura'
+: 1697126217:0;git checkout master
+: 1697126224:0;git merge development
+: 1697126263:0;git remote -v
+: 1697126272:0;git push origin master
+: 1697126281:0;git branch -d development
+: 1697126288:0;git checkout -b development
+: 1697126307:0;clear
+: 1697126315:0;cd Documents/sis_admin
+: 1697126322:0;git checkout master
+: 1697126327:0;npm install
+: 1697126363:0;npm audit fix --force
+: 1697126399:0;clear
+: 1697126401:0;npm install
+: 1697126422:0;clear
+: 1697126425:0;npm run build
+: 1697126435:0;code .
+: 1697126468:0;rm -rf node_modules
+: 1697126495:0;npm install
+: 1697126522:0;npm run build
+: 1697126533:0;code .
+: 1697126542:0;npm run dev
+: 1697126554:0;npm install
+: 1697126587:0;npm audit fix
+: 1697126613:0;npm run dev
+: 1697126663:0;clear
+: 1697126666:0;npm install
+: 1697126696:0;npm run serve
+: 1697126809:0;cd ..
+: 1697126817:0;mv sis_admin sis_admin2
+: 1697126831:0;glab repo clone sis_admin
+: 1697126848:0;cd sis_admin
+: 1697126850:0;npm install
+: 1697126907:0;npm run serve
+: 1697126916:0;npm run dev
+: 1697126945:0;npm run build
+: 1697127096:0;sudo xampp start
+: 1697127109:0;tux-mount
+: 1697127119:0;code $development/Laravel/consultoria
+: 1697127130:0;clear
+: 1697127135:0;php artisan serve
+: 1697130629:0;clear
+: 1697130854:0;off
+: 1697158925:0;sudo-sync
+: 1697158933:0;clear
+: 1697158937:0;yay --noconfirm
+: 1697160045:0;clear
+: 1697160061:0;sudo xampp start
+: 1697160068:0;tux-mount
+: 1697160076:0;code $development/Laravel/consultoria
+: 1697160385:0;clear
+: 1697160389:0;sudo-sync
+: 1697160417:0;clear
+: 1697160423:0;php artisan serve
+: 1697161487:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr/
+: 1697188279:0;sudo-sync 
+: 1697188294:0;clear
+: 1697188295:0;tux
+: 1697188296:0;tux-mount
+: 1697188301:0;clear
+: 1697188313:0;code $development/Laravel/consultoria
+: 1697188320:0;sudo xampp start
+: 1697188360:0;clea
+: 1697188363:0;clear
+: 1697188366:0;php artisan serve
+: 1697188625:0;php artisan make:controller ControllerPago
+: 1697190716:0;php artisan migrate && php artisan db:seed
+: 1697193428:0;cd $development/Laravel/consultoria
+: 1697193429:0;clear
+: 1697193431:0;git add .
+: 1697193438:0;git commit -m 'Pagos'
+: 1697193440:0;clear
+: 1697193658:0;code ~/Downloads/fobiaadmin-10/fobiaadmin-10/main-files/fobia/ltr/
+: 1697195323:0;php artisan migrate && php artisan db:seed
+: 1697195425:0;php artisan make:seeder SeederPago
+: 1697195572:0;php artisan db:seed
+: 1697198470:0;off
+: 1697204355:0;set-bright 128
+: 1697204400:0;sudo-sync
+: 1697204410:0;clear
+: 1697204412:0;yay --noconfirm
+: 1697204433:0;cd Documents/
+: 1697204434:0;kk
+: 1697204435:0;ll
+: 1697204440:0;mv siadi siadi2
+: 1697204443:0;mkdir siadi
+: 1697204449:0;code siadi
+: 1697204460:0;cat siadi_sftp/.vscode/sftp.json
+: 1697204547:0;cd ..
+: 1697204553:0;rm Downloads/siadi_rec.sql
+: 1697204576:0;mv Downloads/siadi_rec\ \(1\).sql Downloads/siadi_rec.sql
+: 1697204577:0;ll
+: 1697204579:0;ll Downloads
+: 1697204581:0;claer
+: 1697204583:0;clear
+: 1697204587:0;sudo xampp start
+: 1697205059:0;/opt/lampp/bin/mysql_upgrade
+: 1697205063:0;sudo /opt/lampp/bin/mysql_upgrade
+: 1697205756:0;set-php7
+: 1697205764:0;clear
+: 1697205768:0;cd Downloads
+: 1697205768:0;ll
+: 1697205771:0;unzip sie_base.zip
+: 1697205773:0;ll
+: 1697205786:0;mv sie_base-master sie_base
+: 1697205792:0;mv sie_base $htdocs
+: 1697205795:0;sudo mv sie_base $htdocs
+: 1697205999:0;set-php8
+: 1697206024:0;clear
+: 1697206491:0;sudo-sync
+: 1697206502:0;clear
+: 1697206504:0;yay --noconfirm
+: 1697206673:0;cd /run/media/gary/TAMES MENA
+: 1697206677:0;cd /run/media/gary/'TAMES MENA'
+: 1697206678:0;ll
+: 1697206680:0;clear
+: 1697206681:0;ll -la
+: 1697206723:0;ll -la qxFMsBHRYelrAGNTah
+: 1697206730:0;ll -la RTWVXZYaZcedfhgjik
+: 1697206742:0;cd RTWVXZYaZcedfhgjik
+: 1697206744:0;clear
+: 1697206745:0;ll
+: 1697206748:0;ll -la
+: 1697206847:0;ll
+: 1697206848:0;ll -la
+: 1697206867:0;mkdir ~/Documents/backupUSB
+: 1697206868:0;clear
+: 1697206881:0;cp -r ./ ~/Documents/backupUSB
+: 1697207017:0;ll -la
+: 1697207138:0;cd ..
+: 1697207148:0;ll
+: 1697207149:0;cd ..
+: 1697207152:0;cd TAMES\ MENA
+: 1697207154:0;cd ..
+: 1697207156:0;exiftool TAMES\ MENA
+: 1697207161:0;exiftool TAMES\ MENA/
+: 1697207163:0;exiftool TAMES\ MENA/*
+: 1697207173:0;cd TAMES\ MENA
+: 1697207174:0;ll
+: 1697207178:0;cd PDF.-S
+: 1697207178:0;ll
+: 1697207187:0;mv TSIS\ UMSA\ LIBERTAD\ religiosa.pdf.exe TSIS\ UMSA\ LIBERTAD\ religiosa.pdf
+: 1697207207:0;mv TSIS\ UMSA\ LIBERTAD\ religiosa.pdf TSIS\ UMSA\ LIBERTAD\ religiosa.pdf.exe
+: 1697207208:0;ll
+: 1697207320:0;clear
+: 1697207491:0;sudo-sync
+: 1697207496:0;clear
+: 1697207498:0;ll
+: 1697207791:0;cd Documents/sis_admin
+: 1697207797:0;npm run dev
+: 1697207868:0;code .
+: 1697208878:0;git status
+: 1697208880:0;git add .
+: 1697208891:0;git commit -m 'Fix insttiticion'
+: 1697208892:0;clear
+: 1697208909:0;npm run build
+: 1697215262:0;clear
+: 1697215266:0;sudo-sync
+: 1697215392:0;clear
+: 1697215399:0;tux-mount
+: 1697215404:0;code $development/Laravel/consultoria
+: 1697215415:0;clear
+: 1697215416:0;php artisan serve
+: 1697215783:0;php artisan migrate && php artisan db:seed
+: 1697217975:0;off
+: 1697234165:0;tux-mount
+: 1697234173:0;code $development/Laravel/consultoria
+: 1697234188:0;clear
+: 1697234189:0;sudo-sync
+: 1697234193:0;sudo-sync\\
+sudo-sync
+: 1697234201:0;sudo-sync && sudo-sync
+: 1697234209:0;sudo-sync && sudo-sync && sudo-sync
+: 1697234213:0;clear
+: 1697234217:0;sudo-sync &
+: 1697234220:0;clear
+: 1697234229:0;cd $development/Laravel/consultoria
+: 1697234233:0;php artisan serv
+: 1697234236:0;php artisan serve
+: 1697234264:0;sudo xampp start
+: 1697234505:0;clear
+: 1697235552:0;exit
+: 1697235925:0;code .
+: 1697223990:0;cd Downloads/
+: 1697223990:0;ll
+: 1697224009:0;mv 01-WhiteSur.tar.xz WhiteSur.tar.xz
+: 1697224026:0;mv 01-Fluent.tar.xz Fluent.tar.xz
+: 1697224037:0;mv 01-McMojave-circle.tar.xz McMojave-circle.tar.xz
+: 1697224045:0;mv McMojave-circle.tar.xz ../.icons
+: 1697224050:0;mv Fluent.tar.xz ../.icons
+: 1697224055:0;mv WhiteSur.tar.xz ../.icons
+: 1697224496:0;cd ../.icons
+: 1697224497:0;ll
+: 1697224515:0;clear
+: 1697224552:0;tar -xf McMojave-circle.tar.xz
+: 1697224901:0;cd Downloads
+: 1697224902:0;ll
+: 1697224904:0;clear
+: 1697224904:0;ll
+: 1697224912:0;ll -la
+: 1697224920:0;ll
+: 1697224945:0;mv .\~_2.\ Tributos\ Vigentes\ en\ Bolivia.doc Tributos\ Vigentes\ en\ Bolivia.doc 
+: 1697224946:0;ll
+: 1697224955:0;unzip arch-configs-master.zip
+: 1697224956:0;ll
+: 1697224959:0;cd arch-configs-master
+: 1697224960:0;ll
+: 1697224962:0;cd grub/dark-matter-arch
+: 1697224962:0;ll
+: 1697224969:0;sudo python install.py
+: 1697224990:0;sudo nano /etc/default/grub
+: 1697225037:0;cat /boot/grub/themes/dark-matter/theme.txt
+: 1697225039:0;clear
+: 1697225040:0;reboot
+: 1697226463:0;code /run/media/gary/GARY/IDR-II
+: 1697227237:0;ssh webvue@186.121.206.232 -p 7714
+: 1697227956:0;clear
+: 1697228047:0;ssh webvue@186.121.206.232 -p 7714
+: 1697228972:0;ping administracionempresas.upea.edu.bo
+: 1697229360:0;tux-mount
+: 1697229365:0;cd $development/Laravel/consultoria
+: 1697229371:0;php artisan serve
+: 1697229389:0;sudo xampp start
+: 1697229442:0;git status
+: 1697229444:0;git add .
+: 1697229450:0;git commit -m ''
+: 1697229453:0;git commit -m 'Estados'
+: 1697229455:0;clear
+: 1697229466:0;git checkout master
+: 1697229468:0;clear
+: 1697229482:0;git merge development
+: 1697229485:0;git merge dev
+: 1697229502:0;clear
+: 1697229566:0;cd $development/Laravel/consultoria
+: 1697229568:0;php artisan serve
+: 1697230076:0;tux-mount
+: 1697230082:0;cd $development/Laravel/consultoria
+: 1697230084:0;php artisan serve
+: 1697230101:0;sudo xampp start
+: 1697230115:0;clear
+: 1697230117:0;exit
+: 1697230208:0;clear
+: 1697230213:0;sudo xampp start
+: 1697230410:0;code .
+: 1697231463:0;clear
+: 1697231465:0;php artisan serve
+: 1697239988:0;nano ~/.zshrc
+: 1697240017:0;clear && source ~/.zshrc
+: 1697240023:0;sudo-sync
+: 1697480411:0;done
+: 1697307077:0;clear
+: 1697307080:0;yay --noconfirm
+: 1697307324:0;clear
+: 1697307329:0;clear && source ~/.zshrc
+: 1697307339:0;clear
+: 1697307342:0;yay --noconfirm
+: 1697307795:0;reboot
+: 1697308127:0;clear
+: 1697308128:0;clear && source ~/.zshrc
+: 1697308133:0;yay --noconfirm
+: 1697308405:0;clear
+: 1697411204:0;clear
+: 1697411234:0;yay --noconfirm
+: 1697411267:0;clear
+: 1697411270:0;clear && source ~/.zshrc
+: 1697411303:0;zsh --version
+: 1697411306:0;clear
+: 1697411342:0;cd Documents
+: 1697411353:0;glab repo clone upea_carreras
+: 1697413015:0;cd upea_carreras
+: 1697413020:0;npm install
+: 1697413038:0;code .
+: 1697413104:0;npm run serve
+: 1697414073:0;cd ..
+: 1697414085:0;glab repo list -a
+: 1697414103:0;glab repo clone pasantia_ii-2023/civil
+: 1697414142:0;cd civil
+: 1697414144:0;code .
+: 1697414163:0;npm install
+: 1697414187:0;npm run serve
+: 1697454545:0;clear
+: 1697454556:0;code Documents/siadi_sftp
+: 1697455393:0;ssh sie2023gary.upea@200.105.169.11 -p 7714
+: 1697461338:0;clear
+: 1697461356:0;clear
+: 1697461361:0;yay --noconfirm
+: 1697461386:0;clear
+: 1697461399:0;clear
+: 1697461400:0;exit
+: 1697461422:0;code Documents/siadi_sftp
+: 1697461805:0;clear
+: 1697461807:0;yay --noconfirm
+: 1697466842:0;clear
+: 1697466850:0;code Documents/upea_carreras
+: 1697466862:0;clear
+: 1697466904:0;npm run serve
+: 1697468359:0;ssh webvue@186.121.206.232 -p 7714
+: 1697468393:0;git add .
+: 1697468402:0;git commit -m 'Decanato Agricolas'
+: 1697468404:0;git push origin master
+: 1697468446:0;cp -r ../upea_carreras ../areaagricolas
+: 1697468480:0;cd ../areaagricolas
+: 1697468488:0;git remote remove origin
+: 1697468500:0;git remote add origin http://gitlabsie.upea.bo/gcoddev/areaagricolas.git
+: 1697468505:0;git push -u origin master
+: 1697468531:0;git add .
+: 1697468536:0;git commit -m 'env'
+: 1697468540:0;git push origin master
+: 1697468552:0;git status
+: 1697468558:0;git statu
+: 1697468561:0;git status
+: 1697468577:0;git log
+: 1697468587:0;clear
+: 1697468597:0;ll
+: 1697468608:0;git status
+: 1697468612:0;ll
+: 1697468630:0;rm .env.copy
+: 1697468641:0;nano .env.copy
+: 1697468651:0;git add .
+: 1697468652:0;git commit -m 'env'
+: 1697468654:0;git push origin master
+: 1697468664:0;ssh webvue@186.121.206.232 -p 7714
+: 1697469451:0;clear
+: 1697469485:0;exit
+: 1697470045:0;clear
+: 1697470048:0;sudo-sync
+: 1697480411:0;done
+: 1697470230:0;code Documents/areaagricolas
+: 1697470240:0;clear
+: 1697470247:0;npm run serve
+: 1697470498:0;clear
+: 1697470506:0;git add .
+: 1697470512:0;git commit -m 'rutas'
+: 1697470514:0;git push origin master
+: 1697470517:0;ssh
+: 1697470519:0;ssh webvue@186.121.206.232 -p 7714
+: 1697470893:0;clear
+: 1697470895:0;npm run build
+: 1697470907:0;clear
+: 1697470909:0;npm run serve
+: 1697470932:0;clear
+: 1697470933:0;git status
+: 1697470935:0;git add .
+: 1697470943:0;git commit -m 'url_admin'
+: 1697470945:0;git push origin master
+: 1697471025:0;clear
+: 1697471027:0;exit
+: 1697471032:0;clear
+: 1697479521:0;sudo-sync
+: 1697480270:0;done
+: 1697480249:0;clear
+: 1697480259:0;nano .zsh_history
+: 1697480269:0;clear
+: 1697480270:0;exit
+: 1697480286:0;nano .zsh_history
+: 1697480298:0;clear && source ~/.zshrc
+: 1697480303:0;clear
+: 1697480325:0;nano .zsh_history
+: 1697480410:0;clear
+: 1697480411:0;exit
+: 1697480429:0;sudo-sync
+: 1697486659:0;
+: 1697480433:0;nano .zsh_history
+: 1697480447:0;clear && source ~/.zshrc
+: 1697480476:0;sudo-sync\
+done
+: 1697480486:0;nano .zsh_history
+: 1697480494:0;clear
+: 1697480495:0;clear && source ~/.zshrc
+: 1697480500:0;sudo-sync\
+done
+: 1697480504:0;clear
+: 1697480537:0;sudo-sync\
+done
+: 1697480550:0;clear
+: 1697480641:0;sudo-sync\
+done
+: 1697480891:0;clear && source ~/.zshrc
+: 1697481024:0;yay autohide
+: 1697481052:0;yay hidetopbar
+: 1697481180:0;clear
+: 1697481182:0;yay --noconfirm
+: 1697481194:0;yay hidetopbar
+: 1697481311:0;clear
+: 1697481315:0;clear && source ~/.zshrc
+: 1697482433:0;sudo-sync\
+done
+: 1697483012:0;clear
+: 1697483014:0;ssh webvue@186.121.206.232 -p 7714
+: 1697483063:0;sudo-sync\
+done
+: 1697483070:0;clear
+: 1697483479:0;code Documents/sis_admin
+: 1697483820:0;clear
+: 1697483822:0;npm run serve
+: 1697483831:0;npm install
+: 1697483848:0;npm run serve
+: 1697483854:0;git status
+: 1697483857:0;clear
+: 1697483859:0;git staus
+: 1697483860:0;clear
+: 1697483861:0;git statua
+: 1697483863:0;git status
+: 1697483865:0;rm -rf node_modules
+: 1697483868:0;clear
+: 1697483869:0;npm install
+: 1697483883:0;npm run serve
+: 1697483887:0;npm run dev
+: 1697484027:0;code Documents/sftp
+: 1697484284:0;sudo xampp start
+: 1697485727:0;git add .
+: 1697485737:0;git commit -m 'Decanatura'
+: 1697485739:0;git push origin master
+: 1697485745:0;npm run build
+: 1697485922:0;ssh webvue@186.121.206.232 -p 7714
+: 1697486618:0;clear
+: 1697486659:0;exit
+: 1697486972:0;clear
+: 1697486973:0;sudo-sync\
+done
+: 1697486993:0;clear
+: 1697487260:0;yay --noconfirm
+: 1697487319:0;code Documents/sftp
+: 1697488654:0;clear
+: 1697488658:0;sudo-sync\
+done
+: 1697489328:0;clear
+: 1697489330:0;sudo-sync\
+done
+: 1697489342:0;yay --noconfirm
+: 1697489359:0;sudo pacman -Syu
+: 1697489478:0;clear
+: 1697489535:0;sudo pacman -Syu
+: 1697489579:0;sudo-sync\
+done
+: 1697554716:0;off
+: 1697569494:0;sudo-sync\
+done
+: 1697569503:0;clear
+: 1697569504:0;yay --noconfirm
+: 1697571116:0;clear
+: 1697571121:0;code .
+: 1697571138:0;clear
+: 1697571169:0;npm install
+: 1697571295:0;npm run serve
+: 1697571310:0;clear
+: 1697571311:0;npm run serve
+: 1697571337:0;npx browserslist@latest --update-db
+: 1697571392:0;npm run serve
+: 1697571417:0;npm install
+: 1697571465:0;npm audit fix --force
+: 1697571503:0;clear
+: 1697571506:0;npm run serve
+: 1697571592:0;npm list
+: 1697571600:0;npm install
+: 1697571619:0;npm audit fix --force
+: 1697571635:0;rm -rf node_modules
+: 1697571681:0;clear
+: 1697571686:0;npm install
+: 1697571698:0;clear
+: 1697571704:0;npm install
+: 1697571713:0;sudo chmod 777 -R ./
+: 1697571724:0;npm install
+: 1697571752:0;npm install --legacy-peer-deps
+: 1697571778:0;clear
+: 1697571781:0;npm run serve
+: 1697572136:0;clear
+: 1697572141:0;rm -rf node_modules
+: 1697572177:0;npm install
+: 1697572239:0;cd Documents/appievuejs-10
+: 1697572240:0;clear
+: 1697572243:0;ls
+: 1697572244:0;ll 
+: 1697572245:0;ll -l
+: 1697572249:0;clear
+: 1697572252:0;npm install
+: 1697572318:0;npm run serve
+: 1697572346:0;code .
+: 1697572422:0;npx browserslist --update-db
+: 1697572472:0;clear
+: 1697572475:0;npm run serve
+: 1697572488:0;npm install
+: 1697572502:0;npm audit fix
+: 1697572571:0;npm run serve
+: 1697572580:0;npm audit fix --force
+: 1697572639:0;clear
+: 1697572641:0;npm install
+: 1697572657:0;npm run serve
+: 1697572824:0;clear
+: 1697572832:0;npm run serve
+: 1697572914:0;npm install eslint --save-dev
+: 1697573400:0;CLEAR
+: 1697573402:0;clear
+: 1697573404:0;npm run serve
+: 1697573638:0;code --
+: 1697573646:0;code ../appie
+: 1697573693:0;cd ..
+: 1697573705:0;vue create decanato
+: 1697574034:0;cd decanato
+: 1697574036:0;code .
+: 1697574045:0;clear
+: 1697574047:0;npm install
+: 1697574073:0;cat ../appievuejs-vue/.env
+: 1697574086:0;npm run serve
+: 1697575549:0;cat ../upea_carreras/src/router/index.js
+: 1697575689:0;npm run serve
+: 1697575944:0;clear
+: 1697575952:0;npm install axios vue-axios --save
+: 1697576280:0;cat ../upea_carreras/src/main.js
+: 1697577384:0;cat ../upea_carreras/src/components/HeaderCustom.vue
+: 1697579651:0;clear
+: 1697579652:0;git status
+: 1697579658:0;git init
+: 1697579661:0;git add .
+: 1697579662:0;clear
+: 1697579671:0;git commit -m 'Init Decanatura'
+: 1697579680:0;git checkout -b dev
+: 1697584553:0;cat ../upea_carreras/src/views/Publicaciones/DetallePublicacion.vue
+: 1697584635:0;cat ../upea_carreras/src/views/Publicaciones/PublicacionesView.vue
+: 1697584796:0;cat ../upea_carreras/src/views/Gaceta/GacetaView.vue
+: 1697584831:0;cat ../upea_carreras/src/views/Eventos/EventosView.vue
+: 1697584845:0;cat ../upea_carreras/src/views/Videos/VideosView.vue
+: 1697587755:0;cat ../upea_carreras/src/views/Gaceta/GacetaView.vue
+: 1697587782:0;npm install vue-pdf-embed --save
+: 1697589043:0;cat ../upea_carreras/src/views/Eventos/EventosView.vue
+: 1697589215:0;cat ../upea_carreras/src/views/Publicaciones/PublicacionesView.vue
+: 1697589448:0;exit
+: 1697589450:0;clear
+: 1697592309:0;sudo-sync\
+done
+: 1697592352:0;clear
+: 1697592354:0;yay --noconfirm
+: 1697592447:0;clear
+: 1697592456:0;code Documents/decanato
+: 1697592477:0;clear
+: 1697592534:0;npm run serve
+: 1697595444:0;cat Documents/upea_carreras/src/pages/AppWrapper.vue
+: 1697598260:0;npm run serve
+: 1697598693:0;cd Documents/decanato
+: 1697598694:0;clear
+: 1697598699:0;git add .
+: 1697599067:0;git status
+: 1697599069:0;git add .
+: 1697599070:0;clear
+: 1697599080:0;git commit -m 'Deploy'
+: 1697599096:0;git remote add origin http://gitlabsie.upea.bo/gcoddev/decanato.git
+: 1697599100:0;git push -u origin master
+: 1697599112:0;git merge dev
+: 1697599119:0;git checkout mas
+: 1697599121:0;git checkout master
+: 1697599124:0;git merge dev
+: 1697599145:0;git checkout dev
+: 1697599149:0;ssh webvue@186.121.206.232 -p 7714
+: 1697599302:0;clear
+: 1697599448:0;git status
+: 1697599450:0;git log
+: 1697599456:0;git checkout master
+: 1697599458:0;git status
+: 1697599460:0;git log
+: 1697599473:0;git checkout dev
+: 1697599518:0;git checkout master
+: 1697599522:0;git push origin master
+: 1697599687:0;git remote remove origin
+: 1697599694:0;git remote add origin http://gitlabsie.upea.bo/pasantia_ii-2023/decanato.git
+: 1697599700:0;git push -u origin master
+: 1697599709:0;ssh webvue@186.121.206.232 -p 7714
+: 1697600042:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1697600706:0;exit
+: 1697600708:0;clear
+: 1697600709:0;exit
+: 1697600718:0;sudo-sync\
+done
+: 1697600841:0;clear
+: 1697600843:0;yay --noconfirm
+: 1697600905:0;off
+: 1697633510:0;sudo-sync\
+done
+: 1697633539:0;clear
+: 1697633544:0;code Documents/siadi_sftp
+: 1697648038:0;clear
+: 1697648039:0;sudo-sync\
+done
+: 1697679780:0;clear
+: 1697679782:0;yay --noconfirm
+: 1697679863:0;cd Downloads
+: 1697679871:0;unrar e one-health.rar
+: 1697679875:0;clear
+: 1697679912:0;mkdir one-health
+: 1697679918:0;mv one-health.rar one-health
+: 1697679920:0;cd one-health
+: 1697679923:0;unrar e one-health.rar
+: 1697679926:0;clear
+: 1697679928:0;code .
+: 1697680171:0;exit
+: 1697680173:0;cd
+: 1697680173:0;clear
+: 1697680187:0;tux-mount
+: 1697680195:0;code $development/Laravel/consultoria
+: 1697680215:0;clear
+: 1697680219:0;git branch
+: 1697680227:0;git branch -d dev
+: 1697680232:0;git checkout -b dev
+: 1697680234:0;clear
+: 1697680236:0;php artisan serve
+: 1697681418:0;sudo xampp start
+: 1697682647:0;clear
+: 1697682668:0;php artisan make:model Institucion -m
+: 1697682707:0;clear
+: 1697719920:0;sudo-sync\
+done
+: 1697719930:0;clear
+: 1697719932:0;yay --noconfirm
+: 1697721990:0;clear
+: 1697721992:0;sudo-sync\
+done
+: 1697722011:0;clear
+: 1697722019:0;code Documents/siadi_sftp
+: 1697727449:0;ssh webvue@186.121.206.232 -p 7714
+: 1697727672:0;code Documents/sis_admin
+: 1697728772:0;ssh webvue@186.121.206.232 -p 7714
+: 1697729112:0;clear
+: 1697729114:0;exit
+: 1697729116:0;clear
+: 1697731731:0;ssh webvue@186.121.206.232 -p 7714
+: 1697731915:0;clear
+: 1697742625:0;yay obs-studio
+: 1697745004:0;npm install
+: 1697745219:0;clear
+: 1697745282:0;ll -l
+: 1697745295:0;clear
+: 1697745306:0;yay -S speedtest-cli
+: 1697745494:0;npm install
+: 1697745980:0;cat package.json
+: 1697745996:0;npm run dev
+: 1697746018:0;npm install
+: 1697746382:0;npm audit fix
+: 1697752415:0;npm audit fix --force
+: 1697752646:0;code .
+: 1697752688:0;npm run dev:vite
+: 1697752768:0;clear
+: 1697752770:0;npm rn dev
+: 1697752774:0;npm run dev
+: 1697752793:0;clear
+: 1697752798:0;npm audit fix --force
+: 1697752847:0;npm audit fix
+: 1697752863:0;npm audit fix --force
+: 1697752885:0;npm run dev:vite
+: 1697752903:0;npm run dev:json-serverdev:vite
+: 1697752906:0;npm run dev:json-server
+: 1697752929:0;npm run dev
+: 1697752977:0;clear
+: 1697752983:0;yay --noconfirm
+: 1697753803:0;npm install
+: 1697753965:0;clear
+: 1697753968:0;npm install
+: 1697754094:0;clear
+: 1697755610:0;cd ../piaf-vue
+: 1697755613:0;ll /la
+: 1697755616:0;clear && source ~/.zshrc
+: 1697755624:0;npm instal
+: 1697755628:0;clear
+: 1697755629:0;npm install
+: 1697755680:0;yarn install
+: 1697755870:0;cat package.json
+: 1697755875:0;npm run serve
+: 1697755885:0;npm install
+: 1697755934:0;npm audit fix
+: 1697756087:0;npm install
+: 1697756122:0;npm audit fix --force
+: 1697756440:0;npm run serve
+: 1697756469:0;code .
+: 1697756529:0;npm run serve
+: 1697757302:0;npm install
+: 1697757399:0;rm -rf node_modules
+: 1697757482:0;claer
+: 1697757483:0;clear
+: 1697757491:0;sudo chmod 777 -R ./
+: 1697757511:0;ll -la
+: 1697757517:0;npm install
+: 1697758562:0;yarn --help
+: 1697758567:0;yarn install
+: 1697758794:0;yarn run serve
+: 1697758906:0;yarn list
+: 1697758922:0;sudo npm install -g @vue/cli
+: 1697759026:0;sudo npm install -g vue-cli-service
+: 1697759043:0;npm search vue-cli-service
+: 1697759056:0;sudo npm install -g  @vue/vue-cli-service
+: 1697759144:0;npx vue-cli-service serve
+: 1697759222:0;yarn run serve
+: 1697759270:0;npx vue-cli-service serve
+: 1697759277:0;npm run serve
+: 1697759290:0;yarn run serve
+: 1697759332:0;yarn install
+: 1697759381:0;rm package-lock.json
+: 1697759385:0;rm yarn.lock
+: 1697759386:0;clear
+: 1697759389:0;rm -rf node_modules
+: 1697759401:0;yarn install
+: 1697759664:0;yarn run serve
+: 1697759741:0;clear
+: 1697759763:0;yarn audit fix --force
+: 1697759778:0;yarn serve
+: 1697759816:0;clear
+: 1697759821:0;yarn install
+: 1697760106:0;yarn list
+: 1697760145:0;clear
+: 1697760461:0;yarn install
+: 1697760552:0;yarn --help
+: 1697760567:0;yarn run
+: 1697760716:0;yarn run serve
+: 1697761354:0;yarn run watch
+: 1697761374:0;yarn run
+: 1697761394:0;clear
+: 1697761401:0;yarn run watch
+: 1697761426:0;cat package.json
+: 1697761440:0;exit
+: 1697761460:0;rm -rf node_modules
+: 1697761482:0;rm package-lock.json
+: 1697761485:0;rm yarn.lock
+: 1697761486:0;clear
+: 1697761490:0;yarn install
+: 1697761875:0;yarn run 
+: 1697761980:0;yarn install
+: 1697807237:0;yay --noconfirm
+: 1697816826:0;clear
+: 1697816828:0;sudo-sync\
+done
+: 1697816840:0;clear
+: 1697816932:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/agronomia
+: 1697816996:0;cd agronomia
+: 1697816996:0;clear
+: 1697817011:0;git checkout -b dev-fernando
+: 1697817015:0;npm install
+: 1697817038:0;nano .env
+: 1697817050:0;npm run serve
+: 1697817202:0;code .
+: 1697817774:0;npm install
+: 1697818563:0;npm run serve
+: 1697818602:0;git merge master
+: 1697818608:0;git pull origin dev-fernando
+: 1697818630:0;git pull origin dev-fernando --ff-only
+: 1697818642:0;git checkout master
+: 1697818645:0;ls
+: 1697818651:0;git pull origin dev-fernando
+: 1697818662:0;git branch
+: 1697818665:0;git branch -d dev-fernando
+: 1697818668:0;git branch
+: 1697818671:0;git pull origin dev-fernando
+: 1697818680:0;git pull origin dev-fernando --ff-only
+: 1697818687:0;git rebase
+: 1697818696:0;git merge --no-ff
+: 1697818700:0;git branch
+: 1697818704:0;git pull origin dev-fernando
+: 1697818724:0;git checkout -b dev-fernando origin/dev-fernando
+: 1697818732:0;git status
+: 1697818743:0;git restore .
+: 1697818744:0;git status
+: 1697818749:0;git checkout -b dev-fernando origin/dev-fernando
+: 1697818774:0;git status
+: 1697818777:0;git pull origin dev-fernando
+: 1697818783:0;clear
+: 1697818785:0;npm install
+: 1697818801:0;clear
+: 1697818803:0;npm run serve
+: 1697818851:0;clear
+: 1697818854:0;git merge master
+: 1697818896:0;git status
+: 1697818900:0;git restore .
+: 1697818902:0;git status
+: 1697818923:0;git pull origin dev-fernando
+: 1697818925:0;clear
+: 1697818930:0;git merge --cancel
+: 1697818932:0;clear
+: 1697818938:0;git merge --abort
+: 1697818940:0;git status
+: 1697818951:0;git merge master -m 'Merge master to dev'
+: 1697818968:0;git checkout master
+: 1697818994:0;git merge dev-fernando
+: 1697819002:0;clear
+: 1697819048:0;cd ..
+: 1697819051:0;rm -rf agronomia
+: 1697819058:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/agronomia
+: 1697819064:0;clear
+: 1697819076:0;cd agronomia
+: 1697819083:0;npm install
+: 1697819085:0;exit
+: 1697819087:0;clear
+: 1697819092:0;ll
+: 1697819094:0;cd ..
+: 1697819096:0;cd agronomia
+: 1697819096:0;ll
+: 1697819097:0;clear
+: 1697819101:0;code .
+: 1697819107:0;clear
+: 1697819109:0;git status
+: 1697819112:0;npm install
+: 1697819131:0;clear
+: 1697819156:0;git checkout -b dev-fernando origin/dev-fernando
+: 1697819160:0;git status
+: 1697819162:0;git restore .
+: 1697819163:0;clear
+: 1697819167:0;git checkout -b dev-fernando origin/dev-fernando
+: 1697819171:0;npm run serve
+: 1697819198:0;npm install
+: 1697819212:0;npm run serve
+: 1697819245:0;clear
+: 1697819247:0;git status
+: 1697819251:0;git restore .
+: 1697819252:0;clear
+: 1697819259:0;git status
+: 1697819263:0;git merge master
+: 1697819274:0;git status
+: 1697819275:0;clear
+: 1697819279:0;git status
+: 1697819281:0;git log
+: 1697819283:0;clear
+: 1697819293:0;git checkout master
+: 1697819307:0;git merge dev-fernando
+: 1697819311:0;npm install
+: 1697819344:0;git checkout dev-fernando
+: 1697819389:0;git reset --hard HEAD~1
+: 1697819390:0;git log
+: 1697819393:0;clear
+: 1697819404:0;cd ../Documents
+: 1697819406:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/agronomia
+: 1697819409:0;ls
+: 1697819413:0;rm -rf agronomia
+: 1697819416:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/agronomia
+: 1697819479:0;git status
+: 1697819482:0;git add .
+: 1697819485:0;npm install
+: 1697819498:0;ll
+: 1697819502:0;cd agronomia
+: 1697819504:0;git status
+: 1697819510:0;clear
+: 1697819512:0;git status
+: 1697819557:0;npm install
+: 1697819573:0;clear
+: 1697819575:0;cd agronomia
+: 1697819580:0;npm run serve
+: 1697819612:0;clear
+: 1697819613:0;git add .
+: 1697819621:0;git commit -m 'Deploy'
+: 1697819624:0;git status
+: 1697819626:0;git log
+: 1697819627:0;ll
+: 1697819654:0;nano .gitlab-ci.yml
+: 1697819668:0;git add .
+: 1697819676:0;git commit -m 'DevOps Deploy'
+: 1697819681:0;git push origin master
+: 1697819708:0;cd ..
+: 1697819712:0;rm -rf agronomia
+: 1697819713:0;cd ..
+: 1697819718:0;rm -rf agronomia
+: 1697819725:0;clear
+: 1697819732:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/electronica
+: 1697819738:0;cd 
+: 1697819742:0;cd Documents
+: 1697819743:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/electronica
+: 1697819746:0;rm -rf electronica
+: 1697819749:0;git clone http://gitlabsie.upea.bo/pasantia_ii-2023/electronica
+: 1697819753:0;cd electronica
+: 1697819780:0;git checkout -b dev-gonzalo origin/dev-gonzalo
+: 1697819804:0;npm install
+: 1697819829:0;npm run serve
+: 1697819839:0;nano .gitlab-ci.yml
+: 1697819908:0;git status
+: 1697819912:0;git add .
+: 1697819913:0;ll
+: 1697819915:0;git status
+: 1697819916:0;git add .
+: 1697819924:0;git commit -m 'DevOps Deploy'
+: 1697819931:0;git push origin main
+: 1697820046:0;cd ..
+: 1697820047:0;rm -rf electronica
+: 1697820053:0;ll -l
+: 1697820063:0;rm -rf contaduria
+: 1697820068:0;rm -rf civil
+: 1697820071:0;clear
+: 1697820072:0;exit
+: 1697823350:0;clear
+: 1697823354:0;exit
+: 1697823358:0;sudo-sync\
+done
+: 1697823364:0;clear
+: 1697823629:0;code Documents/siadi_sftp
+: 1697823672:0;ssh webvue@186.121.206.232 -p 7714
+: 1697827128:0;ping 200.105.169.11
+: 1697827132:0;ping 200.105.169.11:1000
+: 1697827138:0;ping '200.105.169.11:1000'
+: 1697827140:0;clear
+: 1697830589:0;clear && source ~/.zshrc
+: 1697838849:0;off
+: 1697928598:0;sudo-sync
+: 1697928604:0;sudo-sync\
+done
+: 1697928610:0;clear
+: 1697928612:0;yay --noconfirm
+: 1697929014:0;cd .themes
+: 1697929014:0;ll
+: 1697929025:0;tar -xvzf WhiteSur-Dark.tar.xz
+: 1697929029:0;tar -xf WhiteSur-Dark.tar.xz
+: 1697930964:0;clear && source ~/.zshrc
+: 1697930968:0;sudo-sync\
+done
+: 1697931307:0;clear
+: 1697938377:0;yay gnome-tweak
+: 1697938395:0;yay tweaks
+: 1697938587:0;clear && source ~/.zshrc
+: 1697938607:0;export GTK_THEME=Sweet-Ambar-Blue-Dark-v40
+: 1697938695:0;nano ~/.zshrc
+: 1697938770:0;clear
+: 1697938796:0;nano ~/.zshrc
+: 1697938803:0;clear 
+: 1697938807:0;clear && source ~/.zshrc
+: 1697938892:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697938916:0;nautilus q
+: 1697938926:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697938933:0;clear
+: 1697938934:0;nautilus q
+: 1697938944:0;nautilus -q
+: 1697938947:0;exit
+: 1697938957:0;nautilus -q
+: 1697938960:0;nautilus
+: 1697938966:0;nautilus q
+: 1697938972:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697938985:0;nautilus -q
+: 1697938992:0;nautilus q
+: 1697939000:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697939006:0;clear
+: 1697939007:0;exit
+: 1697939037:0;nautilus q
+: 1697939045:0;nautilus -q
+: 1697939050:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697939059:0;nautilus
+: 1697939091:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-3.0/gtk.css
+: 1697939111:0;nautilus
+: 1697939122:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-3.0/gtk.css -l
+: 1697939170:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-4.0/gtk.css
+: 1697939176:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-4.0/gtk.css -l
+: 1697939233:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697939244:0;clear && source ~/.zshrc
+: 1697939248:0;nautilus q
+: 1697939268:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697939275:0;nautilus q
+: 1697939281:0;clear
+: 1697939291:0;cd .themes/Sweet-Ambar-Blue-Dark-v40/
+: 1697939292:0;ll
+: 1697939298:0;ll gnome-shell
+: 1697939304:0;ll gnome-shell/gnome-shell.css
+: 1697939312:0;nano gnome-shell/gnome-shell.css
+: 1697939321:0;ll
+: 1697939348:0;cd gtk-2.0
+: 1697939356:0;cd apps
+: 1697939362:0;nano chrome.rc
+: 1697939370:0;mv nautilus.css nautilus.rc
+: 1697939371:0;ll
+: 1697939374:0;ll -l
+: 1697939387:0;sudo chmod 755 nautilus.rc
+: 1697939392:0;ll -l
+: 1697939397:0;clear && source ~/.zshrc
+: 1697939399:0;cd
+: 1697939400:0;clear
+: 1697939401:0;exit
+: 1697939434:0;cd .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps
+: 1697939435:0;ll
+: 1697939442:0;mv nautilus.rc nautilus.css
+: 1697939450:0;nautilus -q
+: 1697939508:0;cd ..
+: 1697939518:0;cd ../gtk-3.0
+: 1697939519:0;ll
+: 1697939523:0;mkdir apps
+: 1697939525:0;cd apps
+: 1697939531:0;nano nautilus.css
+: 1697939556:0;nautilus -q
+: 1697939601:0;yay gtk4
+: 1697939619:0;cd
+: 1697939625:0;cd .config/gtk-4.0
+: 1697939627:0;ll
+: 1697939629:0;cd ..
+: 1697939632:0;cd gtk-3.0
+: 1697939633:0;ll
+: 1697939637:0;nano gtk.css
+: 1697939642:0;cd
+: 1697939646:0;cd .themes/Sweet-Ambar-Blue-Dark-v40
+: 1697939653:0;rm gtk-2.0/apps/nautilus.css
+: 1697939664:0;rm gtk-3.0/apps -r
+: 1697939666:0;clear
+: 1697939769:0;nano gtk-2.0/apps/nautilus.css
+: 1697939803:0;nautilus q
+: 1697939813:0;cdc
+: 1697939814:0;cd
+: 1697939816:0;clear
+: 1697939820:0;nano .themes/Sweet-Ambar-Blue-Dark-v40/gtk-2.0/apps/nautilus.css
+: 1697939824:0;nautilusq
+: 1697939826:0;nautilus q
+: 1697940049:0;yay -S thunar
+: 1697940196:0;yay -Rs thunar
+: 1697940201:0;clear
+: 1697940204:0;yay -Sc
+: 1697940209:0;clear
+: 1697940211:0;clear && source ~/.zshrc
+: 1697940296:0;yay nemo-file
+: 1697940392:0;yay nemo-
+: 1697940428:0;clear
+: 1697940551:0;yay polarr
+: 1697940560:0;yay krita
+: 1697940931:0;clear
+: 1697940966:0;yay inkscape
+: 1697941297:0;yay mega
+: 1697941316:0;yay onedrive
+: 1697941331:0;yay office
+: 1697941386:0;yay wps-
+: 1697941633:0;yay libre-office
+: 1697941637:0;yay libreoffice
+: 1697941903:0;clear
+: 1697942278:0;yay arial
+: 1697942291:0;yay calibri
+: 1697942304:0;yay jetbrains
+: 1697942333:0;clear
+: 1697942334:0;exit
+: 1697942340:0;yay -Rs wps-office
+: 1697942346:0;yay -Rs libreoffice-still
+: 1697942350:0;yay -Rs wps-office
+: 1697942354:0;yay -Sc
+: 1697942358:0;clear
+: 1697942359:0;exit
+: 1697942439:0;yay ttf-arial
+: 1697942445:0;yay arial
+: 1697942533:0;clear
+: 1697942535:0;yay -Sc
+: 1697942542:0;yay -Qdtq
+: 1697942558:0;yay -Rs (yay -Qdtq)
+: 1697942579:0;yay -Rs { yay -Qdtq }
+: 1697942592:0;{{yay -Qdtq}}
+: 1697942598:0;((yay -Qdtq))
+: 1697942602:0;(( yay -Qdtq ))
+: 1697942614:0;[ yay -Qdtq 
+: 1697942616:0;[ yay -Qdtq ]
+: 1697942664:0;yay -Rs $(yay -Qdtq)
+: 1697942668:0;clear
+: 1697942669:0;yay
+: 1697942672:0;yay --noconfirm
+: 1697944464:0;yay mail
+: 1697944516:0;yay thunder
+: 1697944527:0;yay firefox
+: 1697945417:0;clear && source ~/.zshrc
+: 1697945530:0;$(neofetch || lolcat)
+: 1697945533:0;clear
+: 1697945546:0;lolcat $(echo fsf)
+: 1697945567:0;neofetch $(lolcat)
+: 1697945575:0;neofetch || lolcat
+: 1697945582:0;nano ~/.zshrc
+: 1697945599:0;neofetch || lolcat
+: 1697945607:0;neofetch | lolcat
+: 1697945636:0;neofetch | $(lolcat)
+: 1697945639:0;clear
+: 1697945645:0;clear && source ~/.zshrc
+: 1698016813:0;sudo-sync\
+done
+: 1698016827:0;yay --noconfirm
+: 1698017269:0;clear
+: 1698017271:0;tux-mount
+: 1698017276:0;clear
+: 1698017279:0;code $development/Laravel/consultoria
+: 1698017289:0;sudo xampp start
+: 1698017646:0;clear
+: 1698017650:0;php artisan serve
+: 1698018181:0;exit
+: 1698018186:0;clear
+: 1698022737:0;php artisan migrate && php artisan db:seed
+: 1698030707:0;exi
+: 1698030709:0;exit
+: 1698030710:0;clear
+: 1698030714:0;php artisan serve
+: 1698032901:0;php artisan migrate && php artisan db:seed
+: 1698036016:0;cd $development/Laravel/consultoria
+: 1698036018:0;git status
+: 1698036021:0;git add .
+: 1698036025:0;git commit -m 'Finish'
+: 1698036030:0;git remote -v
+: 1698036031:0;clear
+: 1698036452:0;git log
+: 1698036457:0;git merge master
+: 1698036461:0;git log
+: 1698036472:0;git branch
+: 1698036479:0;git merge master -m 'Merge'
+: 1698036486:0;git checkout master
+: 1698036488:0;git status
+: 1698036490:0;git log
+: 1698036498:0;git merge dev -m 'Merge'
+: 1698036501:0;git log
+: 1698036505:0;git stats
+: 1698036508:0;git status
+: 1698036510:0;off
+: 1698058591:0;clear
+: 1698058595:0;sudo-sync\
+done
+: 1698058618:0;clear
+: 1698058621:0;yay --noconfirm
+: 1698058716:0;tux-mount
+: 1698058718:0;clear
+: 1698058724:0;code Documents/siadi_sftp
+: 1698065650:0;reboot
+: 1698065958:0;code Documents/siadi_sftp
+: 1698066433:0;sudo-sync\
+done
+: 1698066439:0;htop
+: 1698066442:0;bashtop
+: 1698066461:0;clear
+: 1698066465:0;yay -S htop
+: 1698066472:0;clear
+: 1698066475:0;clear && source ~/.zshrc
+: 1698066496:0;clear
+: 1698066504:0;ssh webvue@186.121.206.232 -p 7714
+: 1698066589:0;cleR
+: 1698066591:0;clear
+: 1698072244:0;ping medicia.upea.edu.bo
+: 1698072267:0;ping medicina.upea.edu.bo
+: 1698072390:0;speedtest
+: 1698072622:0;nmap
+: 1698072624:0;nmap -p
+: 1698072649:0;nmap clear
+: 1698072651:0;clear
+: 1698072665:0;nmap 200.105.169.12
+: 1698072875:0;clear
+: 1698072877:0;nmap 186.121.206.251
+: 1698072899:0;ping 186.121.206.251
+: 1698073090:0;nmap -A -v 186.121.206.251
+: 1698073109:0;nmap -A -v 200.105.169.12
+: 1698076606:0;set-php8
+: 1698076610:0;set-php7
+: 1698076621:0;set-php8
+: 1698076628:0;set-php7
+: 1698076637:0;tux
+: 1698076639:0;tux-
+: 1698076642:0;tux-mount
+: 1698076649:0;cd $development/sie/vicerrectorado
+: 1698076650:0;ll
+: 1698076670:0;/opt/lampp/bin/mysql -u root
+: 1698076740:0;clear
+: 1698076741:0;exit
+: 1698079288:0;clear
+: 1698083291:0;sudo-sync\
+done
+: 1698083649:0;yay --noconfirm
+: 1698085184:0;code Documents/siadi_sftp
+: 1698086648:0;php-v
+: 1698086652:0;set-php8
+: 1698086677:0;cd $development/Laravel/consultoria
+: 1698086683:0;php artisan serve
+: 1698086959:0;code .
+: 1698087131:0;php artisan serve
+: 1698088064:0;exit
+: 1698088072:0;cd $development/Laravel/consultoria
+: 1698088074:0;git status
+: 1698088075:0;git add .
+: 1698088107:0;git commit -m 'Asignacion fix'
+: 1698088111:0;git remote -v
+: 1698088139:0;git remote add origin https://github.com/gcoddev/consultoria_jhenny.git
+: 1698088144:0;git push ou -origin master
+: 1698088149:0;git push -u origin master
+: 1698088168:0;git branch
+: 1698088173:0;git checkout dev
+: 1698088175:0;git status
+: 1698088177:0;git log
+: 1698088184:0;git merge master -m 'Merge'
+: 1698088189:0;git push origin dev
+: 1698088200:0;git checkout master
+: 1698088201:0;clear
+: 1698088234:0;git tag v1.0
+: 1698088236:0;git log
+: 1698088241:0;git push origin --tags
+: 1698088391:0;git branch -d dev
+: 1698088393:0;git branch
+: 1698088394:0;clear
+: 1698089250:0;p10k configure
+: 1698089295:0;clear
+: 1698089297:0;clear && source ~/.zshrc
+: 1698089331:0;clear
+: 1698089333:0;cd $development/Laravel/consultoria
+: 1698089334:0;clear
+: 1698089336:0;clear && source ~/.zshrc
+: 1698092567:0;reboot
+: 1698094522:0;clear && source ~/.zshrc
+: 1698094527:0;exit
+: 1698094532:0;sudo-sync\
+done
+: 1698094538:0;clear
+: 1698094540:0;yay --noconfirm
+: 1698094691:0;clear
+: 1698094720:0;xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+: 1698094748:0;gsettings set org.gnome.desktop.background show-desktop-icons false
+: 1698094760:0;gsettings set org.nemo.desktop show-desktop-icons true
+: 1698094847:0;clear
+: 1698094848:0;clear && source ~/.zshrc
+: 1698094850:0;clear
+: 1698094853:0;yay -Rs nautilus
+: 1698094860:0;clear
+: 1698094893:0;nautilus
+: 1698094894:0;clear
+: 1698094895:0;exit
+: 1698094976:0;bashtop
+: 1698095067:0;sudo nano /etc/xdg/autostart/nemo-autostart.desktop
+: 1698095090:0;reboot
+: 1698095182:0;nautilus
+: 1698095183:0;clear
+: 1698095509:0;clear && source ~/.zshrc
+: 1698095690:0;clips
+: 1698095696:0;clear
+: 1698095701:0;nano ~/.zshrc
+: 1698095712:0;clear && source ~/.zshrc
+: 1698095716:0;mysql -u root
+: 1698095718:0;clear
+: 1698095724:0;sudo xampp start
+: 1698095734:0;mysql -u root
+: 1698095877:0;clear
+: 1698095878:0;clear && source ~/.zshrc
+: 1698096145:0;cat Documents/siadi_sftp/.vscode/sftp.json
+: 1698096159:0;ssh sie2023gary.upea@200.105.169.11 -p 7714
+: 1698096279:0;clear
+: 1698096281:0;clear && source ~/.zshrc
+: 1698097419:0;off
+: 1698145334:0;yay notion
+: 1698145835:0;yay bitwarden
+: 1698147526:0;off
+: 1698151724:0;sudo-sync\
+done
+: 1698151807:0;ssh webvue@186.121.206.232 -p 7714
+: 1698152012:0;cd Downloads
+: 1698152022:0;mv Ingenieria\ de\ Sistemas.zip IngenieriaSistemas.zip
+: 1698152032:0;scp -P 7714 IngenieriaSistemas.zip webvue@186.121.206.232:~/Descargas
+: 1698152321:0;unzip IngenieriaSistemas.zip
+: 1698152329:0;mv Ingenieria\ de\ Sistemas web_sistemas
+: 1698152331:0;cd web_sistemas
+: 1698152334:0;yarn install
+: 1698152412:0;yarn run serve
+: 1698152414:0;yarn run dev
+: 1698152417:0;cat package.json
+: 1698152420:0;yarn run start
+: 1698152490:0;yarn run build
+: 1698152570:0;sudo xampp start
+: 1698152577:0;cd ..
+: 1698152583:0;cp -r web_sistemas $htdocs
+: 1698152586:0;sudo cp -r web_sistemas $htdocs
+: 1698153005:0;mv ADMINISTRADOR_WEB_UPEA_CARRERAS.zip admemp.zip
+: 1698153042:0;scp -P 7714 admemp.zip webvue@186.121.206.232:~/Descargas
+: 1698153574:0;exit
+: 1698153728:0;code Documents/siadi_sftp
+: 1698161664:0;code Documents/sftp
+: 1698161951:0;cat Documents/sis_admin/src/views/Upea/
+: 1698161971:0;cat Documents/sis_admin/src/views/Carrera/Chatbot/ChatbotView.vue
+: 1698162361:0;clear
+: 1698162362:0;ssh webvue@186.121.206.232 -p 7714
+: 1698165320:0;clear
+: 1698165328:0;ssh webvue@186.121.206.232 -p 7714
+: 1698166253:0;code Documents/sis_admin
+: 1698170020:0;code Documents/sftp
+: 1698174125:0;clear
+: 1698174131:0;git checkout -b dev
+: 1698174132:0;clear
+: 1698174136:0;npm run serve
+: 1698197088:0;sudo-sync\
+done
+: 1698197096:0;clear
+: 1698197100:0;code Documents/sftp
+: 1698200616:0;off
+: 1698232411:0;sudo-sync\
+done
+: 1698232419:0;clear
+: 1698232424:0;code Documents/siadi_sftp
+: 1698232746:0;yay ttf-jetbrains
+: 1698232903:0;cd Downloads
+: 1698232911:0;sudo chmod +x OperatorMono-Medium.otf
+: 1698233468:0;ssh sie2023gary.upea@200.105.169.11 -p 7714
+: 1698239511:0;code Documents/sftp
+: 1698239598:0;ping upea.edu.bo
+: 1698239603:0;ping www.upea.edu.bo
+: 1698239618:0;ssh webvue@186.121.206.232 -p 7714
+: 1698246292:0;curl -X GET https://ws.agetic.gob.bo/asuss/v1/status \\
+              -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698246341:0;curl -X GET https://ws.agetic.gob.bo/asuss/v1/status -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698246413:0;curl -X GET https://ws.agetic.gob.bo/asuss/v2/status -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698246425:0;curl -X GET https://ws.agetic.gob.bo/asuss/v1/status -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698246518:0;clear
+: 1698246522:0;sudo-sync\
+done
+: 1698246572:0;code Documents/sftp
+: 1698247340:0;clear && source ~/.zshrc
+: 1698249664:0;curl -X GET https://interoperabilidad.agetic.gob.bo/fake/assus/v1/estado -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.UGA_CsF3MSTdvvfMYEfvRh2I9glh2E1va8KTLiu7guc'
+: 1698251965:0;clear
+: 1698251979:0;curl -X GET https://interoperabilidad.agetic.gob.bo/fake/seprec/v1/estado -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.UGA_CsF3MSTdvvfMYEfvRh2I9glh2E1va8KTLiu7guc'
+: 1698252017:0;curl -X GET https://interoperabilidad.agetic.gob.bo/fake/seprec/v1/estado -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698252035:0;curl -X GET https://interoperabilidad.agetic.gob.bo/fake/notificaciones/v3/estado -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJibkNKa3pPblFiZ240RVRONmNJeEJRemR2ZUwzR1pjVSIsInVzZXIiOiJnYXJ5X2FwYXphIiwiZXhwIjoxNzA2MDE1NjQ3LCJpYXQiOjE2OTgyMzk2NDd9.LkX1H8cgjqttKU4UG5iSBBHRoPG5yZBKw7Vd6VfOqE0'
+: 1698252905:0;off
+: 1698270216:0;sudo-sync\
+done
+: 1698270226:0;clear
+: 1698270229:0;nmcli dev wifi list
+: 1698270236:0;clear
+: 1698270239:0;ping google.com
+: 1698270246:0;clear
+: 1698270247:0;speedtest
+: 1698255924:0;clear
+: 1698255957:0;code /run/media/gary/GARY/IA1/clips/
+: 1698256153:0;yay swi
+: 1698256175:0;yay swip
+: 1698256272:0;yay swipl
+: 1698256276:0;clear
+: 1698256407:0;yay swipl
+: 1698256434:0;yay swi-prolog
+: 1698256500:0;clear
+: 1698256504:0;swipl --version
+: 1698256505:0;clear
+: 1698256605:0;code /run/media/gary/GARY/IA1/
+: 1698256702:0;swipl
+: 1698256762:0;clear
+: 1698256766:0;swipl --help
+: 1698256779:0;exit
+: 1698259822:0;ls
+: 1698259825:0;cd clips
+: 1698259827:0;clips
+: 1698259895:0;exit
+: 1698260180:0;code /run/media/gary/GARY/IA1/clips
+: 1698260205:0;where clips
+: 1698260383:0;code /run/media/gary/GARY/IA1/clips
+: 1698260566:0;clips
+: 1698260604:0;exit
+: 1698263764:0;clips
+: 1698263770:0;clear
+: 1698263774:0;sudo-sync\
+done
+: 1698263788:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1698263795:0;ssh webvue@186.121.206.232 -p 7714
+: 1698263801:0;clear
+: 1698263819:0;curl -X GET https://serviciopagina.upea.bo/api/area
+: 1698263830:0;clear
+: 1698263837:0;htop
+: 1698263850:0;yay gitlab-runner
+: 1698263868:0;service status gitlab-runner
+: 1698263874:0;service status adb
+: 1698263896:0;clear
+: 1698263901:0;gh repo list
+: 1698263909:0;gh repo list -a
+: 1698263915:0;gh repo list
+: 1698263942:0;glab repo list
+: 1698263999:0;ssh gitlab-runner@186.121.206.232 -p 7714
+: 1698264088:0;glab repo list | grep gcoddev
+: 1698264530:0;clear
+: 1698264547:0;code /run/media/gary/GARY/IA1/clips
+: 1698264588:0;bashtop
+: 1698264600:0;tux-mount
+: 1698264604:0;clear
+: 1698264605:0;exit
+: 1698264625:0;clear
+: 1698264699:0;cd /run/media/gary/GARY
+: 1698264700:0;ll
+: 1698264779:0;clear
+: 1698264791:0;code IA1/clips
+: 1698265778:0;clips -version
+: 1698265795:0;clear
+: 1698265808:0;yay clips
+: 1698265952:0;clear
+: 1698265956:0;cd IA1/clips
+: 1698265958:0;clips
+: 1698265987:0;ll
+: 1698265993:0;clips
+: 1698266105:0;where clips
+: 1698266122:0;cd /usr/share/clips/f
+: 1698266123:0;cd /usr/share/clips/
+: 1698266124:0;ll
+: 1698266125:0;ll -la
+: 1698266129:0;ll examples
+: 1698266136:0;ll feature_tests/
+: 1698266139:0;clear
+: 1698266153:0;cd /usr/bin/
+: 1698266154:0;ll
+: 1698266173:0;clear
+: 1698266177:0;./clips
+: 1698266212:0;dialog
+: 1698266238:0;clips dialog
+: 1698266247:0;clear
+: 1698266250:0;exit
+: 1698324894:0;sudo-sync\
+done
+: 1698324905:0;reboot
+: 1698324962:0;clear
+: 1698324964:0;sudo-sync\
+done
+: 1698324969:0;clear
+: 1698324971:0;yay --noconfirm
+: 1698325486:0;fsck /dev/sdc1
+: 1698325490:0;sudo fsck /dev/sdc1
+: 1698325506:0;lsblk
+: 1698325513:0;sudo fsck /dev/sdc
+: 1698325535:0;sudo fsck /dev/sdc1
+: 1698325537:0;sudo fsck /dev/sdc
+: 1698325557:0;sudo umount /dev/sdc
+: 1698325558:0;sudo umount /dev/sdc1
+: 1698325561:0;lsblk
+: 1698325573:0;sudo fsck /dev/sdc
+: 1698325575:0;sudo fsck /dev/sdc1
+: 1698325578:0;clear
+: 1698325591:0;yay nfs-utils
+: 1698325614:0;sudo fsck /dev/sdc1
+: 1698325617:0;sudo fsck /dev/sdc
+: 1698325622:0;reboot
+: 1698325714:0;nfs-utils
+: 1698325715:0;clear
+: 1698325717:0;nfs-utils
+: 1698325719:0;yay nfs-utils
+: 1698325773:0;reboot
+: 1698325897:0;sudo fsck /dev/sdc
+: 1698325905:0;sudo fsck /dev/sdc1
+: 1698325911:0;lsblk
+: 1698325922:0;sudo fsck /dev/sddb1
+: 1698325945:0;sudo fsck /dev/sdb1
+: 1698325974:0;sudo mkfs.ext4 /dev/sdb1
+: 1698325983:0;clear
+: 1698325997:0;fdisk -l
+: 1698326001:0;sudo fdisk -l
+: 1698326126:0;clear
+: 1698326133:0;lsblk
+: 1698332017:0;sudo-sync\
+done
+: 1698332023:0;clear
+: 1698332026:0;yay --noconfirm
+: 1698332335:0;reboot
+: 1698332344:0;clear
+: 1698332349:0;reboot
+: 1698332941:0;cd Downloads
+: 1698332942:0;ll
+: 1698332943:0;clear
+: 1698332947:0;mysql -u root
+: 1698332953:0;sudo xampp start
+: 1698332960:0;mysql -u root
+: 1698333039:0;cd
+: 1698333039:0;clear
+: 1698333045:0;code Documents/sftp
+: 1698333125:0;tux-mount
+: 1698333133:0;code $development/sie/servicio_pagina
+: 1698333154:0;cd $development
+: 1698333154:0;ls
+: 1698333158:0;code servicio_pagina
+: 1698333173:0;npm install
+: 1698333183:0;npm run 
+: 1698333188:0;npm run dev
+: 1698333847:0;sudo xampp restart
+: 1698339156:0;off
+: 1698355159:0;sudo-sync\
+done
+: 1698340800:0;clear
+: 1698340807:0;speedtest
+: 1698340832:0;nmcli dev wifi list
+: 1698340857:0;clear
+: 1698340872:0;nmcli dev wifi list
+: 1698340888:0;nmcli -a dev wifi connect 'Michis' password 'Yakys_<3'
+: 1698340890:0;clear
+: 1698340892:0;speedtest
+: 1698340965:0;clear
+: 1698340968:0;tux-mount
+: 1698340970:0;clear
+: 1698340971:0;clear && source ~/.zshrc
+: 1698341011:0;yay megasync
+: 1698341052:0;CLEAR
+: 1698341054:0;clear
+: 1698341069:0;code $development/sie/servicio_umss
+: 1698341223:0;clear
+: 1698341227:0;npm run
+: 1698341235:0;npm run dev
+: 1698341254:0;sudo xampp start
+: 1698341258:0;npm run dev
+: 1698341341:0;sudo xampp stop
+: 1698341344:0;clear
+: 1698341349:0;yay http
+: 1698341356:0;yay httpd
+: 1698341366:0;yay apache
+: 1698341387:0;yay mariadb
+: 1698341417:0;yay mysql
+: 1698341429:0;yay phpmyadmin
+: 1698341435:0;sudo xampp start
+: 1698341481:0;clear
+: 1698341484:0;sudo-sync\
+done
+: 1698341991:0;npm run dev
+: 1698342227:0;code $development/servicio_pagina
+: 1698342246:0;clear
+: 1698342248:0;npm run dev
+: 1698343590:0;ping gcod.dev
+: 1698343606:0;ping cl2023090115001.dnssw.net
+: 1698344033:0;clear
+: 1698344034:0;sudo-sync\
+done
+: 1698344058:0;curl -X GET http://127.0.0.1
+: 1698344068:0;curl -X GET http://127.0.0.1:5500
+: 1698344071:0;curl -X GET http://127.0.0.1:5500/api
+: 1698344075:0;curl -X GET http://127.0.0.1:5500/api/area
+: 1698344081:0;curl -X GET http://127.0.0.1:5500/api/InstitucionUpea
+: 1698344084:0;clear
+: 1698344085:0;clear && source ~/.zshrc
+: 1698344097:0;clear
+: 1698344747:0;clear && source ~/.zshrc
+: 1698348813:0;clear
+: 1698348815:0;sudo-sync\
+done
+: 1698348832:0;clear
+: 1698360044:0;tux-mount
+: 1698360055:0;code Documents/sis_admin
+: 1698360070:0;clear
+: 1698360075:0;npm run dev
+: 1698360081:0;npm run serve
+: 1698364997:0;ssh webvue@186.121.206.232 -p 7714
+: 1698365067:0;yay ida
+: 1698365302:0;yay neovim
+: 1698365735:0;yay xonsole
+: 1698365740:0;yay konsole
+: 1698365858:0;clear
+: 1698365859:0;nvim
+: 1698366218:0;clear
+: 1698366303:0;exit
+: 1698366446:0;clear
+: 1698366447:0;exit
+: 1698368955:0;clear
+: 1698368962:0;git status
+: 1698368965:0;git add .
+: 1698368979:0;clear && source ~/.zshrc
+: 1698369004:0;nvim ~/.zshrc
+: 1698369083:0;lsusb
+: 1698369181:0;git log
+: 1698369183:0;git status
+: 1698369198:0;git commit -m 'Decanatura'
+: 1698369199:0;clear
+: 1698372327:0;git add .
+: 1698372338:0;git commit -m 'Usuarios y carreras'
+: 1698372348:0;git merge master -m 'Merge Decanato'
+: 1698372353:0;git status
+: 1698372356:0;git log
+: 1698372363:0;git checkout master
+: 1698372366:0;git merge master -m 'Merge Decanato'
+: 1698372372:0;git merge dev -m 'Merge Decanato'
+: 1698372373:0;clear
+: 1698372378:0;git push origin master
+: 1698372597:0;clear
+: 1698372598:0;exit
+: 1698372613:0;cd Documents/sis_admin
+: 1698372613:0;ll
+: 1698372624:0;rm -r dist
+: 1698372628:0;npm run build
+: 1698373281:0;off
+: 1698413407:0;set-bright 192
+: 1698413412:0;clear
+: 1698413413:0;sudo-sync\
+done
+: 1698413420:0;clear
+: 1698413422:0;yay --noconfirm
+: 1698413564:0;clear
+: 1698413685:0;code Documents/siadi_sftp
+: 1698414922:0;ssh webvue@186.121.206.232 -p 7714
+: 1698414940:0;clear
+: 1698415003:0;ssh webvue@186.121.206.232 -p 7714
+: 1698415199:0;clear
+: 1698415201:0;exit
+: 1698415203:0;yay --noconfirm
+: 1698415222:0;clear
+: 1698427432:0;sudo-sync\
+done
+: 1698427449:0;clear
+: 1698427455:0;nvim ~/.zshrc
+: 1698427506:0;clear
+: 1698427507:0;clear && source ~/.zshrc
+: 1698427514:0;reboot
+: 1698441927:0;clear
+: 1698427566:0;clear && source ~/.zshrc
+: 1698427576:0;clear
+: 1698427579:0;clear && source ~/.zshrc
+: 1698427584:0;clear
+: 1698427654:0;gsettings get org.gnome.desktop.screensaver
+: 1698427666:0;gsettings get org.gnome.desktop.screensaver picture-opacity
+: 1698427678:0;gsettings get org.gnome.desktop.screensaver picture-uri
+: 1698427691:0;gsettings set org.gnome.desktop.screensaver picture-uri
+: 1698427719:0;gsettings set org.gnome.desktop.screensaver picture-uri 'file:///home/gary/.pictures/.1.jpg'
+: 1698427722:0;reboot
+: 1698442165:0;clear
+: 1698442174:0;gsettings get org.gnome.desktop.screensaver picture-uri
+: 1698442186:0;gsettings set org.gnome.desktop.screensaver picture-uri 'file:///home/gary/.pictures/1.jpg'
+: 1698442190:0;ls .pictures
+: 1698442195:0;gsettings set org.gnome.desktop.screensaver picture-uri 'file:///home/gary/.pictures/0.jpg'
+: 1698442210:0;gsettings get org.gnome.desktop.screensaver picture-uri
+: 1698442253:0;gsettings get org.gnome.desktop.lockdown 
+: 1698442261:0;gsettings get org.gnome.desktop.lockdown key
+: 1698442266:0;gsettings get org.gnome.desktop.lockdown PATH
+: 1698442275:0;gsettings get org.gnome.desktop.session 
+: 1698442282:0;gsettings get org.gnome.desktop.session session-name
+: 1698442286:0;gsettings get org.gnome.desktop.session idle-delay
+: 1698442309:0;gsettings get org.gnome.desktop.screensaver lock-delay
+: 1698442328:0;gsettings get org.gnome.desktop.screensaver picture-op
+: 1698442332:0;gsettings get org.gnome.desktop.screensaver picture-options
+: 1698442337:0;clear
+: 1698442342:0;exit
+: 1698442355:0;nmcli dev wifi list
+: 1698442406:0;nmcli -a dev wifi connect 'ZONA WIFI LIBRE UPEA'
+: 1698442422:0;clear
+: 1698442495:0;speedtest
+: 1698442585:0;nmcli dev wifi list
+: 1698442599:0;clear
+: 1698442646:0;clea
+: 1698442648:0;clear
+: 1698442650:0;curl -X GET http://127.0.0.1:5500/api/InstitucionUpea
+: 1698442675:0;tux-mount
+: 1698442687:0;cd $development/servicio_pagina
+: 1698442689:0;npm run dev
+: 1698442694:0;curl -X GET http://127.0.0.1:5500/api/InstitucionUpea
+: 1698442701:0;sudo xampp start
+: 1698442712:0;exit
+: 1698442716:0;curl -X GET http://127.0.0.1:5500/api/InstitucionUpea
+: 1698442727:0;clear
+: 1698442728:0;exit
+: 1698442792:0;exiftool arch_packages2.txt
+: 1698428459:0;clear
+: 1698428473:0;ida-free
+: 1698428477:0;yay ida-free
+: 1698428527:0;clear
+: 1698429752:0;exit
+: 1698430660:0;code /run/media/gary/GARY/IDR-II
+: 1698438680:0;cd /run/media/gary/GARY/IDR-II
+: 1698438689:0;mv EnrutamientoOSPF_Lab1.pkt
+: 1698438700:0;mv EnrutamientoOSPF.pkt EnrutamientoOSPF_Lab1.pkt
+: 1698438701:0;clear
+: 1698438701:0;ll
+: 1698438705:0;ll -l
+: 1698438908:0;clear && source ~/.zshrc
+: 1698438929:0;clear
+: 1698438932:0;bashtop
+: 1698438949:0;exit
+: 1698440582:0;sudo-sync\
+done
+: 1698440597:0;yay nvim-
+: 1698440607:0;yay nvim-theme
+: 1698440611:0;yay neovim-theme
+: 1698440614:0;clear
+: 1698440618:0;yay ida-free
+: 1698492186:0;yay megasync
+: 1698492379:0;sudo timedatectl set-local-rtc 1
+: 1698492394:0;exit
+: 1698495912:0;yay nemo-mega
+: 1698496143:0;clear
+: 1698496151:0;yay --noconfirm
+: 1698496236:0;yay nemo-mega
+: 1698496243:0;clear
+: 1698496486:0;cler
+: 1698496487:0;clear
+: 1698496490:0;tux-mount
+: 1698496499:0;sudo-sync\
+done
+: 1698497279:0;off
+: 1698535671:0;yay -Rs blueman
+: 1698535679:0;clear
+: 1698521713:0;yay thunderbird
+: 1698521734:0;yay -Qdtq
+: 1698521745:0;yay -Rs $(yay -Qdtq)
+: 1698522448:0;sudo-sync\
+done
+: 1698522475:0;clear && source ~/.zshrc
+: 1698522844:0;clear
+: 1698522846:0;sudo-
+: 1698522849:0;sudo-sync\
+done
+: 1698522865:0;clear
+: 1698522870:0;yay -Qs
+: 1698522872:0;yay -Qq
+: 1698522881:0;yay -S ida-free
+: 1698522908:0;clear && source ~/.zshrc
+: 1698522919:0;pacman -Qq
+: 1698522927:0;pacman -Qdtq
+: 1698522931:0;sudo pacman -Qdtq
+: 1698522940:0;clear && source ~/.zshrc
+: 1698541596:0;sudo-sync\
+done
+: 1698542146:0;clear
+: 1698542154:0;yay --noconfirm
+: 1698546592:0;yay onedrive
+: 1698547173:0;yay nemo-one
+: 1698547295:0;onedrive
+: 1698548012:0;ll
+: 1698548019:0;rm -r OneDrive
+: 1698548436:0;yay comfyline
+: 1698548459:0;yay powerline
+: 1698548518:0;yay comfy
+: 1698548562:0;ll -la
+: 1698548574:0;ll -la .oh-my-zsh/themes
+: 1698548705:0;cat .zshrc | grep ~/
+: 1698548708:0;cat .zshrc | grep ~
+: 1698548712:0;cat .zshrc
+: 1698548722:0;cat .zshrc | grep power
+: 1698548745:0;cd .oh-my-zsh/themes
+: 1698548746:0;ll
+: 1698548753:0;git clone https://gitlab.com/imnotpua/comfyline_prompt.git
+: 1698548757:0;cd comfyline_prompt
+: 1698548757:0;ll
+: 1698548759:0;ll -l
+: 1698548766:0;./install.sh
+: 1698548771:0;sudo ./install.sh
+: 1698548779:0;exit
+: 1698548788:0;nano ~/.zshrc
+: 1698548841:0;cd .oh-my-zsh/themes/comfyline_prompt
+: 1698548845:0;ll
+: 1698548861:0;clear && source ~/.zshrc
+: 1698548867:0;exit
+: 1698548878:0;clear && source ~/.zshrc
+: 1698548885:0;pwd
+: 1698548951:0;nano .oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+: 1698549046:0;clear && source ~/.zshrc
+: 1698549065:0;nano .oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+: 1698549076:0;clear && source ~/.zshrc
+: 1698549095:0;echo COMFYLINE_START_NEXT_LINE
+: 1698549099:0;echo $COMFYLINE_START_NEXT_LINE
+: 1698549124:0;nano .oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+: 1698549130:0;clear && source ~/.zshrc
+: 1698549136:0;clear
+: 1698549137:0;nano .oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+: 1698549165:0;exit
+: 1698549173:0;clear && source ~/.zshrc
+: 1698549178:0;exit
+: 1698549187:0;clear
+: 1698549190:0;clear && source ~/.zshrc
+: 1698549199:0;sudo-sync\
+done
+: 1698549208:0;exit
+: 1698549228:0;off
+: 1698681230:0;clear
+: 1698666885:0;sudo-sync\
+done
+: 1698666923:0;clear && source ~/.zshrc
+: 1698666942:0;nano .zshrc
+: 1698666991:0;clear && source ~/.zshrc
+: 1698667023:0;nano .zshrc
+: 1698667100:0;clear && source ~/.zshrc
+: 1698683365:0;clear
+: 1698683369:0;sudo-sync
+: 1698683382:0;sudo-sync\
+done
+: 1698683677:0;7
+: 1698691344:0;clear
+: 1698691348:0;sudo-sync\
+done
+: 1698691385:0;clear
+: 1698691388:0;yay --noconfirm
+: 1698693883:0;yay lgogdownloader
+: 1698695046:0;off
+: 1698763366:0;sudo-sync\
+done
+: 1698763374:0;clear
+: 1698763375:0;clear && source ~/.zshrc
+: 1698763382:0;nano .zshrc
+: 1698763452:0;clear && source ~/.zshrc
+: 1698763455:0;exit
+: 1698763462:0;sudo-sync\
+done
+: 1698763469:0;clear && source ~/.zshrc
+: 1698763473:0;clear
+: 1698763494:0;tux-mount
+: 1698763501:0;cd $development/Laravel/consultoria
+: 1698763503:0;clear
+: 1698763505:0;exit
+: 1698763509:0;cd $development/Laravel/consultoria
+: 1698763512:0;clear && source ~/.zshrc
+: 1698763523:0;sudo xampp start
+: 1698763530:0;clear
+: 1698763534:0;php artisan serve
+: 1698764444:0;clear
+: 1698764587:0;cd
+: 1698764588:0;clear
+: 1698764592:0;code Documents/siadi_sftp
+: 1698765874:0;clear
+: 1698766149:0;clear && source ~/.zshrc
+: 1698766474:0;clear
+: 1698766476:0;clear && source ~/.zshrc
+: 1698766588:0;clear
+: 1698766589:0;clear && source ~/.zshrc
+: 1698766602:0;cd Documents/siadi_sftp
+: 1698766603:0;cler
+: 1698766605:0;clear && source ~/.zshrc
+: 1698766608:0;code .
+: 1698766995:0;clear && source ~/.zshrc
+: 1698767103:0;clear
+: 1698767108:0;yay ext
+: 1698767179:0;yay -S ext
+: 1698767182:0;clear
+: 1698767188:0;where code
+: 1698772689:0;reboot
+: 1698774234:0;speedtest
+: 1698774271:0;clear
+: 1698774276:0;clear && source ~/.zshrc
+: 1698774284:0;sudo-sync\
+done
+: 1698774291:0;clear
+: 1698774303:0;speedtest
+: 1698774538:0;clear
+: 1698774540:0;clear && source ~/.zshrc
+: 1698774546:0;yay --noconfirm
+: 1698774643:0;yay lgogdownloader
+: 1698774691:0;yay -Rs lgogdownloader
+: 1698774696:0;yay --noconfirm
+: 1698774724:0;clear
+: 1698774728:0;clear && source ~/.zshrc
+: 1698774769:0;code Documents/siadi_sftp
+: 1698776803:0;ssh webvue@186.121.206.232 -p 7714
+: 1698776937:0;ping serviciopagina.upea.bo
+: 1698780446:0;off
+: 1698845492:0;clear && source ~/.zshrc
+: 1698845748:0;ssh webvue@186.121.206.232 -p 7714
+: 1698846051:0;clear
+: 1698846058:0;service status docker
+: 1698846069:0;service start docker
+: 1698846071:0;service status docker
+: 1698846073:0;clear
+: 1698846076:0;docker status
+: 1698846087:0;docker ps
+: 1698846092:0;docker containers
+: 1698846094:0;docker containers -l
+: 1698846097:0;docker containers list
+: 1698846102:0;docker container list
+: 1698846104:0;docker container 
+: 1698846106:0;docker container ls
+: 1698846110:0;docker container list -a
+: 1698846117:0;docker images list
+: 1698846119:0;docker images list -la
+: 1698846121:0;docker images list -a
+: 1698846122:0;clear
+: 1698846201:0;docker pull debian
+: 1698846217:0;docker images list
+: 1698846219:0;docker images list -a
+: 1698846224:0;docker container list -a
+: 1698846230:0;clear
+: 1698846235:0;docker images -la
+: 1698846240:0;docker images ls -a
+: 1698846252:0;docker pull debian
+: 1698846841:0;clear
+: 1698846858:0;tux-mount
+: 1698846988:0;clear
+: 1698846989:0;clear && source ~/.zshrc
+: 1698846994:0;nvim ~/.zshrc
+: 1698847021:0;clear && source ~/.zshrc
+: 1698847024:0;clear
+: 1698847025:0;exit
+: 1698847029:0;clear && source ~/.zshrc
+: 1698847032:0;sudo-sync\
+done
+: 1698847044:0;clear && source ~/.zshrc
+: 1698847049:0;nvim ~/.zshrc
+: 1698847067:0;clear && source ~/.zshrc
+: 1698847123:0;exit
+: 1698847128:0;clear && source ~/.zshrc
+: 1698847130:0;clear
+: 1698847134:0;yay --noconfirm
+: 1698847220:0;clear
+: 1698847223:0;clear && source ~/.zshrc
+: 1698847292:0;sudo-sync\
+done
+: 1698847303:0;clear
+: 1698847520:0;yay --noconfirm
+: 1698847600:0;clear && source ~/.zshrc
+: 1698847623:0;yay -Q
+: 1698847625:0;yay -Qd
+: 1698847628:0;yay -Qq
+: 1698847649:0;ll
+: 1698847670:0;touch arch_packages4.txt
+: 1698847707:0;yay -Qq > arch_packages4.txt
+: 1698847710:0;cat arch_packages4.txt
+: 1698847712:0;clear
+: 1698847939:0;speedtest
+: 1698847966:0;clear
+: 1698848356:0;clear && source ~/.zshrc
+: 1698848368:0;yay --noconfirm
+: 1698848442:0;sudo-sync\
+done
+: 1698848460:0;clear
+: 1698848461:0;clear && source ~/.zshrc
+: 1698848640:0;clear
+: 1698848648:0;exiftool arch_packages4.txt
+: 1698848658:0;strings arch_packages4.txt
+: 1698848683:0;yay docker-
+: 1698848690:0;yay docker-desktop
+: 1698849190:0;clear && source ~/.zshrc
+: 1698849193:0;clear
+: 1698849202:0;service stop docker
+: 1698849215:0;service stop docker.socket
+: 1698849218:0;service stop docker
+: 1698849222:0;service status docker
+: 1698849227:0;clear
+: 1698849233:0;exit
+: 1698849346:0;service start docker.socket
+: 1698849352:0;service start docker
+: 1698849354:0;clear
+: 1698849355:0;clear && source ~/.zshrc
+: 1698849364:0;docker run hello-world
+: 1698849435:0;docker container list -a
+: 1698849438:0;docker container list
+: 1698849446:0;docker images ls -a
+: 1698849450:0;docker images list -a
+: 1698849452:0;clear
+: 1698849459:0;docker container list
+: 1698849461:0;docker container list -a
+: 1698849465:0;docker ps
+: 1698849467:0;docker ps a
+: 1698849469:0;docker ps -a
+: 1698849476:0;clear
+: 1698849478:0;clear && source ~/.zshrc
+: 1698849487:0;yay --noconfirm
+: 1698853211:0;clear
+: 1698853231:0;code $development/sie/servicio_umss
+: 1698853265:0;code $development/servicio_pagina
+: 1698853335:0;clear
+: 1698853341:0;npm install path --save
+: 1698853490:0;npm install sequelize
+: 1698853494:0;npm install sequelize --save
+: 1698853606:0;sudo xampp start
+: 1698853624:0;php -v
+: 1698853889:0;npm install dotenv --save
+: 1698854576:0;npm run dev
+: 1698854777:0;clear
+: 1698854780:0;clear && source ~/.zshrc
+: 1698854784:0;clear
+: 1698855149:0;npm install morgan cors helmet --save
+: 1698855648:0;clear
+: 1698855650:0;npm run dev
+: 1698855700:0;npm remove body-parser
+: 1698855743:0;npm install express-mysql-session express-session express-validator mariadb sequelize-auto
+: 1698856269:0;npm run dev
+: 1698856315:0;npm install path dotenv
+: 1698856333:0;npm run dev
+: 1698857023:0;clear
+: 1698857027:0;npm run dev
+: 1698858380:0;off
+: 1698884746:0;sudo-sync\
+done
+: 1698884758:0;clear && source ~/.zshrc
+: 1698884817:0;service stop docker
+: 1698884887:0;reboot
+: 1698884966:0;tux-mount
+: 1698884984:0;rm -rf ~/Tux/*
+: 1698885096:0;clear
+: 1698885109:0;cp -r /home/Tux/* ~/Tux
+: 1698886531:0;clear
+: 1698886534:0;clear && source ~/.zshrc
+: 1698889577:0;ll -l
+: 1698889598:0;yay -Qq > arch_packages4.txt
+: 1698889605:0;clear
+: 1698889612:0;ll
+: 1698889615:0;ll -l
+: 1698889634:0;cat arch_packages4.txt | grep ida-
+: 1698889643:0;cat arch_packages4.txt | grep docker
+: 1698889743:0;cp .zshrc history4.txt
+: 1698889744:0;ll
+: 1698889750:0;git status
+: 1698889768:0;git diff .config/neofetch/config.conf
+: 1698889787:0;git restore .config/neofetch/config.conf --staged
+: 1698889789:0;git status
+: 1698889793:0;git diff .config/neofetch/config.conf
+: 1698889799:0;git restore .config/neofetch/config.conf
+: 1698889800:0;git diff .config/neofetch/config.conf
+: 1698889803:0;git status
+: 1698889810:0;git diff .config/qtile/config.py
+: 1698889815:0;git add .
+: 1698889823:0;nano .gitignore
+: 1698889861:0;git status
+: 1698889864:0;git add .
+: 1698889869:0;git status
+: 1698891172:0;off
+: 1698921592:0;clear && source ~/.zshrc
+: 1698921595:0;sudo-sync\
+done
+: 1698921609:0;clear && source ~/.zshrc
+: 1698921652:0;reboot
+: 1698922484:0;CLEAR
+: 1698922487:0;clear && source ~/.zshrc
+: 1698922493:0;yay --noconfirm
+: 1698922524:0;yay -Rs docker-desktop
+: 1698922531:0;exit
+: 1698922549:0;clear
+: 1698922552:0;reboot
+: 1698922618:0;sudo-sync\
+done
+: 1698922629:0;clear && source ~/.zshrc
+: 1698922635:0;clear
+: 1698922917:0;tux-mount
+: 1698922953:0;git status
+: 1698922963:0;git remote -v
+: 1698922973:0;git remote remove origin
+: 1698923157:0;git remote add origin https://gitlab.com/gcoddev/servicio_pagina.git
+: 1698923166:0;git status
+: 1698923170:0;rm package-lock.json
+: 1698923186:0;git status
+: 1698923193:0;git log
+: 1698923203:0;git push -u origin master
+: 1698923213:0;git push -u origin min
+: 1698923215:0;git push -u origin main
+: 1698923224:0;ll
+: 1698923225:0;cd ..
+: 1698923227:0;ll -l
+: 1698923242:0;cd sie
+: 1698923243:0;ll
+: 1698923246:0;ll -l
+: 1698923288:0;cp -r admision_especial disbedc orientacion_vocacional servicio_umss vicerrectorado /run/media/gary/GARY/BackupLinux
+: 1698923376:0;cd $development/sie/servicio_umss
+: 1698923381:0;git status
+: 1698923383:0;git add .
+: 1698923392:0;nano .gitignore
+: 1698923410:0;git restore .
+: 1698923412:0;git status
+: 1698923417:0;git add .
+: 1698923446:0;git restore package-lock.json --staged
+: 1698923450:0;git status
+: 1698923456:0;nano .gitignore
+: 1698923466:0;git status
+: 1698923473:0;git add .gitignore
+: 1698923475:0;git status
+: 1698923479:0;git add .
+: 1698923481:0;git status
+: 1698923487:0;git restore package-lock.json --staged
+: 1698923490:0;git status
+: 1698923496:0;nano .gitignore
+: 1698923521:0;rm -rf .git
+: 1698923525:0;git init
+: 1698923527:0;git status
+: 1698923531:0;git add .
+: 1698923538:0;git commit -m 'init'
+: 1698923567:0;git remote add origin http://gitlabsie.upea.bo/gcoddev/servicio_umss.git
+: 1698923570:0;clear
+: 1698923572:0;git push -u origin main
+: 1698923581:0;git push -u origin master
+: 1698923586:0;clear
+: 1698923589:0;ll
+: 1698923591:0;cd ..
+: 1698923591:0;ll
+: 1698923639:0;cp -r gitlab-ci.yml index.php notas.txt RBenRegBeneficiario.pdf /run/media/gary/GARY/BackupLinux
+: 1698923645:0;ll back
+: 1698923649:0;ll back/htdocs
+: 1698923658:0;ll pasantia_sie
+: 1698923695:0;ll
+: 1698923698:0;cd ..
+: 1698923699:0;ll
+: 1698923704:0;ll 7mo
+: 1698923709:0;ll 8vo
+: 1698923718:0;ll back
+: 1698923724:0;ll back/Documents
+: 1698923729:0;ll back/Downloads
+: 1698923744:0;ll back/Downloads/linux
+: 1698923791:0;cp -r back/ /run/media/gary/GARY/BackupLinux
+: 1698924127:0;ll
+: 1698924351:0;ll bbba
+: 1698924361:0;ll doc
+: 1698924377:0;ll dow
+: 1698924396:0;ll
+: 1698924401:0;ll VirtualBox\ VMs
+: 1698924417:0;mv VirtualBox\ VMs/KaliLinux /run/media/gary/GARY/BackupLinux
+: 1698926598:0;cd
+: 1698926602:0;cp .zshrc history4.txt
+: 1698926605:0;ll
+: 1698926610:0;cat history4.txt
+: 1698926631:0;cp .zsh_history history4.txt

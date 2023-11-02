@@ -44,9 +44,15 @@
 !.themes/WhiteSur-Dark.tar.xz
 !.themes/WhiteSur-Light.tar.xz
 
+!.icons
+!.icons/Win11.tar.xz
+!.icons/Sweet-cursors.tar.xz
+
 !arch_packages.txt
 !arch_packages2.txt
 !arch_packages3.txt
+!arch_packages4.txt
 !history2.txt
+!history4.txt
 !.config/gtk-3.0
 !.config/gtk-3.0/gtk.css

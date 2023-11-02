@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="comfyline"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,27 +109,29 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/.oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+# source ~/.zshrc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
 # Keyboard detection
-TECLADO=`lsusb | grep 'KB'`
+#TECLADO=`lsusb | grep 'KB'`
 
-if [[ -z $TECLADO ]]
-then
+#if [[ -z $TECLADO ]]
+#then
   # echo "us"
-  setxkbmap us
-else
+  #setxkbmap us
+#else
   # echo "latam"
-  setxkbmap latam
-fi
+  #setxkbmap latam
+#fi
 
 #My configs
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+# typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 numlockx on
 
 #pfetch
@@ -143,8 +145,8 @@ htdocs='/opt/lampp/htdocs'
 #pgfiles='/var/lib/pgadmin/storage/geco.yak77_gmail.com'
 
 # PATHS
-#PATH=$PATH:/opt/lampp
-#PATH=$PATH:/opt/lampp/bin
+PATH=$PATH:/opt/lampp
+PATH=$PATH:/opt/lampp/bin
 #PATH=$PATH:/lib/jvm/jdk-11.0.18/bin/
 #PATH=$PATH:~/.fly/bin/
 PATH=$PATH:~/.config/composer/vendor/bin/
@@ -154,6 +156,8 @@ alias psql-start='sudo systemctl start postgresql.service && echo "Postgresql se
 alias psql-stop='sudo systemctl stop postgresql.service && echo "Postgresql service stoped" && pkill pgadmin4'
 alias psql-status='sudo systemctl status postgresql.service'
 alias psql-restart='sudo systemctl restart postgresql.service'
+
+#export GTK_THEME=Sweet-Ambar-Blue-Dark-v40
 
 # Docker
 alias docker-start='sudo systemctl start docker'
@@ -168,7 +172,7 @@ alias ll='colorls --sd'
 alias set-php7='sudo xampp stop && sudo mv /opt/lampp /opt/lampp8 && sudo mv /opt/lampp7 /opt/lampp && sudo xampp start'
 alias set-php8='sudo xampp stop && sudo mv /opt/lampp /opt/lampp7 && sudo mv /opt/lampp8 /opt/lampp && sudo xampp start'
 alias php-v='/opt/lampp/bin/php --version'
-alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
+alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
 alias tux-mount='sudo mount -t ntfs-3g /dev/sda1 /home/Tux'
