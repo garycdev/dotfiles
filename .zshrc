@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="comfyline"
+#ZSH_THEME="comfyline"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,12 +109,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-source ~/.oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+#source ~/.oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
 # source ~/.zshrc
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
 # Keyboard detection
@@ -129,24 +129,25 @@ source ~/.oh-my-zsh/themes/comfyline_prompt/comfyline.zsh-theme
   #setxkbmap latam
 #fi
 
-#My configs
-# typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-# typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
+
+
+# MY CONFIGS
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 numlockx on
 
-#pfetch
-neofetch | lolcat
 
-#development='/home/GCodDev/Development'
-development='/home/Tux/Development'
-sis='/home/Tux'
-#gcoddev='/home/GCodDev'
+#pfetch
+#neofetch | lolcat
+
+# VARIABLES
 htdocs='/opt/lampp/htdocs'
 #pgfiles='/var/lib/pgadmin/storage/geco.yak77_gmail.com'
 
 # PATHS
-PATH=$PATH:/opt/lampp
-PATH=$PATH:/opt/lampp/bin
+#PATH=$PATH:/opt/lampp
+#PATH=$PATH:/opt/lampp/bin
 #PATH=$PATH:/lib/jvm/jdk-11.0.18/bin/
 #PATH=$PATH:~/.fly/bin/
 PATH=$PATH:~/.config/composer/vendor/bin/
@@ -164,14 +165,19 @@ alias docker-start='sudo systemctl start docker'
 alias docker-stop='sudo systemctl stop docker'
 alias docker-status='sudo systemctl status docker'
 alias docker-restart='sudo systemctl restart docker'
+alias docker-exec='docker exec -it -u $1 $2 bash'
 
 #alias clear='clear && neofetch'
 #alias clear='printf "\033[2J\033[3J\033[1;1H" && neofetch'
 alias ll='colorls --sd'
+
 #alias mysql='/opt/lampp/bin/mysql'
-alias set-php7='sudo xampp stop && sudo mv /opt/lampp /opt/lampp8 && sudo mv /opt/lampp7 /opt/lampp && sudo xampp start'
-alias set-php8='sudo xampp stop && sudo mv /opt/lampp /opt/lampp7 && sudo mv /opt/lampp8 /opt/lampp && sudo xampp start'
+#alias set-php7='sudo xampp stop && sudo mv /opt/lampp /opt/lampp8 && sudo mv /opt/lampp7 /opt/lampp && sudo xampp start'
+#alias set-php8='sudo xampp stop && sudo mv /opt/lampp /opt/lampp7 && sudo mv /opt/lampp8 /opt/lampp && sudo xampp start'
+alias set-php7='sudo systemctl stop httpd mariadb && sudo /opt/lampp/xampp start'
+alias set-php8='sudo /opt/lampp/xampp stop && sudo systemctl start httpd mariadb'
 alias php-v='/opt/lampp/bin/php --version'
+
 alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
