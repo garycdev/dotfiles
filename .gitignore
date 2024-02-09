@@ -27,24 +27,24 @@
 !.config/rofi/themes/spotlight-dark.rasi
 !.config/rofi/themes/spotlight.rasi
 
-!.pictures
-!.pictures/0.jpg
-!.pictures/1.jpg
-!.pictures/2.jpg
-!.pictures/3.jpg
-!.pictures/4.jpg
-!.pictures/5.jpg
-!.pictures/6.jpg
-!.pictures/7.jpg
-!.pictures/8.jpg
-!.pictures/9.jpg
-!.pictures/10.jpg
-!.pictures/11.jpg
-!.pictures/12.jpg
-!.pictures/13.jpg
-!.pictures/14.jpg
-!.pictures/15.jpg
-
+!Pictures
+!Pictures/Backgrounds
+!Pictures/Backgrounds/0.jpg
+!Pictures/Backgrounds/1.jpg
+!Pictures/Backgrounds/2.jpg
+!Pictures/Backgrounds/3.jpg
+!Pictures/Backgrounds/4.jpg
+!Pictures/Backgrounds/5.jpg
+!Pictures/Backgrounds/6.jpg
+!Pictures/Backgrounds/7.jpg
+!Pictures/Backgrounds/8.jpg
+!Pictures/Backgrounds/9.jpg
+!Pictures/Backgrounds/10.jpg
+!Pictures/Backgrounds/archlight.jpg
+!Pictures/Backgrounds/archsky.jpg
+!Pictures/Backgrounds/archwin.png
+!Pictures/Icons
+!Pictures/Icons/udemy.png
 
 !.themes
 !.themes/Sweet-Ambar-Blue-Dark-v40.tar.xz
@@ -56,9 +56,10 @@
 !.themes/Apple-Ventura.tar.xz
 
 !.icons
-!.icons/Win11.tar.xz
-!.icons/Sweet-cursors.tar.xz
-!.icons/Inverse.tar.xz
+#!.icons/Win11.tar.xz
+#!.icons/Sweet-cursors.tar.xz
+#!.icons/Inverse.tar.xz
+!.icons/*
 
 !arch_packages.txt
 !arch_packages2.txt
