@@ -56,9 +56,9 @@
 !.themes/Apple-Ventura.tar.xz
 
 !.icons
-#!.icons/Win11.tar.xz
-#!.icons/Sweet-cursors.tar.xz
-#!.icons/Inverse.tar.xz
+!.icons/Win11.tar.xz
+!.icons/Sweet-cursors.tar.xz
+!.icons/Inverse.tar.xz
 !.icons/*
 
 !arch_packages.txt
