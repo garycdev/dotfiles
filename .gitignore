@@ -1,12 +1,17 @@
 *
 !.gitignore
+!.gitconfig.copy
 !.zshrc
 !.xinitrc
 !.vimrc
+!.profile
+!.xprofile
 
 !.config
 !.config/alacritty
-!.config/alacritty/alacritty.yml
+!.config/alacritty/alacritty.toml
+!.config/alacritty/fonts.toml
+!.config/alacritty/rice-colors.toml
 !.config/qtile
 !.config/qtile/autostart.sh
 !.config/qtile/config.py
@@ -40,7 +45,10 @@
 !Pictures/Backgrounds/8.jpg
 !Pictures/Backgrounds/9.jpg
 !Pictures/Backgrounds/10.jpg
-!Pictures/Backgrounds/archlight.jpg
+!Pictures/Backgrounds/11.jpg
+!Pictures/Backgrounds/12.jpg
+!Pictures/Backgrounds/13.jpg
+!Pictures/Backgrounds/14.jpg
 !Pictures/Backgrounds/archsky.jpg
 !Pictures/Backgrounds/archwin.png
 !Pictures/Icons
@@ -65,9 +73,33 @@
 !arch_packages2.txt
 !arch_packages3.txt
 !arch_packages4.txt
+!arch_packages5.txt
 
 !history2.txt
 !history4.txt
+!history5.txt
 
 !.config/gtk-3.0
 !.config/gtk-3.0/gtk.css
+!.config/gtk-3.0/settings.ini
+!.config/gtk-4.0
+!.config/gtk-4.0/settings.ini
+
+!.config/bspwm.zip
+!.config/polybar
+!.config/polybar/config.ini
+!.config/polybar/launch.sh
+!.config/polybar/launch2.sh
+!.config/mpd
+!.config/mpd/mpd.conf
+!.config/ncmpcpp
+!.config/ncmpcpp/config
+!.config/sxhkd
+!.config/sxhkd/sxhkdrc
+
+!.screenlayout
+!.screenlayout/resolucion.sh
+!.screenlayout/resolucion-2p.sh
+
+!.scripts
+!.scripts/wifi-conn

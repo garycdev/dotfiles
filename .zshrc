@@ -120,14 +120,14 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # Keyboard detection
 #TECLADO=`lsusb | grep 'KB'`
 
-#if [[ -z $TECLADO ]]
-#then
+# if [[ -z $TECLADO ]]
+# then
   # echo "us"
-  #setxkbmap us
-#else
+  # setxkbmap us
+# else
   # echo "latam"
-  #setxkbmap latam
-#fi
+  # setxkbmap latam
+# fi
 
 
 
@@ -136,7 +136,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 numlockx on
-
+# ~/.zlogin
+last_login=$(last -1 "$USER" | head -n 1 | awk '{print $4, $5, $6, $7, "on", $2}')
+echo "Last login: $last_login\n"
 
 #pfetch
 #neofetch | lolcat
@@ -145,12 +147,32 @@ numlockx on
 htdocs='/opt/lampp/htdocs'
 #pgfiles='/var/lib/pgadmin/storage/geco.yak77_gmail.com'
 
+# SCRIPTS
+_wifi_conn_complete() {
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts=$(nmcli -t -f ssid dev wifi list | cut -d ':' -f 2)
+
+    # Si la palabra anterior es 'wifi-conn' y estamos en el primer argumento,
+    # permitir la autocompletación sin dividir los nombres de red que contienen espacios.
+    if [[ ${cur} == * && ${prev} == 'wifi-conn' && ${COMP_CWORD} -eq 1 ]] ; then
+        local IFS=$'\n'  # Establecer el separador de campos interno para nombres de red con espacios
+        COMPREPLY=( $(compgen -W "${opts}" -- "${cur}") )
+        return 0
+    fi
+}
+complete -F _wifi_conn_complete wifi-conn
+
 # PATHS
-#PATH=$PATH:/opt/lampp
+PATH=$PATH:/opt/lampp
 #PATH=$PATH:/opt/lampp/bin
 #PATH=$PATH:/lib/jvm/jdk-11.0.18/bin/
 #PATH=$PATH:~/.fly/bin/
 PATH=$PATH:~/.config/composer/vendor/bin/
+PATH=$PATH:~/.scripts/
+PATH=$PATH:~/.local/share/gem/ruby/3.0.0/bin
 
 # Postgresql
 alias psql-start='sudo systemctl start postgresql.service && echo "Postgresql service started" && nohup ~/pgadmin4/bin/pgadmin4 &'
@@ -167,9 +189,13 @@ alias docker-status='sudo systemctl status docker'
 alias docker-restart='sudo systemctl restart docker'
 alias docker-exec='docker exec -it -u $1 $2 bash'
 
+# Mis alias
 #alias clear='clear && neofetch'
 #alias clear='printf "\033[2J\033[3J\033[1;1H" && neofetch'
+source $(dirname $(gem which colorls))/tab_complete.sh
 alias ll='colorls --sd'
+alias ytdown='~/Music/.ytdown'
+alias clear='clear && echo -e "Last login: $last_login"'
 
 #alias mysql='/opt/lampp/bin/mysql'
 #alias set-php7='sudo xampp stop && sudo mv /opt/lampp /opt/lampp8 && sudo mv /opt/lampp7 /opt/lampp && sudo xampp start'
@@ -185,3 +211,4 @@ alias tux-mount='sudo mount -t ntfs-3g /dev/sda1 /home/Tux'
 alias utux-mount='sudo umount /home/Tux'
 alias service='sudo systemctl '
 alias feh-random='feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg'
+alias py='python'

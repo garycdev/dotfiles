@@ -3,7 +3,7 @@ notify-send "Bienvenido de nuevo Gary" &
 
 # Fondo de pantalla
 #feh --bg-fill ~/.pictures/(($RANDOM % 6)).jpg
-feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg
+feh --bg-fill ~/Pictures/Backgrounds/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg
 
 # Servicios externos
 /usr/lib/xfce4/notifyd/xfce4-notifyd &

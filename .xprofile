@@ -1,0 +1,13 @@
+# $HOME/.screenlayout/resolucion.sh
+setxkbmap latam
+light-locker &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+xfce4-power-manager &
+xfce4-clipman &
+picom &
+# blueman-applet &
+blueberry-tray
+sxhkd &
+nitrogen --restore &
+xfce4-terminal -x htop &
+exec bspwm
