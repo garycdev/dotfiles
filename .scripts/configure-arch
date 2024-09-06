@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Instalar yay
+yay() {
+    pacman -S --needed git base-devel go --noconfirm
+
+		rm -r ./yay
+    git clone https://aur.archlinux.org/yay.git
+
+    USER=$(logname)
+    chown -R $USER:users ./yay
+
+    cd ./yay
+    sudo -u $USER makepkg -si --noconfirm
+
+    if command -v yay &> /dev/null; then
+        echo "yay se ha instalado correctamente."
+    else
+        echo "Hubo un problema al instalar yay."
+    fi
+}
+
+# Verificar si se está ejecutando como root
+if [ "$EUID" -ne 0 ]; then
+  echo "Por favor, ejecuta el script como root o con sudo."
+  exit 1
+else
+  yay
+fi
+
