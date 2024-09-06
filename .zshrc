@@ -135,7 +135,7 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # MY CONFIGS
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-numlockx on
+# numlockx on
 # ~/.zlogin
 last_login=$(last -1 "$USER" | head -n 1 | awk '{print $4, $5, $6, $7, "on", $2}')
 echo "Last login: $last_login\n"
@@ -168,11 +168,21 @@ complete -F _wifi_conn_complete wifi-conn
 # PATHS
 PATH=$PATH:/opt/lampp
 #PATH=$PATH:/opt/lampp/bin
-#PATH=$PATH:/lib/jvm/jdk-11.0.18/bin/
-#PATH=$PATH:~/.fly/bin/
-PATH=$PATH:~/.config/composer/vendor/bin/
-PATH=$PATH:~/.scripts/
+#PATH=$PATH:/lib/jvm/jdk-11.0.18/bin
+#PATH=$PATH:~/.fly/bin
+PATH=$PATH:~/.config/composer/vendor/bin
+PATH=$PATH:~/.scripts
 PATH=$PATH:~/.local/share/gem/ruby/3.0.0/bin
+PATH=$PATH:/opt/flutter-sdk/flutter/bin
+PATH=$PATH:~/Android/Sdk/cmdline-tools/bin
+PATH=$PATH:~/.config/bspwm/scripts
+
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+export ANDROID_HOME="~/Android/Sdk"
+export FLYCTL_INSTALL="/home/gary/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+export EDITOR=vim
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=True'
 
 # Postgresql
 alias psql-start='sudo systemctl start postgresql.service && echo "Postgresql service started" && nohup ~/pgadmin4/bin/pgadmin4 &'
@@ -184,17 +194,16 @@ alias psql-restart='sudo systemctl restart postgresql.service'
 
 # Docker
 alias docker-start='sudo systemctl start docker'
-alias docker-stop='sudo systemctl stop docker'
+alias docker-stop='sudo systemctl stop docker docker.socket'
 alias docker-status='sudo systemctl status docker'
 alias docker-restart='sudo systemctl restart docker'
 alias docker-exec='docker exec -it -u $1 $2 bash'
 
 # Mis alias
-#alias clear='clear && neofetch'
 #alias clear='printf "\033[2J\033[3J\033[1;1H" && neofetch'
 source $(dirname $(gem which colorls))/tab_complete.sh
 alias ll='colorls --sd'
-alias ytdown='~/Music/.ytdown'
+# alias ytdown='~/Music/.ytdown'
 alias clear='clear && echo -e "Last login: $last_login"'
 
 #alias mysql='/opt/lampp/bin/mysql'
@@ -212,3 +221,9 @@ alias utux-mount='sudo umount /home/Tux'
 alias service='sudo systemctl '
 alias feh-random='feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg'
 alias py='python'
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/gary/.dart-cli-completion/zsh-config.zsh ]] && . /home/gary/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

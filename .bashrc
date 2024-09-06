@@ -114,3 +114,4 @@ alias win-off='sudo umount /mnt/win11/'
 #alias xampp='sudo /opt/lampp/manager-linux-x64.run'
 alias sysinfo='echo "*******************" && echo "*** osysinfo -f ***" && echo "*******************" && osysinfo -f'
 alias files='nautilus ./'
+. "$HOME/.cargo/env"

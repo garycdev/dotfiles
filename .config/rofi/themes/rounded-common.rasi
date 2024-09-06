@@ -1,11 +1,11 @@
 /*******************************************************************************
- * ROUNDED THEME FOR ROFI 
- * User                 : LR-Tech               
+ * ROUNDED THEME FOR ROFI
+ * User                 : LR-Tech
  * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
  *******************************************************************************/
 
 * {
-    font:   "Roboto 12";
+		font:   "Roboto Bold 10";
 
     background-color:	transparent;
     text-color:         @fg0;
@@ -17,11 +17,11 @@
 
 window {
     location:       center;
-    width:          480;
-    y-offset:       -200;
-    border-radius:  24px;
-    
-background-color:   @bg0;
+    width:          350;
+    y-offset:       -100;
+    border-radius:  25px;
+
+		background-color:   @bg0;
 }
 
 mainbox {
@@ -33,9 +33,9 @@ inputbar {
     border-color:       @bg3;
 
     border:         2px;
-    border-radius:  16px;
+    border-radius:  25px;
 
-    padding:    8px 16px;
+    padding:    8px 25px;
     spacing:    8px;
     children:   [ prompt, entry ];
 }
@@ -45,7 +45,7 @@ prompt {
 }
 
 entry {
-    placeholder:        "Search";
+    placeholder:        "Search...";
     placeholder-color:  @fg3;
 }
 
@@ -64,7 +64,7 @@ listview {
     background-color:   transparent;
 
     margin:     12px 0 0;
-    lines:      8;
+    lines:      7;
     columns:    1;
 
     fixed-height: false;
@@ -85,10 +85,12 @@ element selected normal, element selected active {
 }
 
 element-icon {
-    size:           1em;
+    size:           1.5em;
     vertical-align: 0.5;
 }
 
 element-text {
-    text-color: inherit;
+		text-color: inherit;
+		font-size:	0px;
+		padding:		0px 10px;
 }

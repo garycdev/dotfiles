@@ -17,8 +17,12 @@ super + x
 	archlinux-logout
 
 # Nemo
+# super + e
+# 	nemo
+
+# Thunar
 super + e
-	nemo
+	thunar
 
 # program launcher
 # super + @space
@@ -49,7 +53,7 @@ super + Tab
 	bspc desktop -l next
 
 super + m
-  rofi -show drun combi -icon-theme 'We10X' -show-icons
+  rofi -show drun combi -icon-theme 'Uos-Dark' -show-icons
 
 # send the newest marked node to the newest preselected node
 super + y
@@ -105,6 +109,8 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+super + {_,shift + }{KP_1,KP_2,KP_3,KP_4,KP_5,KP_6,KP_7,KP_8,KP_9,KP_0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
 #
 # preselect
 #
@@ -150,10 +156,10 @@ XF86MonBrightnessDown
 
 # VOLUMEN
 XF86AudioRaiseVolume
-	pamixer --increase 2
+	pamixer --increase 5
 
 XF86AudioLowerVolume
-	pamixer --decrease 2
+	pamixer --decrease 5
 
 XF86AudioMute
 	pamixer --toggle-mute
@@ -171,6 +177,36 @@ super + p
 super + shift + p
 	pavucontrol
 
+# Screenshot
+Print
+	xfce4-screenshooter
+
+shift + Print
+	xfce4-screenshooter -r
+shift + alt + Print
+	xfce4-screenshooter -r -c
+
+ctrl + Print
+	xfce4-screenshooter -w --no-border
+ctrl + alt + Print
+	xfce4-screenshooter -w --no-border -c
+
+ctrl + alt + shift + Print
+	xfce4-screenshooter -f
+
 # Screenlock
 super + l
 	light-locker-command -l
+
+# Emojis
+super + z
+	rofimoji
+
+# Ranger
+ctrl + alt + t
+	alacritty --command=ranger
+
+# rofi emoji
+alt + m
+	rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c
+

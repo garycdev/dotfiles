@@ -51,10 +51,8 @@
 !Pictures/Backgrounds/14.jpg
 !Pictures/Backgrounds/archsky.jpg
 !Pictures/Backgrounds/archwin.png
-!Pictures/Icons
-!Pictures/Icons/udemy.png
+!Pictures/Backgrounds/chomosuke.jpg
 
-!.themes
 !.themes/Sweet-Ambar-Blue-Dark-v40.tar.xz
 !.themes/Sweet-Dark-v40.tar.xz
 !.themes/WhiteSur-Dark.tar.xz
@@ -74,10 +72,12 @@
 !arch_packages3.txt
 !arch_packages4.txt
 !arch_packages5.txt
+!arch_packages6.txt
 
 !history2.txt
 !history4.txt
 !history5.txt
+!history6.txt
 
 !.config/gtk-3.0
 !.config/gtk-3.0/gtk.css
@@ -98,8 +98,11 @@
 !.config/sxhkd/sxhkdrc
 
 !.screenlayout
+!.screenlayout/espejo.sh
 !.screenlayout/resolucion.sh
 !.screenlayout/resolucion-2p.sh
 
 !.scripts
+!.scripts/qr-generate
+!.scripts/ytdown
 !.scripts/wifi-conn
