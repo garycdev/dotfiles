@@ -173,8 +173,9 @@ PATH=$PATH:/opt/lampp
 PATH=$PATH:~/.config/composer/vendor/bin
 PATH=$PATH:~/.scripts
 PATH=$PATH:~/.local/share/gem/ruby/3.0.0/bin
-PATH=$PATH:/opt/flutter-sdk/flutter/bin
+PATH=$PATH:/opt/flutter/bin
 PATH=$PATH:~/Android/Sdk/cmdline-tools/bin
+PATH=$PATH:~/Android/Sdk/platform-tools
 PATH=$PATH:~/.config/bspwm/scripts
 
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
@@ -182,7 +183,7 @@ export ANDROID_HOME="~/Android/Sdk"
 export FLYCTL_INSTALL="/home/gary/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export EDITOR=vim
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=True'
+# export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=True'
 
 # Postgresql
 alias psql-start='sudo systemctl start postgresql.service && echo "Postgresql service started" && nohup ~/pgadmin4/bin/pgadmin4 &'

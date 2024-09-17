@@ -107,3 +107,9 @@
 !.scripts/ytdown
 !.scripts/wifi-conn
 !.scripts/configure-arch
+
+!.opt
+!.opt/desk-opt.zip
+!.opt/pkg-opt.zip
+!.opt/nginx-gary.zip
+!.opt/Insomnia.json
