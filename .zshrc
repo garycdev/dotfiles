@@ -130,8 +130,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # fi
 
 
-
-
 # MY CONFIGS
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
@@ -174,7 +172,7 @@ PATH=$PATH:~/.config/composer/vendor/bin
 PATH=$PATH:~/.scripts
 PATH=$PATH:~/.local/share/gem/ruby/3.0.0/bin
 PATH=$PATH:/opt/flutter/bin
-PATH=$PATH:~/Android/Sdk/cmdline-tools/bin
+PATH=$PATH:~/Android/Sdk/cmdline-tools/latest/bin
 PATH=$PATH:~/Android/Sdk/platform-tools
 PATH=$PATH:~/.config/bspwm/scripts
 
@@ -194,8 +192,8 @@ alias psql-restart='sudo systemctl restart postgresql.service'
 #export GTK_THEME=Sweet-Ambar-Blue-Dark-v40
 
 # Docker
-alias docker-start='sudo systemctl start docker'
-alias docker-stop='sudo systemctl stop docker docker.socket'
+alias docker-start='sudo systemctl start docker.socket docker.service'
+alias docker-stop='sudo systemctl stop docker.service docker.socket'
 alias docker-status='sudo systemctl status docker'
 alias docker-restart='sudo systemctl restart docker'
 alias docker-exec='docker exec -it -u $1 $2 bash'
@@ -206,6 +204,7 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 alias ll='colorls --sd'
 # alias ytdown='~/Music/.ytdown'
 alias clear='clear && echo -e "Last login: $last_login"'
+alias ip-get="ip route get 1.1.1.1 | awk '{print \$7}'"
 
 #alias mysql='/opt/lampp/bin/mysql'
 #alias set-php7='sudo xampp stop && sudo mv /opt/lampp /opt/lampp8 && sudo mv /opt/lampp7 /opt/lampp && sudo xampp start'

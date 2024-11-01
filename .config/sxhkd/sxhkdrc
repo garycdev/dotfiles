@@ -156,13 +156,18 @@ XF86MonBrightnessDown
 
 # VOLUMEN
 XF86AudioRaiseVolume
-	pamixer --increase 5
+	pamixer --increase 5 && notify-send -r 9999 -i audio-volume-high "Volume + $(pamixer --get-volume)%"
 
 XF86AudioLowerVolume
-	pamixer --decrease 5
+	pamixer --decrease 5 && notify-send -r 9999 -i audio-volume-low "Volume - $(pamixer --get-volume)%"
 
 XF86AudioMute
-	pamixer --toggle-mute
+	pamixer --toggle-mute; \
+    if [ "$(pamixer --get-mute)" = "true" ]; then \
+        notify-send -r 9999 -i audio-volume-muted "Muted"; \
+    else \
+        notify-send -r 9999 -i audio-volume-high "Unmuted"; \
+    fi
 
 # MUSIC
 XF86Audio{Prev,Play,Next}

@@ -85,7 +85,16 @@
 !.config/gtk-4.0
 !.config/gtk-4.0/settings.ini
 
-!.config/bspwm.zip
+!.config/themes-bspwm.zip
+!.config/bspwm
+!.config/bspwm/bspwmrc
+!.config/bspwm/config.ini
+!.config/bspwm/config2.ini
+!.config/bspwm/duntsrc
+!.config/bspwm/jgmenurc
+!.config/bspwm/modules.ini
+!.config/bspwm/Theme.sh
+
 !.config/polybar
 !.config/polybar/config.ini
 !.config/polybar/launch.sh

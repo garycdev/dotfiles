@@ -17,6 +17,12 @@ sxhkd &
 nitrogen --restore &
 # xfce4-terminal -x htop &
 # alacritty --command=htop &
- alacritty --command=bashtop &
+# alacritty --command=bashtop &
+# plank &
+# xbindkeys
+
+
+
+notify-send -i dialog-ok "¡ Hola ! . Bienvenido de vuelta $(whoami)"
 
 exec bspwm
