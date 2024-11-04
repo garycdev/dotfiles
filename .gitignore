@@ -12,6 +12,7 @@
 !.config/alacritty/alacritty.toml
 !.config/alacritty/fonts.toml
 !.config/alacritty/rice-colors.toml
+!.config/alacritty/rice-colors-dark.toml
 !.config/qtile
 !.config/qtile/autostart.sh
 !.config/qtile/config.py
@@ -90,6 +91,8 @@
 !.config/bspwm/bspwmrc
 !.config/bspwm/config.ini
 !.config/bspwm/config2.ini
+!.config/bspwm/config-dark.ini
+!.config/bspwm/config2-dark.ini
 !.config/bspwm/duntsrc
 !.config/bspwm/jgmenurc
 !.config/bspwm/modules.ini
@@ -99,6 +102,7 @@
 !.config/polybar/config.ini
 !.config/polybar/launch.sh
 !.config/polybar/launch2.sh
+!.config/polybar/theme.sh
 !.config/mpd
 !.config/mpd/mpd.conf
 !.config/ncmpcpp

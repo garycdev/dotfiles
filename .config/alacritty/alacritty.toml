@@ -39,7 +39,7 @@ live_config_reload = true
 #  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝   
 #	gh0stzk - https://github.com/gh0stzk/dotfiles
 
-import = ["~/.config/alacritty/rice-colors.toml", "~/.config/alacritty/fonts.toml"]
+import = ["~/.config/alacritty/rice-colors-dark.toml", "~/.config/alacritty/fonts.toml"]
 
 # [bell]
 # animation = "Linear"

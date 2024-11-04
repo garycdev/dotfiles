@@ -28,7 +28,7 @@ window {
 
     location:       center;
     width:          640;
-    y-offset:       -200;
+    y-offset:       0;
     border-radius:  8;
 }
 
@@ -91,7 +91,7 @@ element selected normal, element selected active {
 }
 
 element-icon {
-    size:   1.5em;
+    size:   1em;
 }
 
 element-text {
