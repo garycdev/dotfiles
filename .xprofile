@@ -12,7 +12,7 @@ xfce4-power-manager &
 xfce4-clipman &
 picom &
 # blueman-applet &
-blueberry-tray
+# blueberry-tray
 sxhkd &
 nitrogen --restore &
 # xfce4-terminal -x htop &
