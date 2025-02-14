@@ -213,5 +213,6 @@ ctrl + alt + t
 
 # rofi emoji
 alt + m
-	rofi -modi emoji -show emoji -kb-custom-1 Ctrl+c
+	rofi -modi emoji -show emoji
+	#-kb-custom-1 Ctrl+c
 

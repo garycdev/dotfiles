@@ -43,8 +43,8 @@ if [[ $SCREEN -eq 1 ]]; then
 elif [[ $SCREEN -eq 2 && -n "$SECONDARY_MONITOR" ]]; then
     # Dos monitores conectados
     $HOME/.screenlayout/resolucion-2p.sh
-    bspc monitor "$PRIMARY_MONITOR" -d 1 2 3 4 5
-    bspc monitor "$SECONDARY_MONITOR" -d 6 7
+    bspc monitor "$SECONDARY_MONITOR" -d 1 2 3 4
+		bspc monitor "$PRIMARY_MONITOR" -d 5 6 7
 
     # Reiniciar Polybar para ambos monitores
     killall -q polybar

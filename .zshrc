@@ -221,6 +221,7 @@ alias utux-mount='sudo umount /home/Tux'
 alias service='sudo systemctl '
 alias feh-random='feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg'
 alias py='python'
+alias netr='sudo systemctl restart NetworkManager.service'
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall

@@ -141,5 +141,5 @@
 !.opt/desk-opt.zip
 !.opt/pkg-opt.zip
 !.opt/nginx-gary.zip
-!.opt/Insomnia.json
+!.opt/*.json
 !.opt/nginx

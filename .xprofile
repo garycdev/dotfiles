@@ -1,26 +1,30 @@
-###########################################################
-# $HOME/.screenlayout/resolucion.sh
-setxkbmap latam
-numlockx on
-# pm2 update
+#!/bin/sh
 
-###########################################################
-light-locker &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
-xfce4-power-manager &
-xfce4-clipman &
-picom &
-# blueman-applet &
-# blueberry-tray
-sxhkd &
-nitrogen --restore &
-# xfce4-terminal -x htop &
-# alacritty --command=htop &
-# alacritty --command=bashtop &
-# plank &
-# xbindkeys
+# Detectar qué sesión se está iniciando
+if [[ "$XDG_SESSION_DESKTOP" == "bspwm" || "$XDG_CURRENT_DESKTOP" == "bspwm" ]]; then
+	###########################################################
+	# $HOME/.screenlayout/resolucion.sh
+	setxkbmap latam
+	numlockx on
+	# pm2 update
 
+	###########################################################
+	light-locker &
+	/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+	/usr/lib/xfce4/notifyd/xfce4-notifyd &
+	xfce4-power-manager &
+	xfce4-clipman &
+	picom &
+	# blueman-applet &
+	blueberry-tray
+	sxhkd &
+	nitrogen --restore &
+	# xfce4-terminal -x htop &
+	# alacritty --command=htop &
+	# alacritty --command=bashtop &
+	# plank &
+	# xbindkeys
+fi
 
 
 notify-send -i dialog-ok "¡ Hola ! . Bienvenido de vuelta $(whoami)"
