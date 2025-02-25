@@ -170,17 +170,21 @@ PATH=$PATH:/opt/lampp
 #PATH=$PATH:~/.fly/bin
 PATH=$PATH:~/.config/composer/vendor/bin
 PATH=$PATH:~/.scripts
-PATH=$PATH:~/.local/share/gem/ruby/3.0.0/bin
-PATH=$PATH:/opt/flutter/bin
+PATH=$PATH:~/.local/share/gem/ruby/3.3.0/bin
+#PATH=$PATH:/opt/flutter/bin
 PATH=$PATH:~/Android/Sdk/cmdline-tools/latest/bin
 PATH=$PATH:~/Android/Sdk/platform-tools
 PATH=$PATH:~/.config/bspwm/scripts
+
+PATH=$PATH:~/fvm/default/bin
+#PATH=$PATH:~/.pub-cache/bin
 
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export ANDROID_HOME="~/Android/Sdk"
 export FLYCTL_INSTALL="/home/gary/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export EDITOR=vim
+export JAVA_HOME="/usr/lib/jvm/default"
 # export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dsun.java2d.xrender=True'
 
 # Postgresql

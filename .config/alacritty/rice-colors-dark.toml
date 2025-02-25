@@ -3,7 +3,7 @@
 # Default colors
 [colors.primary]
 #background = "#1a1b26"
-background = "#101017"
+background = "#080809"
 foreground = "#a9b1d6"
 
 # Cursor colors
