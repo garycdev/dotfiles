@@ -77,27 +77,6 @@
 !.config/systemd/user/theme.service
 !.config/systemd/user/theme.timer
 
-!Pictures
-!Pictures/Backgrounds
-!Pictures/Backgrounds/0.jpg
-!Pictures/Backgrounds/1.jpg
-!Pictures/Backgrounds/2.jpg
-!Pictures/Backgrounds/3.jpg
-!Pictures/Backgrounds/4.jpg
-!Pictures/Backgrounds/5.jpg
-!Pictures/Backgrounds/6.jpg
-!Pictures/Backgrounds/7.jpg
-!Pictures/Backgrounds/8.jpg
-!Pictures/Backgrounds/9.jpg
-!Pictures/Backgrounds/10.jpg
-!Pictures/Backgrounds/11.jpg
-!Pictures/Backgrounds/12.jpg
-!Pictures/Backgrounds/13.jpg
-!Pictures/Backgrounds/14.jpg
-!Pictures/Backgrounds/archsky.jpg
-!Pictures/Backgrounds/archwin.png
-!Pictures/Backgrounds/chomosuke.jpg
-
 !.themes/Sweet-Ambar-Blue-Dark-v40.tar.xz
 !.themes/Sweet-Dark-v40.tar.xz
 !.themes/WhiteSur-Dark.tar.xz
@@ -105,6 +84,7 @@
 !.themes/Sonoma.zip
 !.themes/Apple-Sonoma-Dark.tar.xz
 !.themes/Apple-Ventura.tar.xz
+!.themes/macosgary.zip
 
 !.icons
 !.icons/Win11.tar.xz
