@@ -143,6 +143,7 @@ echo "Last login: $last_login\n"
 
 # VARIABLES
 htdocs='/opt/lampp/htdocs'
+gcoddev='/home/gcoddev'
 #pgfiles='/var/lib/pgadmin/storage/geco.yak77_gmail.com'
 
 # SCRIPTS
