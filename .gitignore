@@ -77,6 +77,7 @@
 !.config/systemd/user/theme.service
 !.config/systemd/user/theme.timer
 
+!.themes
 !.themes/Sweet-Ambar-Blue-Dark-v40.tar.xz
 !.themes/Sweet-Dark-v40.tar.xz
 !.themes/WhiteSur-Dark.tar.xz
