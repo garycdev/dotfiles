@@ -7,9 +7,10 @@
 * {
     font:   "Montserrat 12";
 
-    bg0:    #24242477;
+    //bg0:    #24242477;
+    bg0:    #080809aa;
     bg1:    #7E7E7E80;
-    bg2:    #0860f2E6;
+    bg2:    #0860f277;
 
     fg0:    #DEDEDE;
     fg1:    #FFFFFF;
@@ -91,7 +92,7 @@ element selected normal, element selected active {
 }
 
 element-icon {
-    size:   1em;
+    size:   1.5em;
 }
 
 element-text {

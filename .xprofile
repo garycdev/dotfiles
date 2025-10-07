@@ -11,9 +11,10 @@ if [[ "$DESKTOP_SESSION" == "bspwm" || "$XDG_SESSION_DESKTOP" == "bspwm" || "$XD
 	###########################################################
 	#light-locker &
 	#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-	#/usr/lib/xfce4/notifyd/xfce4-notifyd &
-	#xfce4-power-manager &
-	#xfce4-clipman &
+	/usr/lib/xfce4/notifyd/xfce4-notifyd &
+	/usr/lib/xdg-desktop-portal-gtk &
+	xfce4-power-manager &
+	xfce4-clipman &
 	picom &
 	# blueman-applet &
 	#blueberry-tray
@@ -30,3 +31,6 @@ if [[ "$DESKTOP_SESSION" == "bspwm" || "$XDG_SESSION_DESKTOP" == "bspwm" || "$XD
 	sleep 5
 	bspc config focus_follows_pointer true
 fi
+
+#export QT_QPA_PLATFORMTHEME=gtk2
+export QT_QPA_PLATFORMTHEME=qt5ct

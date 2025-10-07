@@ -150,10 +150,10 @@ super + ctrl + shift + {Left,Down,Up,Right}
 
 # BRILLO
 XF86MonBrightnessUp
-  brightnessctl set 16+
+  brightnessctl set +10%
 
 XF86MonBrightnessDown
-  brightnessctl set 16-
+  brightnessctl set 10%-
 
 # VOLUMEN
 XF86AudioRaiseVolume
@@ -180,6 +180,9 @@ XF86Launch2
 super + p
 	arandr
 
+ctrl + alt + p
+	proton-authenticator
+
 super + shift + p
 	pavucontrol
 
@@ -201,8 +204,10 @@ ctrl + alt + shift + Print
 	xfce4-screenshooter -f
 
 # Screenlock
+#super + l
+#	light-locker-command -l
 super + l
-	light-locker-command -l
+	~/.config/bspwm/scripts/lock.sh
 
 # Emojis
 super + z

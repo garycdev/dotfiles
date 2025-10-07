@@ -164,6 +164,12 @@ _wifi_conn_complete() {
 }
 complete -F _wifi_conn_complete wifi-conn
 
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/gary/.dart-cli-completion/zsh-config.zsh ]] && . /home/gary/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
 # PATHS
 PATH=$PATH:/opt/lampp
 #PATH=$PATH:/opt/lampp/bin
@@ -176,6 +182,7 @@ PATH=$PATH:~/.local/share/gem/ruby/3.3.0/bin
 PATH=$PATH:~/Android/Sdk/cmdline-tools/latest/bin
 PATH=$PATH:~/Android/Sdk/platform-tools
 PATH=$PATH:~/.config/bspwm/scripts
+#source /usr/share/nvm/init-nvm.sh
 
 PATH=$PATH:~/fvm/default/bin
 #PATH=$PATH:~/.pub-cache/bin
@@ -218,7 +225,7 @@ alias set-php7='sudo systemctl stop httpd mariadb && sudo /opt/lampp/xampp start
 alias set-php8='sudo /opt/lampp/xampp stop && sudo systemctl start httpd mariadb'
 alias php-v='/opt/lampp/bin/php --version'
 
-alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
+alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync ; done'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
 alias tux-mount='sudo mount -t ntfs-3g /dev/sda1 /home/Tux'
@@ -227,9 +234,4 @@ alias service='sudo systemctl '
 alias feh-random='feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc -l ))).jpg'
 alias py='python'
 alias netr='sudo systemctl restart NetworkManager.service'
-
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/gary/.dart-cli-completion/zsh-config.zsh ]] && . /home/gary/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
+alias pacman-syu='sudo pacman -Syu --noconfirm'

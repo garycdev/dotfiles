@@ -43,8 +43,8 @@ if [[ $SCREEN -eq 1 ]]; then
 elif [[ $SCREEN -eq 2 && -n "$SECONDARY_MONITOR" ]]; then
     # Dos monitores conectados
     $HOME/.screenlayout/resolucion-2p.sh
-    bspc monitor "$SECONDARY_MONITOR" -d 1 2 3 4
-		bspc monitor "$PRIMARY_MONITOR" -d 5 6 7
+		bspc monitor "$PRIMARY_MONITOR" -d 1 2 3
+    bspc monitor "$SECONDARY_MONITOR" -d 4 5 6 7
 
     # Reiniciar Polybar para ambos monitores
     killall -q polybar
@@ -55,7 +55,7 @@ fi
 
 
 bspc config border_width         1
-bspc config window_gap          12
+bspc config window_gap          7
 # bspc config top_padding	         0
 
 bspc config split_ratio          0.5
@@ -72,4 +72,9 @@ bspc rule -a Screenkey manage=off
 bspc rule -a dbeaver state=floating
 
 # export _JAVA_AWT_WM_NONREPARENTING=1
+#~/.config/bspwm/scripts/idle.sh &
+xss-lock -- ~/.config/bspwm/scripts/lock.sh &
+#xset s 600 600
+#xset dpms 600 600 900
+
 wmname	LG3D

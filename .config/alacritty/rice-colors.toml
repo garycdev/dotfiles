@@ -21,8 +21,8 @@ green = "#25D366"
 magenta = "#ad8ee6"
 red = "#f7768e"
 # white = "#787c99"
-white = "#dddddd"
-yellow = "#e0af68"
+white = "#aaaaaa"
+yellow = "#f0af68"
 
 # Bright colors
 [colors.bright]

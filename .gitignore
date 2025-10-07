@@ -122,4 +122,5 @@
 !.opt/desk-opt.zip
 !.opt/pkg-opt.zip
 !.opt/nginx.zip
+!.opt/nginx-vps.zip
 !.opt/*.json
