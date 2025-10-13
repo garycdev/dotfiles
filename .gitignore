@@ -52,22 +52,9 @@
 !.config/bspwm/rices
 !.config/bspwm/rices/emilia
 !.config/bspwm/rices/emilia/*
-# !.config/bspwm/bspwmrc
-# !.config/bspwm/config.ini
-# !.config/bspwm/config2.ini
-# !.config/bspwm/config-dark.ini
-# !.config/bspwm/config2-dark.ini
-# !.config/bspwm/duntsrc
-# !.config/bspwm/jgmenurc
-# !.config/bspwm/modules.ini
-# !.config/bspwm/Theme.sh
 
 !.config/polybar
 !.config/polybar/*
-# !.config/polybar/config.ini
-# !.config/polybar/launch.sh
-# !.config/polybar/launch2.sh
-# !.config/polybar/theme.sh
 
 !.config/mpd
 !.config/mpd/mpd.conf
@@ -98,18 +85,6 @@
 !.icons/Sweet-cursors.tar.xz
 !.icons/Inverse.tar.xz
 !.icons/*
-
-!arch_packages.txt
-!arch_packages2.txt
-!arch_packages3.txt
-!arch_packages4.txt
-!arch_packages5.txt
-!arch_packages6.txt
-
-!history2.txt
-!history4.txt
-!history5.txt
-!history6.txt
 
 !.screenlayout
 !.screenlayout/espejo.sh
