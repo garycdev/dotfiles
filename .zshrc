@@ -187,6 +187,21 @@ PATH=$PATH:~/.config/bspwm/scripts
 PATH=$PATH:~/fvm/default/bin
 #PATH=$PATH:~/.pub-cache/bin
 
+
+
+# >>> pyenv initialization >>>
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+# Inicializa pyenv (habilita comandos como pyenv shell)
+eval "$(pyenv init - zsh)"
+
+# Si usás pyenv-virtualenv (opcional pero recomendado)
+if which pyenv-virtualenv-init > /dev/null; then
+  eval "$(pyenv virtualenv-init -)"
+fi
+# <<< pyenv initialization <<<
+
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export ANDROID_HOME="~/Android/Sdk"
 export FLYCTL_INSTALL="/home/gary/.fly"
@@ -225,7 +240,7 @@ alias set-php7='sudo systemctl stop httpd mariadb && sudo /opt/lampp/xampp start
 alias set-php8='sudo /opt/lampp/xampp stop && sudo systemctl start httpd mariadb'
 alias php-v='/opt/lampp/bin/php --version'
 
-alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync ; done'
+alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
 alias tux-mount='sudo mount -t ntfs-3g /dev/sda1 /home/Tux'
@@ -235,3 +250,13 @@ alias feh-random='feh --bg-fill ~/.pictures/$(($RANDOM % $( ls ~/.pictures | wc 
 alias py='python'
 alias netr='sudo systemctl restart NetworkManager.service'
 alias pacman-syu='sudo pacman -Syu --noconfirm'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PHPVM_DIR="/home/gary/.phpvm"
+export PATH="$PHPVM_DIR/bin:$PATH"
+if [[ -s "$PHPVM_DIR/phpvm.sh" ]]; then
+  source "$PHPVM_DIR/phpvm.sh"
+fi

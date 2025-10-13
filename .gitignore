@@ -32,7 +32,7 @@
 !.config/kitty/kitty.conf
 
 !.config/rofi
-!.config/rofi/themes
+!.config/rofi/*
 !.config/rofi/themes/rounded-blue-dark.rasi
 !.config/rofi/themes/rounded-common.rasi
 !.config/rofi/themes/rounded-purple-dark.rasi
@@ -47,21 +47,27 @@
 
 !.config/themes-bspwm.zip
 !.config/bspwm
-!.config/bspwm/bspwmrc
-!.config/bspwm/config.ini
-!.config/bspwm/config2.ini
-!.config/bspwm/config-dark.ini
-!.config/bspwm/config2-dark.ini
-!.config/bspwm/duntsrc
-!.config/bspwm/jgmenurc
-!.config/bspwm/modules.ini
-!.config/bspwm/Theme.sh
+!.config/bspwm/*
+!.config/bspwm/assets/*
+!.config/bspwm/rices
+!.config/bspwm/rices/emilia
+!.config/bspwm/rices/emilia/*
+# !.config/bspwm/bspwmrc
+# !.config/bspwm/config.ini
+# !.config/bspwm/config2.ini
+# !.config/bspwm/config-dark.ini
+# !.config/bspwm/config2-dark.ini
+# !.config/bspwm/duntsrc
+# !.config/bspwm/jgmenurc
+# !.config/bspwm/modules.ini
+# !.config/bspwm/Theme.sh
 
 !.config/polybar
-!.config/polybar/config.ini
-!.config/polybar/launch.sh
-!.config/polybar/launch2.sh
-!.config/polybar/theme.sh
+!.config/polybar/*
+# !.config/polybar/config.ini
+# !.config/polybar/launch.sh
+# !.config/polybar/launch2.sh
+# !.config/polybar/theme.sh
 
 !.config/mpd
 !.config/mpd/mpd.conf
@@ -111,10 +117,12 @@
 !.screenlayout/resolucion-2p.sh
 
 !.scripts
-!.scripts/qr-generate
-!.scripts/ytdown
-!.scripts/wifi-conn
 !.scripts/configure-arch
+!.scripts/qr-generate
+!.scripts/screenshot
+!.scripts/ssl-generator
+!.scripts/wifi-conn
+!.scripts/ytdown
 !.scripts/services/
 !.scripts/services/theme.sh
 
