@@ -240,7 +240,8 @@ alias set-php7='sudo systemctl stop httpd mariadb && sudo /opt/lampp/xampp start
 alias set-php8='sudo /opt/lampp/xampp stop && sudo systemctl start httpd mariadb'
 alias php-v='/opt/lampp/bin/php --version'
 
-alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
+#alias sudo-sync='for ((i=0;i<10;i++)) do sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
+alias sudo-sync='sudo sync && sudo sysctl -w vm.drop_caches=3 && sudo sync'
 alias off='shutdown -h now'
 alias set-bright='brightnessctl set '
 alias tux-mount='sudo mount -t ntfs-3g /dev/sda1 /home/Tux'

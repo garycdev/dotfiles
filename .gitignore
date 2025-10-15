@@ -107,3 +107,9 @@
 !.opt/nginx.zip
 !.opt/nginx-vps.zip
 !.opt/*.json
+
+!.local
+!.local/share
+!.local/share/fonts
+!.local/share/fonts/Bahnschrift
+!.local/share/fonts/Bahnschrift/*
