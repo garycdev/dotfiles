@@ -15,7 +15,7 @@ if [[ "$DESKTOP_SESSION" == "bspwm" || "$XDG_SESSION_DESKTOP" == "bspwm" || "$XD
 	/usr/lib/xdg-desktop-portal-gtk &
 	xfce4-power-manager &
 	xfce4-clipman &
-	picom &
+	picom --backend glx --vsync &
 	# blueman-applet &
 	#blueberry-tray
 	sxhkd &
