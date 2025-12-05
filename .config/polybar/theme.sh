@@ -19,7 +19,7 @@ PRIMARY_MONITOR="eDP-1"
 SECONDARY_MONITOR="HDMI-1"
 
 # Verifica si 'WhiteSur-Light' está presente en .gtkrc-2.0 para aplicar configuraciones según el tema
-if grep -q 'WhiteSur-Light' "$HOME/.gtkrc-2.0"; then
+if grep -q 'WhiteSur-Light' $GTK3_CONFIG; then
     # Configuración para el tema claro
     sed -i 's|import = \[.*|import = ["~/.config/alacritty/rice-colors.toml", "~/.config/alacritty/fonts.toml"]|' "$ALACRITTY_CONFIG"
     sed -i 's|@theme .*|@theme "~/.config/rofi/themes/spotlight.rasi"|' "$ROFI_CONFIG"

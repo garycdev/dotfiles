@@ -37,7 +37,7 @@ echo "Last login: $last_login\n"
 
 
 
-
+# Importar configuraciones shell
 for file in "$HOME/.config/shell/"*.sh "$HOME/.config/shell/apps/"*.sh; do
     [ -r "$file" ] && source "$file"
 done

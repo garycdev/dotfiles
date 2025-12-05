@@ -16,7 +16,7 @@ if [[ "$DESKTOP_SESSION" == "bspwm" || "$XDG_SESSION_DESKTOP" == "bspwm" || "$XD
 	xfce4-power-manager &
 	xfce4-clipman &
 	picom --backend glx --vsync &
-					# blueman-applet &
+	# blueman-applet &
 	#blueberry-tray
 	sxhkd &
 	nitrogen --restore &
@@ -30,6 +30,8 @@ if [[ "$DESKTOP_SESSION" == "bspwm" || "$XDG_SESSION_DESKTOP" == "bspwm" || "$XD
 	exec bspwm
 	sleep 5
 	bspc config focus_follows_pointer true
+
+	bspc wm -r
 fi
 
 #export QT_QPA_PLATFORMTHEME=gtk2

@@ -43,7 +43,9 @@ if [[ $SCREEN -eq 1 ]]; then
 elif [[ $SCREEN -eq 2 && -n "$SECONDARY_MONITOR" ]]; then
     # Dos monitores conectados
     $HOME/.screenlayout/resolucion-2p.sh
-		bspc monitor "$PRIMARY_MONITOR" -d 1 2 3
+    # $HOME/.screenlayout/espejo.sh
+    bspc monitor "$PRIMARY_MONITOR" -d 1 2 3
+		# bspc monitor "$PRIMARY_MONITOR" -d 1 2 3
     bspc monitor "$SECONDARY_MONITOR" -d 4 5 6 7
 
     # Reiniciar Polybar para ambos monitores
@@ -69,12 +71,15 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-bspc rule -a dbeaver state=floating
+bspc rule -a "Galculator" state=floating
+bspc rule -a "Proton-authenticator" state=floating
+bspc rule -a "pavucontrol" state=floating
+bspc rule -a "Arandr" state=floating
 
 # export _JAVA_AWT_WM_NONREPARENTING=1
 #~/.config/bspwm/scripts/idle.sh &
 xss-lock -- ~/.config/bspwm/scripts/lock.sh &
-#xset s 600 600
-#xset dpms 600 600 900
+xset s 600 600
+xset dpms 600 600 900
 
 wmname	LG3D

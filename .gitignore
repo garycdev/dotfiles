@@ -104,14 +104,9 @@
 !.screenlayout/resolucion-2p.sh
 
 !.scripts
-!.scripts/configure-arch
-!.scripts/qr-generate
-!.scripts/screenshot
-!.scripts/ssl-generator
-!.scripts/wifi-conn
-!.scripts/ytdown
+!.scripts/*
 !.scripts/services/
-!.scripts/services/theme.sh
+!.scripts/services/*
 
 !.opt
 !.opt/desk-opt.zip

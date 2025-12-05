@@ -14,3 +14,5 @@ PATH=$PATH:~/.config/bspwm/scripts
 
 PATH=$PATH:~/fvm/default/bin
 #PATH=$PATH:~/.pub-cache/bin
+
+PATH=$PATH:/gcoddev/Linux/ollama/bin
